@@ -1,0 +1,556 @@
+4FALSE msg: config
+1685725013964:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02540-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11352  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013964:  Helper.cc 111: helper-0 remEndpoint: 1.1.2.11352 tcp--1.eth2-01.sta02540-B fe-helper: 0x2e6aa60
+1685725013964:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02540-B: onSocketFailure, real_err: FALSE msg: config
+1685725013965:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01041-A Shelf: 1 Card: 1  Port: 53  Endpoint: 11355  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013965:  Helper.cc 111: helper-2 remEndpoint: 1.1.53.11355 tcp--1.eth2-01.sta01041-A fe-helper: 0x2e6c190
+1685725013965:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01041-A: onSocketFailure, real_err: FALSE msg: config
+1685725013965:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01041-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11354  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013965:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11354 tcp--1.eth2-01.sta01041-B fe-helper: 0x2e6c3d0
+1685725013965:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01041-B: onSocketFailure, real_err: FALSE msg: config
+1685725013966:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02041-A Shelf: 1 Card: 1  Port: 182  Endpoint: 11357  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013966:  Helper.cc 111: helper-3 remEndpoint: 1.1.182.11357 tcp--1.eth2-01.sta02041-A fe-helper: 0x2e6c3d0
+1685725013966:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02041-A: onSocketFailure, real_err: FALSE msg: config
+1685725013966:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02041-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11356  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013967:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11356 tcp--1.eth2-01.sta02041-B fe-helper: 0x2e6bf50
+1685725013967:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02041-B: onSocketFailure, real_err: FALSE msg: config
+1685725013967:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01541-A Shelf: 1 Card: 1  Port: 117  Endpoint: 11359  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013967:  Helper.cc 111: helper-0 remEndpoint: 1.1.117.11359 tcp--1.eth2-01.sta01541-A fe-helper: 0x2e6aa60
+1685725013967:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01541-A: onSocketFailure, real_err: FALSE msg: config
+1685725013967:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01541-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11358  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013968:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11358 tcp--1.eth2-01.sta01541-B fe-helper: 0x2e6bf50
+1685725013968:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01541-B: onSocketFailure, real_err: FALSE msg: config
+1685725013968:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02541-A Shelf: 1 Card: 1  Port: 246  Endpoint: 11361  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013968:  Helper.cc 111: helper-0 remEndpoint: 1.1.246.11361 tcp--1.eth2-01.sta02541-A fe-helper: 0x2e6aa60
+1685725013968:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02541-A: onSocketFailure, real_err: FALSE msg: config
+1685725013969:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02541-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11360  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013969:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11360 tcp--1.eth2-01.sta02541-B fe-helper: 0x2e6bf50
+1685725013969:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02541-B: onSocketFailure, real_err: FALSE msg: config
+1685725013971:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01042-A Shelf: 1 Card: 1  Port: 54  Endpoint: 11363  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013971:  Helper.cc 111: helper-2 remEndpoint: 1.1.54.11363 tcp--1.eth2-01.sta01042-A fe-helper: 0x2e6c190
+1685725013971:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01042-A: onSocketFailure, real_err: FALSE msg: config
+1685725013971:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01042-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11362  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013972:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11362 tcp--1.eth2-01.sta01042-B fe-helper: 0x2e6c3d0
+1685725013972:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01042-B: onSocketFailure, real_err: FALSE msg: config
+1685725013972:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02042-A Shelf: 1 Card: 1  Port: 183  Endpoint: 11365  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013973:  Helper.cc 111: helper-3 remEndpoint: 1.1.183.11365 tcp--1.eth2-01.sta02042-A fe-helper: 0x2e6c3d0
+1685725013973:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02042-A: onSocketFailure, real_err: FALSE msg: config
+1685725013973:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02042-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11364  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013973:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11364 tcp--1.eth2-01.sta02042-B fe-helper: 0x2e6c3d0
+1685725013973:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02042-B: onSocketFailure, real_err: FALSE msg: config
+1685725013973:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01542-A Shelf: 1 Card: 1  Port: 118  Endpoint: 11367  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013974:  Helper.cc 111: helper-0 remEndpoint: 1.1.118.11367 tcp--1.eth2-01.sta01542-A fe-helper: 0x2e6aa60
+1685725013974:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01542-A: onSocketFailure, real_err: FALSE msg: config
+1685725013974:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01542-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11366  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013974:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11366 tcp--1.eth2-01.sta01542-B fe-helper: 0x2e6bf50
+1685725013974:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01542-B: onSocketFailure, real_err: FALSE msg: config
+1685725013975:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02542-A Shelf: 1 Card: 1  Port: 247  Endpoint: 11369  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013975:  Helper.cc 111: helper-2 remEndpoint: 1.1.247.11369 tcp--1.eth2-01.sta02542-A fe-helper: 0x2e6c190
+1685725013975:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02542-A: onSocketFailure, real_err: FALSE msg: config
+1685725013975:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02542-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11368  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013976:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11368 tcp--1.eth2-01.sta02542-B fe-helper: 0x2e6c3d0
+1685725013976:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02542-B: onSocketFailure, real_err: FALSE msg: config
+1685725013976:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01043-A Shelf: 1 Card: 1  Port: 55  Endpoint: 11371  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013977:  Helper.cc 111: helper-2 remEndpoint: 1.1.55.11371 tcp--1.eth2-01.sta01043-A fe-helper: 0x2e6c190
+1685725013977:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01043-A: onSocketFailure, real_err: FALSE msg: config
+1685725013977:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01043-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11370  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013977:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11370 tcp--1.eth2-01.sta01043-B fe-helper: 0x2e6c3d0
+1685725013977:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01043-B: onSocketFailure, real_err: FALSE msg: config
+1685725013977:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02043-A Shelf: 1 Card: 1  Port: 184  Endpoint: 11373  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013978:  Helper.cc 111: helper-3 remEndpoint: 1.1.184.11373 tcp--1.eth2-01.sta02043-A fe-helper: 0x2e6c3d0
+1685725013978:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02043-A: onSocketFailure, real_err: FALSE msg: config
+1685725013978:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02043-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11372  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013979:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11372 tcp--1.eth2-01.sta02043-B fe-helper: 0x2e6bf50
+1685725013979:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02043-B: onSocketFailure, real_err: FALSE msg: config
+1685725013979:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01543-A Shelf: 1 Card: 1  Port: 119  Endpoint: 11375  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013979:  Helper.cc 111: helper-0 remEndpoint: 1.1.119.11375 tcp--1.eth2-01.sta01543-A fe-helper: 0x2e6aa60
+1685725013979:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01543-A: onSocketFailure, real_err: FALSE msg: config
+1685725013979:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01543-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11374  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013980:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11374 tcp--1.eth2-01.sta01543-B fe-helper: 0x2e6bf50
+1685725013980:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01543-B: onSocketFailure, real_err: FALSE msg: config
+1685725013980:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02543-A Shelf: 1 Card: 1  Port: 248  Endpoint: 11377  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013980:  Helper.cc 111: helper-0 remEndpoint: 1.1.248.11377 tcp--1.eth2-01.sta02543-A fe-helper: 0x2e6aa60
+1685725013980:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02543-A: onSocketFailure, real_err: FALSE msg: config
+1685725013980:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02543-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11376  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013981:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11376 tcp--1.eth2-01.sta02543-B fe-helper: 0x2e6bf50
+1685725013981:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02543-B: onSocketFailure, real_err: FALSE msg: config
+1685725013981:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01044-A Shelf: 1 Card: 1  Port: 56  Endpoint: 11379  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013982:  Helper.cc 111: helper-2 remEndpoint: 1.1.56.11379 tcp--1.eth2-01.sta01044-A fe-helper: 0x2e6c190
+1685725013982:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01044-A: onSocketFailure, real_err: FALSE msg: config
+1685725013982:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01044-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11378  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013982:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11378 tcp--1.eth2-01.sta01044-B fe-helper: 0x2e6c3d0
+1685725013982:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01044-B: onSocketFailure, real_err: FALSE msg: config
+1685725013982:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02044-A Shelf: 1 Card: 1  Port: 185  Endpoint: 11381  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013983:  Helper.cc 111: helper-3 remEndpoint: 1.1.185.11381 tcp--1.eth2-01.sta02044-A fe-helper: 0x2e6c3d0
+1685725013983:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02044-A: onSocketFailure, real_err: FALSE msg: config
+1685725013983:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02044-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11380  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013983:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11380 tcp--1.eth2-01.sta02044-B fe-helper: 0x2e6c3d0
+1685725013983:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02044-B: onSocketFailure, real_err: FALSE msg: config
+1685725013984:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01544-A Shelf: 1 Card: 1  Port: 120  Endpoint: 11383  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013984:  Helper.cc 111: helper-0 remEndpoint: 1.1.120.11383 tcp--1.eth2-01.sta01544-A fe-helper: 0x2e6aa60
+1685725013984:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01544-A: onSocketFailure, real_err: FALSE msg: config
+1685725013984:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01544-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11382  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013985:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11382 tcp--1.eth2-01.sta01544-B fe-helper: 0x2e6bf50
+1685725013985:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01544-B: onSocketFailure, real_err: FALSE msg: config
+1685725013985:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02544-A Shelf: 1 Card: 1  Port: 249  Endpoint: 11385  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013986:  Helper.cc 111: helper-2 remEndpoint: 1.1.249.11385 tcp--1.eth2-01.sta02544-A fe-helper: 0x2e6c190
+1685725013986:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02544-A: onSocketFailure, real_err: FALSE msg: config
+1685725013986:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02544-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11384  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013986:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11384 tcp--1.eth2-01.sta02544-B fe-helper: 0x2e6c3d0
+1685725013986:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02544-B: onSocketFailure, real_err: FALSE msg: config
+1685725013987:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01045-A Shelf: 1 Card: 1  Port: 57  Endpoint: 11387  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013987:  Helper.cc 111: helper-2 remEndpoint: 1.1.57.11387 tcp--1.eth2-01.sta01045-A fe-helper: 0x2e6c190
+1685725013987:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01045-A: onSocketFailure, real_err: FALSE msg: config
+1685725013987:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01045-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11386  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013988:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11386 tcp--1.eth2-01.sta01045-B fe-helper: 0x2e6c3d0
+1685725013988:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01045-B: onSocketFailure, real_err: FALSE msg: config
+1685725013988:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02045-A Shelf: 1 Card: 1  Port: 186  Endpoint: 11389  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013988:  Helper.cc 111: helper-3 remEndpoint: 1.1.186.11389 tcp--1.eth2-01.sta02045-A fe-helper: 0x2e6c3d0
+1685725013988:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02045-A: onSocketFailure, real_err: FALSE msg: config
+1685725013988:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02045-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11388  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013989:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11388 tcp--1.eth2-01.sta02045-B fe-helper: 0x2e6bf50
+1685725013989:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02045-B: onSocketFailure, real_err: FALSE msg: config
+1685725013989:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01545-A Shelf: 1 Card: 1  Port: 121  Endpoint: 11391  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013990:  Helper.cc 111: helper-0 remEndpoint: 1.1.121.11391 tcp--1.eth2-01.sta01545-A fe-helper: 0x2e6aa60
+1685725013990:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01545-A: onSocketFailure, real_err: FALSE msg: config
+1685725013990:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01545-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11390  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013990:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11390 tcp--1.eth2-01.sta01545-B fe-helper: 0x2e6bf50
+1685725013990:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01545-B: onSocketFailure, real_err: FALSE msg: config
+1685725013990:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02545-A Shelf: 1 Card: 1  Port: 250  Endpoint: 11393  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013991:  Helper.cc 111: helper-0 remEndpoint: 1.1.250.11393 tcp--1.eth2-01.sta02545-A fe-helper: 0x2e6aa60
+1685725013991:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02545-A: onSocketFailure, real_err: FALSE msg: config
+1685725013991:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02545-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11392  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013991:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11392 tcp--1.eth2-01.sta02545-B fe-helper: 0x2e6bf50
+1685725013991:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02545-B: onSocketFailure, real_err: FALSE msg: config
+1685725013992:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01046-A Shelf: 1 Card: 1  Port: 58  Endpoint: 11395  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013992:  Helper.cc 111: helper-2 remEndpoint: 1.1.58.11395 tcp--1.eth2-01.sta01046-A fe-helper: 0x2e6c190
+1685725013992:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01046-A: onSocketFailure, real_err: FALSE msg: config
+1685725013992:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01046-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11394  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013993:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11394 tcp--1.eth2-01.sta01046-B fe-helper: 0x2e6c3d0
+1685725013993:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01046-B: onSocketFailure, real_err: FALSE msg: config
+1685725013993:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02046-A Shelf: 1 Card: 1  Port: 187  Endpoint: 11397  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013993:  Helper.cc 111: helper-3 remEndpoint: 1.1.187.11397 tcp--1.eth2-01.sta02046-A fe-helper: 0x2e6c3d0
+1685725013993:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02046-A: onSocketFailure, real_err: FALSE msg: config
+1685725013993:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02046-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11396  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013994:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11396 tcp--1.eth2-01.sta02046-B fe-helper: 0x2e6c3d0
+1685725013994:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02046-B: onSocketFailure, real_err: FALSE msg: config
+1685725013994:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01546-A Shelf: 1 Card: 1  Port: 122  Endpoint: 11399  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013995:  Helper.cc 111: helper-0 remEndpoint: 1.1.122.11399 tcp--1.eth2-01.sta01546-A fe-helper: 0x2e6aa60
+1685725013995:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01546-A: onSocketFailure, real_err: FALSE msg: config
+1685725013995:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01546-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11398  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013995:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11398 tcp--1.eth2-01.sta01546-B fe-helper: 0x2e6bf50
+1685725013995:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01546-B: onSocketFailure, real_err: FALSE msg: config
+1685725013995:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02546-A Shelf: 1 Card: 1  Port: 251  Endpoint: 11401  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013996:  Helper.cc 111: helper-2 remEndpoint: 1.1.251.11401 tcp--1.eth2-01.sta02546-A fe-helper: 0x2e6c190
+1685725013996:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02546-A: onSocketFailure, real_err: FALSE msg: config
+1685725013996:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02546-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11400  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013996:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11400 tcp--1.eth2-01.sta02546-B fe-helper: 0x2e6c3d0
+1685725013996:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02546-B: onSocketFailure, real_err: FALSE msg: config
+1685725013997:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01047-A Shelf: 1 Card: 1  Port: 59  Endpoint: 11403  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013997:  Helper.cc 111: helper-2 remEndpoint: 1.1.59.11403 tcp--1.eth2-01.sta01047-A fe-helper: 0x2e6c190
+1685725013997:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01047-A: onSocketFailure, real_err: FALSE msg: config
+1685725013997:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01047-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11402  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725013998:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11402 tcp--1.eth2-01.sta01047-B fe-helper: 0x2e6c3d0
+1685725013998:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01047-B: onSocketFailure, real_err: FALSE msg: config
+1685725013999:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02047-A Shelf: 1 Card: 1  Port: 188  Endpoint: 11405  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014000:  Helper.cc 111: helper-3 remEndpoint: 1.1.188.11405 tcp--1.eth2-01.sta02047-A fe-helper: 0x2e6c3d0
+1685725014000:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02047-A: onSocketFailure, real_err: FALSE msg: config
+1685725014000:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02047-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11404  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014000:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11404 tcp--1.eth2-01.sta02047-B fe-helper: 0x2e6bf50
+1685725014000:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02047-B: onSocketFailure, real_err: FALSE msg: config
+1685725014000:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01547-A Shelf: 1 Card: 1  Port: 123  Endpoint: 11407  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014001:  Helper.cc 111: helper-0 remEndpoint: 1.1.123.11407 tcp--1.eth2-01.sta01547-A fe-helper: 0x2e6aa60
+1685725014001:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01547-A: onSocketFailure, real_err: FALSE msg: config
+1685725014001:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01547-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11406  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014001:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11406 tcp--1.eth2-01.sta01547-B fe-helper: 0x2e6bf50
+1685725014001:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01547-B: onSocketFailure, real_err: FALSE msg: config
+1685725014002:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02547-A Shelf: 1 Card: 1  Port: 252  Endpoint: 11409  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014002:  Helper.cc 111: helper-0 remEndpoint: 1.1.252.11409 tcp--1.eth2-01.sta02547-A fe-helper: 0x2e6aa60
+1685725014002:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02547-A: onSocketFailure, real_err: FALSE msg: config
+1685725014002:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02547-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11408  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014002:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11408 tcp--1.eth2-01.sta02547-B fe-helper: 0x2e6bf50
+1685725014002:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02547-B: onSocketFailure, real_err: FALSE msg: config
+1685725014003:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01048-A Shelf: 1 Card: 1  Port: 60  Endpoint: 11411  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014003:  Helper.cc 111: helper-2 remEndpoint: 1.1.60.11411 tcp--1.eth2-01.sta01048-A fe-helper: 0x2e6c190
+1685725014003:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01048-A: onSocketFailure, real_err: FALSE msg: config
+1685725014003:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01048-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11410  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014004:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11410 tcp--1.eth2-01.sta01048-B fe-helper: 0x2e6c3d0
+1685725014004:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01048-B: onSocketFailure, real_err: FALSE msg: config
+1685725014004:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02048-A Shelf: 1 Card: 1  Port: 189  Endpoint: 11413  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014005:  Helper.cc 111: helper-3 remEndpoint: 1.1.189.11413 tcp--1.eth2-01.sta02048-A fe-helper: 0x2e6c3d0
+1685725014005:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02048-A: onSocketFailure, real_err: FALSE msg: config
+1685725014005:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02048-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11412  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014005:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11412 tcp--1.eth2-01.sta02048-B fe-helper: 0x2e6c3d0
+1685725014005:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02048-B: onSocketFailure, real_err: FALSE msg: config
+1685725014005:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01548-A Shelf: 1 Card: 1  Port: 124  Endpoint: 11415  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014006:  Helper.cc 111: helper-0 remEndpoint: 1.1.124.11415 tcp--1.eth2-01.sta01548-A fe-helper: 0x2e6aa60
+1685725014006:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01548-A: onSocketFailure, real_err: FALSE msg: config
+1685725014006:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01548-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11414  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014007:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11414 tcp--1.eth2-01.sta01548-B fe-helper: 0x2e6bf50
+1685725014007:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01548-B: onSocketFailure, real_err: FALSE msg: config
+1685725014007:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02548-A Shelf: 1 Card: 1  Port: 253  Endpoint: 11417  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014007:  Helper.cc 111: helper-2 remEndpoint: 1.1.253.11417 tcp--1.eth2-01.sta02548-A fe-helper: 0x2e6c190
+1685725014007:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02548-A: onSocketFailure, real_err: FALSE msg: config
+1685725014007:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02548-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11416  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014008:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11416 tcp--1.eth2-01.sta02548-B fe-helper: 0x2e6c3d0
+1685725014008:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02548-B: onSocketFailure, real_err: FALSE msg: config
+1685725014008:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01049-A Shelf: 1 Card: 1  Port: 61  Endpoint: 11419  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014009:  Helper.cc 111: helper-2 remEndpoint: 1.1.61.11419 tcp--1.eth2-01.sta01049-A fe-helper: 0x2e6c190
+1685725014009:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01049-A: onSocketFailure, real_err: FALSE msg: config
+1685725014009:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01049-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11418  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014009:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11418 tcp--1.eth2-01.sta01049-B fe-helper: 0x2e6c3d0
+1685725014009:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01049-B: onSocketFailure, real_err: FALSE msg: config
+1685725014009:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02049-A Shelf: 1 Card: 1  Port: 190  Endpoint: 11421  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014010:  Helper.cc 111: helper-3 remEndpoint: 1.1.190.11421 tcp--1.eth2-01.sta02049-A fe-helper: 0x2e6c3d0
+1685725014010:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02049-A: onSocketFailure, real_err: FALSE msg: config
+1685725014010:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02049-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11420  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014010:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11420 tcp--1.eth2-01.sta02049-B fe-helper: 0x2e6bf50
+1685725014010:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02049-B: onSocketFailure, real_err: FALSE msg: config
+1685725014011:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01549-A Shelf: 1 Card: 1  Port: 125  Endpoint: 11423  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014011:  Helper.cc 111: helper-0 remEndpoint: 1.1.125.11423 tcp--1.eth2-01.sta01549-A fe-helper: 0x2e6aa60
+1685725014011:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01549-A: onSocketFailure, real_err: FALSE msg: config
+1685725014011:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01549-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11422  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014012:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11422 tcp--1.eth2-01.sta01549-B fe-helper: 0x2e6bf50
+1685725014012:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01549-B: onSocketFailure, real_err: FALSE msg: config
+1685725014012:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02549-A Shelf: 1 Card: 1  Port: 254  Endpoint: 11425  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014012:  Helper.cc 111: helper-0 remEndpoint: 1.1.254.11425 tcp--1.eth2-01.sta02549-A fe-helper: 0x2e6aa60
+1685725014012:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02549-A: onSocketFailure, real_err: FALSE msg: config
+1685725014013:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02549-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11424  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014013:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11424 tcp--1.eth2-01.sta02549-B fe-helper: 0x2e6bf50
+1685725014013:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02549-B: onSocketFailure, real_err: FALSE msg: config
+1685725014013:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01050-A Shelf: 1 Card: 1  Port: 62  Endpoint: 11427  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014014:  Helper.cc 111: helper-2 remEndpoint: 1.1.62.11427 tcp--1.eth2-01.sta01050-A fe-helper: 0x2e6c190
+1685725014014:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01050-A: onSocketFailure, real_err: FALSE msg: config
+1685725014014:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01050-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11426  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014014:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11426 tcp--1.eth2-01.sta01050-B fe-helper: 0x2e6c3d0
+1685725014014:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01050-B: onSocketFailure, real_err: FALSE msg: config
+1685725014018:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02050-A Shelf: 1 Card: 1  Port: 191  Endpoint: 11429  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014019:  Helper.cc 111: helper-3 remEndpoint: 1.1.191.11429 tcp--1.eth2-01.sta02050-A fe-helper: 0x2e6c3d0
+1685725014019:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02050-A: onSocketFailure, real_err: FALSE msg: config
+1685725014019:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02050-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11428  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014019:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11428 tcp--1.eth2-01.sta02050-B fe-helper: 0x2e6c3d0
+1685725014019:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02050-B: onSocketFailure, real_err: FALSE msg: config
+1685725014019:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01550-A Shelf: 1 Card: 1  Port: 126  Endpoint: 11431  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014020:  Helper.cc 111: helper-0 remEndpoint: 1.1.126.11431 tcp--1.eth2-01.sta01550-A fe-helper: 0x2e6aa60
+1685725014020:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01550-A: onSocketFailure, real_err: FALSE msg: config
+1685725014020:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01550-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11430  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014020:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11430 tcp--1.eth2-01.sta01550-B fe-helper: 0x2e6bf50
+1685725014020:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01550-B: onSocketFailure, real_err: FALSE msg: config
+1685725014021:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02550-A Shelf: 1 Card: 1  Port: 255  Endpoint: 11433  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014022:  Helper.cc 111: helper-2 remEndpoint: 1.1.255.11433 tcp--1.eth2-01.sta02550-A fe-helper: 0x2e6c190
+1685725014022:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02550-A: onSocketFailure, real_err: FALSE msg: config
+1685725014022:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02550-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11432  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014023:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11432 tcp--1.eth2-01.sta02550-B fe-helper: 0x2e6c3d0
+1685725014023:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02550-B: onSocketFailure, real_err: FALSE msg: config
+1685725014023:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01051-A Shelf: 1 Card: 1  Port: 63  Endpoint: 11435  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014023:  Helper.cc 111: helper-2 remEndpoint: 1.1.63.11435 tcp--1.eth2-01.sta01051-A fe-helper: 0x2e6c190
+1685725014023:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01051-A: onSocketFailure, real_err: FALSE msg: config
+1685725014023:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01051-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11434  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014024:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11434 tcp--1.eth2-01.sta01051-B fe-helper: 0x2e6c3d0
+1685725014024:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01051-B: onSocketFailure, real_err: FALSE msg: config
+1685725014024:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02051-A Shelf: 1 Card: 1  Port: 192  Endpoint: 11437  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014025:  Helper.cc 111: helper-3 remEndpoint: 1.1.192.11437 tcp--1.eth2-01.sta02051-A fe-helper: 0x2e6c3d0
+1685725014025:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02051-A: onSocketFailure, real_err: FALSE msg: config
+1685725014025:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02051-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11436  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014025:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11436 tcp--1.eth2-01.sta02051-B fe-helper: 0x2e6bf50
+1685725014025:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02051-B: onSocketFailure, real_err: FALSE msg: config
+1685725014025:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01551-A Shelf: 1 Card: 1  Port: 127  Endpoint: 11439  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014026:  Helper.cc 111: helper-0 remEndpoint: 1.1.127.11439 tcp--1.eth2-01.sta01551-A fe-helper: 0x2e6aa60
+1685725014026:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01551-A: onSocketFailure, real_err: FALSE msg: config
+1685725014026:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01551-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11438  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014026:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11438 tcp--1.eth2-01.sta01551-B fe-helper: 0x2e6bf50
+1685725014026:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01551-B: onSocketFailure, real_err: FALSE msg: config
+1685725014027:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02551-A Shelf: 1 Card: 1  Port: 256  Endpoint: 11441  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014027:  Helper.cc 111: helper-0 remEndpoint: 1.1.256.11441 tcp--1.eth2-01.sta02551-A fe-helper: 0x2e6aa60
+1685725014027:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02551-A: onSocketFailure, real_err: FALSE msg: config
+1685725014027:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02551-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11440  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014028:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11440 tcp--1.eth2-01.sta02551-B fe-helper: 0x2e6bf50
+1685725014028:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02551-B: onSocketFailure, real_err: FALSE msg: config
+1685725014028:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01052-A Shelf: 1 Card: 1  Port: 64  Endpoint: 11443  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014028:  Helper.cc 111: helper-2 remEndpoint: 1.1.64.11443 tcp--1.eth2-01.sta01052-A fe-helper: 0x2e6c190
+1685725014028:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01052-A: onSocketFailure, real_err: FALSE msg: config
+1685725014028:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01052-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11442  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014029:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11442 tcp--1.eth2-01.sta01052-B fe-helper: 0x2e6c3d0
+1685725014029:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01052-B: onSocketFailure, real_err: FALSE msg: config
+1685725014029:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02052-A Shelf: 1 Card: 1  Port: 193  Endpoint: 11445  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014030:  Helper.cc 111: helper-3 remEndpoint: 1.1.193.11445 tcp--1.eth2-01.sta02052-A fe-helper: 0x2e6c3d0
+1685725014030:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02052-A: onSocketFailure, real_err: FALSE msg: config
+1685725014030:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02052-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11444  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014030:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11444 tcp--1.eth2-01.sta02052-B fe-helper: 0x2e6c3d0
+1685725014030:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02052-B: onSocketFailure, real_err: FALSE msg: config
+1685725014030:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01552-A Shelf: 1 Card: 1  Port: 128  Endpoint: 11447  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014031:  Helper.cc 111: helper-0 remEndpoint: 1.1.128.11447 tcp--1.eth2-01.sta01552-A fe-helper: 0x2e6aa60
+1685725014031:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01552-A: onSocketFailure, real_err: FALSE msg: config
+1685725014031:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01552-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11446  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014031:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11446 tcp--1.eth2-01.sta01552-B fe-helper: 0x2e6bf50
+1685725014031:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01552-B: onSocketFailure, real_err: FALSE msg: config
+1685725014032:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02552-A Shelf: 1 Card: 1  Port: 257  Endpoint: 11449  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014032:  Helper.cc 111: helper-2 remEndpoint: 1.1.257.11449 tcp--1.eth2-01.sta02552-A fe-helper: 0x2e6c190
+1685725014032:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02552-A: onSocketFailure, real_err: FALSE msg: config
+1685725014032:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02552-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11448  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014033:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11448 tcp--1.eth2-01.sta02552-B fe-helper: 0x2e6c3d0
+1685725014033:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02552-B: onSocketFailure, real_err: FALSE msg: config
+1685725014033:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01053-A Shelf: 1 Card: 1  Port: 65  Endpoint: 11451  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014033:  Helper.cc 111: helper-2 remEndpoint: 1.1.65.11451 tcp--1.eth2-01.sta01053-A fe-helper: 0x2e6c190
+1685725014033:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01053-A: onSocketFailure, real_err: FALSE msg: config
+1685725014033:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01053-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11450  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014034:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11450 tcp--1.eth2-01.sta01053-B fe-helper: 0x2e6c3d0
+1685725014034:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01053-B: onSocketFailure, real_err: FALSE msg: config
+1685725014034:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02053-A Shelf: 1 Card: 1  Port: 194  Endpoint: 11453  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014034:  Helper.cc 111: helper-3 remEndpoint: 1.1.194.11453 tcp--1.eth2-01.sta02053-A fe-helper: 0x2e6c3d0
+1685725014034:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02053-A: onSocketFailure, real_err: FALSE msg: config
+1685725014034:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02053-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11452  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014035:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11452 tcp--1.eth2-01.sta02053-B fe-helper: 0x2e6bf50
+1685725014035:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02053-B: onSocketFailure, real_err: FALSE msg: config
+1685725014035:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01553-A Shelf: 1 Card: 1  Port: 129  Endpoint: 11455  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014036:  Helper.cc 111: helper-0 remEndpoint: 1.1.129.11455 tcp--1.eth2-01.sta01553-A fe-helper: 0x2e6aa60
+1685725014036:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01553-A: onSocketFailure, real_err: FALSE msg: config
+1685725014036:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01553-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11454  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014036:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11454 tcp--1.eth2-01.sta01553-B fe-helper: 0x2e6bf50
+1685725014036:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01553-B: onSocketFailure, real_err: FALSE msg: config
+1685725014037:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02553-A Shelf: 1 Card: 1  Port: 258  Endpoint: 11457  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014037:  Helper.cc 111: helper-0 remEndpoint: 1.1.258.11457 tcp--1.eth2-01.sta02553-A fe-helper: 0x2e6aa60
+1685725014037:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02553-A: onSocketFailure, real_err: FALSE msg: config
+1685725014037:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02553-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11456  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014037:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11456 tcp--1.eth2-01.sta02553-B fe-helper: 0x2e6bf50
+1685725014038:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02553-B: onSocketFailure, real_err: FALSE msg: config
+1685725014038:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01054-A Shelf: 1 Card: 1  Port: 66  Endpoint: 11459  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014038:  Helper.cc 111: helper-2 remEndpoint: 1.1.66.11459 tcp--1.eth2-01.sta01054-A fe-helper: 0x2e6c190
+1685725014038:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01054-A: onSocketFailure, real_err: FALSE msg: config
+1685725014038:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01054-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11458  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014039:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11458 tcp--1.eth2-01.sta01054-B fe-helper: 0x2e6c3d0
+1685725014039:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01054-B: onSocketFailure, real_err: FALSE msg: config
+1685725014039:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02054-A Shelf: 1 Card: 1  Port: 195  Endpoint: 11461  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014039:  Helper.cc 111: helper-3 remEndpoint: 1.1.195.11461 tcp--1.eth2-01.sta02054-A fe-helper: 0x2e6c3d0
+1685725014039:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02054-A: onSocketFailure, real_err: FALSE msg: config
+1685725014039:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02054-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11460  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014040:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11460 tcp--1.eth2-01.sta02054-B fe-helper: 0x2e6c3d0
+1685725014040:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02054-B: onSocketFailure, real_err: FALSE msg: config
+1685725014040:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01554-A Shelf: 1 Card: 1  Port: 130  Endpoint: 11463  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014040:  Helper.cc 111: helper-0 remEndpoint: 1.1.130.11463 tcp--1.eth2-01.sta01554-A fe-helper: 0x2e6aa60
+1685725014041:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01554-A: onSocketFailure, real_err: FALSE msg: config
+1685725014041:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01554-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11462  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014041:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11462 tcp--1.eth2-01.sta01554-B fe-helper: 0x2e6bf50
+1685725014041:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01554-B: onSocketFailure, real_err: FALSE msg: config
+1685725014041:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02554-A Shelf: 1 Card: 1  Port: 259  Endpoint: 11465  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014042:  Helper.cc 111: helper-2 remEndpoint: 1.1.259.11465 tcp--1.eth2-01.sta02554-A fe-helper: 0x2e6c190
+1685725014042:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02554-A: onSocketFailure, real_err: FALSE msg: config
+1685725014042:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02554-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11464  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014042:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11464 tcp--1.eth2-01.sta02554-B fe-helper: 0x2e6c3d0
+1685725014042:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02554-B: onSocketFailure, real_err: FALSE msg: config
+1685725014043:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01055-A Shelf: 1 Card: 1  Port: 67  Endpoint: 11467  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014043:  Helper.cc 111: helper-1 remEndpoint: 1.1.67.11467 tcp--1.eth2-01.sta01055-A fe-helper: 0x2e6bf50
+1685725014043:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01055-A: onSocketFailure, real_err: FALSE msg: config
+1685725014043:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01055-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11466  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014044:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11466 tcp--1.eth2-01.sta01055-B fe-helper: 0x2e6c190
+1685725014044:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01055-B: onSocketFailure, real_err: FALSE msg: config
+1685725014044:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02055-A Shelf: 1 Card: 1  Port: 196  Endpoint: 11469  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014044:  Helper.cc 111: helper-3 remEndpoint: 1.1.196.11469 tcp--1.eth2-01.sta02055-A fe-helper: 0x2e6c3d0
+1685725014044:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02055-A: onSocketFailure, real_err: FALSE msg: config
+1685725014044:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02055-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11468  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014045:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11468 tcp--1.eth2-01.sta02055-B fe-helper: 0x2e6bf50
+1685725014045:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02055-B: onSocketFailure, real_err: FALSE msg: config
+1685725014046:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01555-A Shelf: 1 Card: 1  Port: 131  Endpoint: 11471  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014047:  Helper.cc 111: helper-1 remEndpoint: 1.1.131.11471 tcp--1.eth2-01.sta01555-A fe-helper: 0x2e6bf50
+1685725014047:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01555-A: onSocketFailure, real_err: FALSE msg: config
+1685725014047:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01555-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11470  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014047:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11470 tcp--1.eth2-01.sta01555-B fe-helper: 0x2e6c190
+1685725014047:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01555-B: onSocketFailure, real_err: FALSE msg: config
+1685725014048:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02555-A Shelf: 1 Card: 1  Port: 260  Endpoint: 11473  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014048:  Helper.cc 111: helper-0 remEndpoint: 1.1.260.11473 tcp--1.eth2-01.sta02555-A fe-helper: 0x2e6aa60
+1685725014048:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02555-A: onSocketFailure, real_err: FALSE msg: config
+1685725014048:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02555-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11472  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014049:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11472 tcp--1.eth2-01.sta02555-B fe-helper: 0x2e6bf50
+1685725014049:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02555-B: onSocketFailure, real_err: FALSE msg: config
+1685725014049:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01056-A Shelf: 1 Card: 1  Port: 68  Endpoint: 11475  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014049:  Helper.cc 111: helper-1 remEndpoint: 1.1.68.11475 tcp--1.eth2-01.sta01056-A fe-helper: 0x2e6bf50
+1685725014049:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01056-A: onSocketFailure, real_err: FALSE msg: config
+1685725014049:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01056-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11474  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014050:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11474 tcp--1.eth2-01.sta01056-B fe-helper: 0x2e6c190
+1685725014050:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01056-B: onSocketFailure, real_err: FALSE msg: config
+1685725014050:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02056-A Shelf: 1 Card: 1  Port: 197  Endpoint: 11477  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014050:  Helper.cc 111: helper-3 remEndpoint: 1.1.197.11477 tcp--1.eth2-01.sta02056-A fe-helper: 0x2e6c3d0
+1685725014050:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02056-A: onSocketFailure, real_err: FALSE msg: config
+1685725014050:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02056-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11476  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014051:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11476 tcp--1.eth2-01.sta02056-B fe-helper: 0x2e6c3d0
+1685725014051:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02056-B: onSocketFailure, real_err: FALSE msg: config
+1685725014051:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01556-A Shelf: 1 Card: 1  Port: 132  Endpoint: 11479  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014051:  Helper.cc 111: helper-1 remEndpoint: 1.1.132.11479 tcp--1.eth2-01.sta01556-A fe-helper: 0x2e6bf50
+1685725014051:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01556-A: onSocketFailure, real_err: FALSE msg: config
+1685725014052:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01556-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11478  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014052:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11478 tcp--1.eth2-01.sta01556-B fe-helper: 0x2e6c190
+1685725014052:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01556-B: onSocketFailure, real_err: FALSE msg: config
+1685725014052:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02556-A Shelf: 1 Card: 1  Port: 261  Endpoint: 11481  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014053:  Helper.cc 111: helper-2 remEndpoint: 1.1.261.11481 tcp--1.eth2-01.sta02556-A fe-helper: 0x2e6c190
+1685725014053:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02556-A: onSocketFailure, real_err: FALSE msg: config
+1685725014053:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02556-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11480  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014053:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11480 tcp--1.eth2-01.sta02556-B fe-helper: 0x2e6c3d0
+1685725014053:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02556-B: onSocketFailure, real_err: FALSE msg: config
+1685725014054:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01057-A Shelf: 1 Card: 1  Port: 69  Endpoint: 11483  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014054:  Helper.cc 111: helper-1 remEndpoint: 1.1.69.11483 tcp--1.eth2-01.sta01057-A fe-helper: 0x2e6bf50
+1685725014054:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01057-A: onSocketFailure, real_err: FALSE msg: config
+1685725014054:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01057-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11482  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014054:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11482 tcp--1.eth2-01.sta01057-B fe-helper: 0x2e6c190
+1685725014054:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01057-B: onSocketFailure, real_err: FALSE msg: config
+1685725014055:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02057-A Shelf: 1 Card: 1  Port: 198  Endpoint: 11485  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014055:  Helper.cc 111: helper-3 remEndpoint: 1.1.198.11485 tcp--1.eth2-01.sta02057-A fe-helper: 0x2e6c3d0
+1685725014055:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02057-A: onSocketFailure, real_err: FALSE msg: config
+1685725014055:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02057-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11484  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014056:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11484 tcp--1.eth2-01.sta02057-B fe-helper: 0x2e6bf50
+1685725014056:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02057-B: onSocketFailure, real_err: FALSE msg: config
+1685725014056:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01557-A Shelf: 1 Card: 1  Port: 133  Endpoint: 11487  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014056:  Helper.cc 111: helper-1 remEndpoint: 1.1.133.11487 tcp--1.eth2-01.sta01557-A fe-helper: 0x2e6bf50
+1685725014056:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01557-A: onSocketFailure, real_err: FALSE msg: config
+1685725014057:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01557-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11486  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014057:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11486 tcp--1.eth2-01.sta01557-B fe-helper: 0x2e6c190
+1685725014057:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01557-B: onSocketFailure, real_err: FALSE msg: config
+1685725014057:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02557-A Shelf: 1 Card: 1  Port: 262  Endpoint: 11489  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014058:  Helper.cc 111: helper-0 remEndpoint: 1.1.262.11489 tcp--1.eth2-01.sta02557-A fe-helper: 0x2e6aa60
+1685725014058:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02557-A: onSocketFailure, real_err: FALSE msg: config
+1685725014058:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02557-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11488  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014058:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11488 tcp--1.eth2-01.sta02557-B fe-helper: 0x2e6bf50
+1685725014058:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02557-B: onSocketFailure, real_err: FALSE msg: config
+1685725014059:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01058-A Shelf: 1 Card: 1  Port: 70  Endpoint: 11491  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014059:  Helper.cc 111: helper-1 remEndpoint: 1.1.70.11491 tcp--1.eth2-01.sta01058-A fe-helper: 0x2e6bf50
+1685725014059:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01058-A: onSocketFailure, real_err: FALSE msg: config
+1685725014059:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01058-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11490  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014059:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11490 tcp--1.eth2-01.sta01058-B fe-helper: 0x2e6c190
+1685725014059:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01058-B: onSocketFailure, real_err: FALSE msg: config
+1685725014060:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02058-A Shelf: 1 Card: 1  Port: 199  Endpoint: 11493  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014060:  Helper.cc 111: helper-3 remEndpoint: 1.1.199.11493 tcp--1.eth2-01.sta02058-A fe-helper: 0x2e6c3d0
+1685725014060:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02058-A: onSocketFailure, real_err: FALSE msg: config
+1685725014060:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02058-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11492  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014061:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11492 tcp--1.eth2-01.sta02058-B fe-helper: 0x2e6c3d0
+1685725014061:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02058-B: onSocketFailure, real_err: FALSE msg: config
+1685725014061:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01558-A Shelf: 1 Card: 1  Port: 134  Endpoint: 11495  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014061:  Helper.cc 111: helper-1 remEndpoint: 1.1.134.11495 tcp--1.eth2-01.sta01558-A fe-helper: 0x2e6bf50
+1685725014061:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01558-A: onSocketFailure, real_err: FALSE msg: config
+1685725014061:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01558-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11494  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014062:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11494 tcp--1.eth2-01.sta01558-B fe-helper: 0x2e6c190
+1685725014062:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01558-B: onSocketFailure, real_err: FALSE msg: config
+1685725014062:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02558-A Shelf: 1 Card: 1  Port: 263  Endpoint: 11497  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014062:  Helper.cc 111: helper-2 remEndpoint: 1.1.263.11497 tcp--1.eth2-01.sta02558-A fe-helper: 0x2e6c190
+1685725014063:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02558-A: onSocketFailure, real_err: FALSE msg: config
+1685725014063:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02558-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11496  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014063:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11496 tcp--1.eth2-01.sta02558-B fe-helper: 0x2e6c3d0
+1685725014063:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02558-B: onSocketFailure, real_err: FALSE msg: config
+1685725014063:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01059-A Shelf: 1 Card: 1  Port: 71  Endpoint: 11499  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014064:  Helper.cc 111: helper-1 remEndpoint: 1.1.71.11499 tcp--1.eth2-01.sta01059-A fe-helper: 0x2e6bf50
+1685725014064:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01059-A: onSocketFailure, real_err: FALSE msg: config
+1685725014064:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01059-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11498  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014064:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11498 tcp--1.eth2-01.sta01059-B fe-helper: 0x2e6c190
+1685725014064:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01059-B: onSocketFailure, real_err: FALSE msg: config
+1685725014065:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02059-A Shelf: 1 Card: 1  Port: 200  Endpoint: 11501  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014065:  Helper.cc 111: helper-3 remEndpoint: 1.1.200.11501 tcp--1.eth2-01.sta02059-A fe-helper: 0x2e6c3d0
+1685725014065:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02059-A: onSocketFailure, real_err: FALSE msg: config
+1685725014065:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02059-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11500  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014066:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11500 tcp--1.eth2-01.sta02059-B fe-helper: 0x2e6bf50
+1685725014066:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02059-B: onSocketFailure, real_err: FALSE msg: config
+1685725014066:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01559-A Shelf: 1 Card: 1  Port: 135  Endpoint: 11503  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014066:  Helper.cc 111: helper-1 remEndpoint: 1.1.135.11503 tcp--1.eth2-01.sta01559-A fe-helper: 0x2e6bf50
+1685725014066:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01559-A: onSocketFailure, real_err: FALSE msg: config
+1685725014067:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01559-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11502  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014067:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11502 tcp--1.eth2-01.sta01559-B fe-helper: 0x2e6c190
+1685725014067:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01559-B: onSocketFailure, real_err: FALSE msg: config
+1685725014067:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02559-A Shelf: 1 Card: 1  Port: 264  Endpoint: 11505  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014068:  Helper.cc 111: helper-0 remEndpoint: 1.1.264.11505 tcp--1.eth2-01.sta02559-A fe-helper: 0x2e6aa60
+1685725014068:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02559-A: onSocketFailure, real_err: FALSE msg: config
+1685725014068:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02559-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11504  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014068:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11504 tcp--1.eth2-01.sta02559-B fe-helper: 0x2e6bf50
+1685725014068:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02559-B: onSocketFailure, real_err: FALSE msg: config
+1685725014068:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01060-A Shelf: 1 Card: 1  Port: 72  Endpoint: 11507  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014069:  Helper.cc 111: helper-1 remEndpoint: 1.1.72.11507 tcp--1.eth2-01.sta01060-A fe-helper: 0x2e6bf50
+1685725014069:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01060-A: onSocketFailure, real_err: FALSE msg: config
+1685725014069:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01060-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11506  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014069:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11506 tcp--1.eth2-01.sta01060-B fe-helper: 0x2e6c190
+1685725014070:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01060-B: onSocketFailure, real_err: FALSE msg: config
+1685725014070:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02060-A Shelf: 1 Card: 1  Port: 201  Endpoint: 11509  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014070:  Helper.cc 111: helper-3 remEndpoint: 1.1.201.11509 tcp--1.eth2-01.sta02060-A fe-helper: 0x2e6c3d0
+1685725014070:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02060-A: onSocketFailure, real_err: FALSE msg: config
+1685725014070:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02060-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11508  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014071:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11508 tcp--1.eth2-01.sta02060-B fe-helper: 0x2e6c3d0
+1685725014071:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02060-B: onSocketFailure, real_err: FALSE msg: config
+1685725014071:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01560-A Shelf: 1 Card: 1  Port: 136  Endpoint: 11511  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014072:  Helper.cc 111: helper-1 remEndpoint: 1.1.136.11511 tcp--1.eth2-01.sta01560-A fe-helper: 0x2e6bf50
+1685725014072:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01560-A: onSocketFailure, real_err: FALSE msg: config
+1685725014072:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01560-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11510  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014072:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11510 tcp--1.eth2-01.sta01560-B fe-helper: 0x2e6c190
+1685725014072:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01560-B: onSocketFailure, real_err: FALSE msg: config
+1685725014073:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02560-A Shelf: 1 Card: 1  Port: 265  Endpoint: 11513  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014074:  Helper.cc 111: helper-2 remEndpoint: 1.1.265.11513 tcp--1.eth2-01.sta02560-A fe-helper: 0x2e6c190
+1685725014074:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02560-A: onSocketFailure, real_err: FALSE msg: config
+1685725014074:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02560-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11512  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014074:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11512 tcp--1.eth2-01.sta02560-B fe-helper: 0x2e6c3d0
+1685725014074:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02560-B: onSocketFailure, real_err: FALSE msg: config
+1685725014075:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01061-A Shelf: 1 Card: 1  Port: 73  Endpoint: 11515  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014075:  Helper.cc 111: helper-1 remEndpoint: 1.1.73.11515 tcp--1.eth2-01.sta01061-A fe-helper: 0x2e6bf50
+1685725014075:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01061-A: onSocketFailure, real_err: FALSE msg: config
+1685725014075:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01061-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11514  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014076:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11514 tcp--1.eth2-01.sta01061-B fe-helper: 0x2e6c190
+1685725014076:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01061-B: onSocketFailure, real_err: FALSE msg: config
+1685725014076:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02061-A Shelf: 1 Card: 1  Port: 202  Endpoint: 11517  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014077:  Helper.cc 111: helper-3 remEndpoint: 1.1.202.11517 tcp--1.eth2-01.sta02061-A fe-helper: 0x2e6c3d0
+1685725014077:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02061-A: onSocketFailure, real_err: FALSE msg: config
+1685725014077:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02061-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11516  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014077:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11516 tcp--1.eth2-01.sta02061-B fe-helper: 0x2e6bf50
+1685725014077:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02061-B: onSocketFailure, real_err: FALSE msg: config
+1685725014077:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01561-A Shelf: 1 Card: 1  Port: 137  Endpoint: 11519  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014078:  Helper.cc 111: helper-1 remEndpoint: 1.1.137.11519 tcp--1.eth2-01.sta01561-A fe-helper: 0x2e6bf50
+1685725014078:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01561-A: onSocketFailure, real_err: FALSE msg: config
+1685725014078:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01561-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11518  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014078:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11518 tcp--1.eth2-01.sta01561-B fe-helper: 0x2e6c190
+1685725014078:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01561-B: onSocketFailure, real_err: FALSE msg: config
+1685725014079:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02561-A Shelf: 1 Card: 1  Port: 266  Endpoint: 11521  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014079:  Helper.cc 111: helper-0 remEndpoint: 1.1.266.11521 tcp--1.eth2-01.sta02561-A fe-helper: 0x2e6aa60
+1685725014079:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02561-A: onSocketFailure, real_err: FALSE msg: config
+1685725014079:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02561-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11520  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014080:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11520 tcp--1.eth2-01.sta02561-B fe-helper: 0x2e6bf50
+1685725014080:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02561-B: onSocketFailure, real_err: FALSE msg: config
+1685725014080:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01062-A Shelf: 1 Card: 1  Port: 74  Endpoint: 11523  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014080:  Helper.cc 111: helper-1 remEndpoint: 1.1.74.11523 tcp--1.eth2-01.sta01062-A fe-helper: 0x2e6bf50
+1685725014080:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01062-A: onSocketFailure, real_err: FALSE msg: config
+1685725014080:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01062-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11522  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014081:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11522 tcp--1.eth2-01.sta01062-B fe-helper: 0x2e6c190
+1685725014081:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01062-B: onSocketFailure, real_err: FALSE msg: config
+1685725014081:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02062-A Shelf: 1 Card: 1  Port: 203  Endpoint: 11525  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014081:  Helper.cc 111: helper-3 remEndpoint: 1.1.203.11525 tcp--1.eth2-01.sta02062-A fe-helper: 0x2e6c3d0
+1685725014082:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02062-A: onSocketFailure, real_err: FALSE msg: config
+1685725014082:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02062-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11524  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014082:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11524 tcp--1.eth2-01.sta02062-B fe-helper: 0x2e6c3d0
+1685725014082:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02062-B: onSocketFailure, real_err: FALSE msg: config
+1685725014082:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01562-A Shelf: 1 Card: 1  Port: 138  Endpoint: 11527  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014083:  Helper.cc 111: helper-1 remEndpoint: 1.1.138.11527 tcp--1.eth2-01.sta01562-A fe-helper: 0x2e6bf50
+1685725014083:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01562-A: onSocketFailure, real_err: FALSE msg: config
+1685725014083:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01562-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11526  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014083:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11526 tcp--1.eth2-01.sta01562-B fe-helper: 0x2e6c190
+1685725014083:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01562-B: onSocketFailure, real_err: FALSE msg: config
+1685725014083:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02562-A Shelf: 1 Card: 1  Port: 267  Endpoint: 11529  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014084:  Helper.cc 111: helper-2 remEndpoint: 1.1.267.11529 tcp--1.eth2-01.sta02562-A fe-helper: 0x2e6c190
+1685725014084:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02562-A: onSocketFailure, real_err: FALSE msg: config
+1685725014084:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02562-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11528  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014085:  Helper.cc 111: helper-3 remEndpoint: 1.1.2.11528 tcp--1.eth2-01.sta02562-B fe-helper: 0x2e6c3d0
+1685725014085:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02562-B: onSocketFailure, real_err: FALSE msg: config
+1685725014085:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01063-A Shelf: 1 Card: 1  Port: 75  Endpoint: 11531  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014085:  Helper.cc 111: helper-1 remEndpoint: 1.1.75.11531 tcp--1.eth2-01.sta01063-A fe-helper: 0x2e6bf50
+1685725014085:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01063-A: onSocketFailure, real_err: FALSE msg: config
+1685725014085:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01063-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11530  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014086:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11530 tcp--1.eth2-01.sta01063-B fe-helper: 0x2e6c190
+1685725014086:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01063-B: onSocketFailure, real_err: FALSE msg: config
+1685725014086:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02063-A Shelf: 1 Card: 1  Port: 204  Endpoint: 11533  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014087:  Helper.cc 111: helper-3 remEndpoint: 1.1.204.11533 tcp--1.eth2-01.sta02063-A fe-helper: 0x2e6c3d0
+1685725014087:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02063-A: onSocketFailure, real_err: FALSE msg: config
+1685725014087:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02063-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11532  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014087:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11532 tcp--1.eth2-01.sta02063-B fe-helper: 0x2e6bf50
+1685725014087:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02063-B: onSocketFailure, real_err: FALSE msg: config
+1685725014088:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01563-A Shelf: 1 Card: 1  Port: 139  Endpoint: 11535  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014088:  Helper.cc 111: helper-1 remEndpoint: 1.1.139.11535 tcp--1.eth2-01.sta01563-A fe-helper: 0x2e6bf50
+1685725014088:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01563-A: onSocketFailure, real_err: FALSE msg: config
+1685725014088:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01563-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11534  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014088:  Helper.cc 111: helper-2 remEndpoint: 1.1.2.11534 tcp--1.eth2-01.sta01563-B fe-helper: 0x2e6c190
+1685725014089:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01563-B: onSocketFailure, real_err: FALSE msg: config
+1685725014089:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02563-A Shelf: 1 Card: 1  Port: 268  Endpoint: 11537  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014089:  Helper.cc 111: helper-0 remEndpoint: 1.1.268.11537 tcp--1.eth2-01.sta02563-A fe-helper: 0x2e6aa60
+1685725014089:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02563-A: onSocketFailure, real_err: FALSE msg: config
+1685725014089:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02563-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11536  Type: LANFORGE_TCP reason: config was_running: TRUE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: (nil)
+1685725014090:  Helper.cc 111: helper-1 remEndpoint: 1.1.2.11536 tcp--1.eth2-01.sta02563-B fe-helper: 0x2e6bf50
+1685725014090:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02563-B: onSocketFailure, real_err: FALSE msg: config

@@ -1,0 +1,5 @@
+Sending Command: 
+TimeStamp: 2023-06-02 15:27:24.812604
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/oauth2
+Data: {"userId": "tip@ucentral.com", "password": "OpenWifi%123"}
+Headers: {'Authorization': 'Bearer ', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}

@@ -1,0 +1,29 @@
+Date	test-rig	test-tag	dut-hw-version	dut-sw-version	dut-model-num	dut-serial-num	test-priority	test-id	short-description	pass/fail	numeric-score	test details	Units	Graph-Group	Subtest-Pass	Subtest-Fail
+1685720061930			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 1 STA		246.526155	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720061930			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 1 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720061930			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 1 STA		246.526155	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720145977			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 5 STA		644.070771	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720145977			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 5 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720145977			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 5 STA		644.070771	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720219016			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 10 STA		744.708277	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720219016			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 10 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720219016			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 10 STA		744.708277	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720292058			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 20 STA		746.192204	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720292058			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 20 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720292058			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 20 STA		746.192204	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720372309			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 40 STA		741.291595	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720372309			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 40 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720372309			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 40 STA		741.291595	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720455603			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 64 STA		734.238165	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720455603			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 64 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720455603			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 64 STA		734.238165	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720540098			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 128 STA		661.225581	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720540098			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 128 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720540098			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 128 STA		661.225581	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720636033			NA	NA	NA	NA	90	WiFi Capacity	DL Mbps - 256 STA		476.142354	Total download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate DL	0	0
+1685720636033			NA	NA	NA	NA	90	WiFi Capacity	UL Mbps - 256 STA		0.0	Total upload Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL	0	0
+1685720636033			NA	NA	NA	NA	95	WiFi Capacity	UL+DL Mbps - 256 STA		476.142354	Total upload + download Mbps speed for the duration of this iteration	Mbps	Per Stations Rate UL+DL	0	0
+1685720636627			NA	NA	NA	NA	90	WiFi Capacity	Max Stations Associated		256.0	Maximum concurrent stations associated with DUT	Stations	Station-Totals	0	0
+1685720636627			NA	NA	NA	NA	90	WiFi Capacity	Max Stations IP		256.0	Maximum concurrent stations associated with DUT and having IP address	Stations	Station-Totals	0	0
+1685720636627			NA	NA	NA	NA	90	WiFi Capacity	Stations Failed Association		0.0	Stations that failed to associate	Stations	Station-Totals	0	0
+1685720636627			NA	NA	NA	NA	90	WiFi Capacity	Stations Failed IP		0.0	Stations that failed to acquire DHCP lease	Stations	Station-Totals	0	0

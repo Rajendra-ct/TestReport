@@ -1,0 +1,169 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "testing-kr8gx",
+    "children" : [ {
+      "name" : "7-MainThread",
+      "children" : [ {
+        "name" : "Test for TCP Bidirectional 2.4 GHz and 5 GHz",
+        "uid" : "928e58fec6ae90ae",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685729056652,
+          "stop" : 1685731032018,
+          "duration" : 1975366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'NAT', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for UDP Download 2.4 GHz and 5 GHz",
+        "uid" : "42c7f350b8955c04",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685727801157,
+          "stop" : 1685729040085,
+          "duration" : 1238928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'NAT', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for TCP Download 2.4 GHz and 5 GHz",
+        "uid" : "2b73a03abefe490a",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685719834854,
+          "stop" : 1685720870129,
+          "duration" : 1035275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for UDP Download 2.4 GHz and 5 GHz",
+        "uid" : "d65bb3dffd325a49",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685720885296,
+          "stop" : 1685721968110,
+          "duration" : 1082814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for UDP Upload 2.4 GHz and 5 GHz",
+        "uid" : "ad62d3b1e6fa9d25",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685725250638,
+          "stop" : 1685726336686,
+          "duration" : 1086048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for UDP Upload 2.4 GHz and 5 GHz",
+        "uid" : "95645c1158e6b361",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685733133130,
+          "stop" : 1685734150787,
+          "duration" : 1017657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'NAT', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for TCP Bidirectional 2.4 GHz and 5 GHz",
+        "uid" : "52c172b622040588",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685721985154,
+          "stop" : 1685723067943,
+          "duration" : 1082789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for TCP Upload 2.4 GHz and 5 GHz",
+        "uid" : "50dab9eafb9eee28",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685732098177,
+          "stop" : 1685733116926,
+          "duration" : 1018749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'NAT', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for UDP Bidirectional 2.4 GHz and 5 GHz",
+        "uid" : "47c07a87d9c09088",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685731046724,
+          "stop" : 1685732081874,
+          "duration" : 1035150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'NAT', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for UDP Bidirectional 2.4 GHz and 5 GHz",
+        "uid" : "5a7ab4fcc76c5d63",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685723084170,
+          "stop" : 1685724146783,
+          "duration" : 1062613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for TCP Download 2.4 GHz and 5 GHz",
+        "uid" : "4776ee4f6c7fb50a",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685726535916,
+          "stop" : 1685727784968,
+          "duration" : 1249052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'NAT', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      }, {
+        "name" : "Test for TCP Upload 2.4 GHz and 5 GHz",
+        "uid" : "3bfde2c12ebd2727",
+        "parentUid" : "684989b198601c3118e37f062c4d7136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685724163170,
+          "stop" : 1685725234842,
+          "duration" : 1071672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+      } ],
+      "uid" : "684989b198601c3118e37f062c4d7136"
+    } ],
+    "uid" : "b446ce0870c39450709faf454b80793d"
+  } ],
+  "name" : "timeline"
+}

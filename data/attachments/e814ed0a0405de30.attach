@@ -1,0 +1,509 @@
+Fri Jun  2 18:54:58 2023 user.notice root: start testcase: V0NH50WGB
+Fri Jun  2 18:55:02 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 18:55:02 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 18:55:02 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 18:55:02 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 04:f0:21:e4:8e:b3
+Fri Jun  2 18:55:22 2023 daemon.notice netifd: Network device 'eth0' link is down
+Fri Jun  2 18:55:22 2023 kern.info kernel: [77767.768037] nss-dp 3a001400.dp1 eth0: PHY Link is down
+Fri Jun  2 18:55:22 2023 kern.info kernel: [77767.768454] up: port 1(eth0) entered disabled state
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: bridge 'up' link is down
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: Interface 'up_none' has link connectivity loss
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: Interface 'up_none' is now down
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: 8021q 'up0v0' link is down
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: Interface 'up0v0' has link connectivity loss
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: up0v0 (29616): udhcpc: received SIGTERM
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: up0v0 (29616): udhcpc: unicasting a release of 172.16.222.41 to 172.16.0.1
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: up0v0 (29616): udhcpc: sending release
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: up0v0 (29616): udhcpc: entering released state
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: up0v0 (29616): Command failed: Permission denied
+Fri Jun  2 18:55:23 2023 daemon.notice netifd: Interface 'up0v0' is now down
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up0v0' is disabled
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up0v0' is enabled
+Fri Jun  2 18:55:24 2023 daemon.warn dnsmasq[26013]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Fri Jun  2 18:55:24 2023 kern.info kernel: [77768.879789] IPv6: ADDRCONF(NETDEV_UP): up0v0: link is not ready
+Fri Jun  2 18:55:24 2023 kern.info kernel: [77769.768037] nss-dp 3a001400.dp1 eth0: PHY Link up speed: 1000
+Fri Jun  2 18:55:24 2023 kern.info kernel: [77769.768087] up: port 1(eth0) entered forwarding state
+Fri Jun  2 18:55:24 2023 kern.info kernel: [77769.772788] up: port 1(eth0) entered forwarding state
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Network device 'eth0' link is up
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: bridge 'up' link is up
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up_none' has link connectivity
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up_none' is setting up now
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up_none' is now up
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: 8021q 'up0v0' link is up
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up0v0' has link connectivity
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: Interface 'up0v0' is setting up now
+Fri Jun  2 18:55:24 2023 kern.info kernel: [77769.778444] IPv6: ADDRCONF(NETDEV_CHANGE): up0v0: link becomes ready
+Fri Jun  2 18:55:24 2023 daemon.notice netifd: up0v0 (30003): udhcpc: started, v1.33.2
+Fri Jun  2 18:55:25 2023 daemon.notice netifd: up0v0 (30003): udhcpc: sending discover
+Fri Jun  2 18:55:28 2023 daemon.notice netifd: up0v0 (30003): udhcpc: sending discover
+Fri Jun  2 18:55:29 2023 daemon.notice netifd: up0v0 (30003): udhcpc: sending select for 172.16.222.41
+Fri Jun  2 18:55:29 2023 daemon.notice netifd: up0v0 (30003): udhcpc: lease of 172.16.222.41 obtained, lease time 600
+Fri Jun  2 18:55:29 2023 daemon.notice netifd: Interface 'up0v0' is now up
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain test
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain onion
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain localhost
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain local
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain invalid
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain bind
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain lan
+Fri Jun  2 18:55:29 2023 daemon.info dnsmasq[26013]: using nameserver 8.8.8.8#53
+Fri Jun  2 18:55:29 2023 user.notice firewall: Reloading firewall due to ifup of up0v0 (up0v0)
+Fri Jun  2 18:55:32 2023 kern.info kernel: [77777.797890] up: port 1(eth0) entered forwarding state
+Fri Jun  2 18:56:00 2023 daemon.notice netifd: Network device 'eth0' link is down
+Fri Jun  2 18:56:00 2023 kern.info kernel: [77805.767906] nss-dp 3a001400.dp1 eth0: PHY Link is down
+Fri Jun  2 18:56:00 2023 kern.info kernel: [77805.768277] up: port 1(eth0) entered disabled state
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: bridge 'up' link is down
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: Interface 'up_none' has link connectivity loss
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: Interface 'up_none' is now down
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: 8021q 'up0v0' link is down
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: Interface 'up0v0' has link connectivity loss
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: up0v0 (30003): udhcpc: received SIGTERM
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: up0v0 (30003): udhcpc: unicasting a release of 172.16.222.41 to 172.16.0.1
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: up0v0 (30003): udhcpc: sending release
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: up0v0 (30003): udhcpc: entering released state
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: up0v0 (30003): Command failed: Permission denied
+Fri Jun  2 18:56:01 2023 daemon.notice netifd: Interface 'up0v0' is now down
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up0v0' is disabled
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up0v0' is enabled
+Fri Jun  2 18:56:02 2023 daemon.warn dnsmasq[26013]: no servers found in /tmp/resolv.conf.d/resolv.conf.auto, will retry
+Fri Jun  2 18:56:02 2023 kern.info kernel: [77806.869736] IPv6: ADDRCONF(NETDEV_UP): up0v0: link is not ready
+Fri Jun  2 18:56:02 2023 kern.info kernel: [77807.767928] nss-dp 3a001400.dp1 eth0: PHY Link up speed: 1000
+Fri Jun  2 18:56:02 2023 kern.info kernel: [77807.767977] up: port 1(eth0) entered forwarding state
+Fri Jun  2 18:56:02 2023 kern.info kernel: [77807.772690] up: port 1(eth0) entered forwarding state
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Network device 'eth0' link is up
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: bridge 'up' link is up
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up_none' has link connectivity
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up_none' is setting up now
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up_none' is now up
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: 8021q 'up0v0' link is up
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up0v0' has link connectivity
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: Interface 'up0v0' is setting up now
+Fri Jun  2 18:56:02 2023 kern.info kernel: [77807.778455] IPv6: ADDRCONF(NETDEV_CHANGE): up0v0: link becomes ready
+Fri Jun  2 18:56:02 2023 daemon.notice netifd: up0v0 (30278): udhcpc: started, v1.33.2
+Fri Jun  2 18:56:03 2023 daemon.notice netifd: up0v0 (30278): udhcpc: sending discover
+Fri Jun  2 18:56:05 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vu2OozgQfBff/Ts26fY3eYF7iFEUecBR0BLgDEx2Ncq7XzdkZ0LmEu1Ks4eigO22XdVVbngV41iVYoPWGyet8ioTfUxVqMVGAF0FAnqPUlD/EIYoNq9ibKqB78d4bNN3fhragWdoZdE7VDYT+xQpVhpwUisjM1GE4hBL7kIA6X0mnsf9Pibu897QJc+ZqNsi1EN1jBdISqI1mRi7uc85j8hRgWY9wUqa3DnIYIXOOK/pQVvpc7/NxBCPXUxhGBPNe9Im02ZLG6RQVm1PPa+iOISmiQSb8V4aPEJNLbcThX/G2BTE8Mmgh8xIhO1b6O5UlcOBwANt9m3XtaeYCHVOiRrTS+RZFNwd6EF0dRj2bTqu+7ZYFzBdq1O1r8QNUE2LPYeG2QnztyDEVziXMG3mb0BSpl0mtXYfQeoFSGl+CeRf+AEmvsOUDJMWqZohpn0o4pzdJrBgpBy8gJiFHaq2oa71e+Sah36ISxCLduSxnj2VCG4ovsaBWtJLzLXxdmbxoxtRkvDekb0o+vn7wHtrrUBrKa2Vegq/9JMtaYU8z0HbKT6m1PJWc2quWjRWprbr2Jrz4HXzOJJBi9DTEWBbt3Vd9USMp55Zrgvxsj01+Ig6J7XqXjRzDWWZYt9PqROYyxWZf4UrXKNlD7ylSNPRodT3fVXOWZ7szCv8meKeNvhjPRucEnv+GfPNIrLV7uNcT9tNUvETDfNtd+qC3JVjqHfTIpSYtmTioeN1L5EAG/oVuAGkU75BLe6fq4r3ozmnOjS82T0zoDbKAailF3Rujcn1wgrKoKMqoo25NoICaxwoh+6TbAD/ZYO7yuBPKDOduIs28v/Sxoj75eRaG3ygjfPg8ltplDeKSrm7lgZBSciduT2ieS61u6j4O5TZPvKVzBW96pbgrUKZO66Y7+Cld07Sn7LX6K
+Fri Jun  2 18:56:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: sending discover
+Fri Jun  2 18:56:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: sending select for 172.16.222.41
+Fri Jun  2 18:56:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: lease of 172.16.222.41 obtained, lease time 600
+Fri Jun  2 18:56:06 2023 daemon.notice netifd: Interface 'up0v0' is now up
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: reading /tmp/resolv.conf.d/resolv.conf.auto
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain test
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain onion
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain localhost
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain local
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain invalid
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain bind
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using only locally-known addresses for domain lan
+Fri Jun  2 18:56:06 2023 daemon.info dnsmasq[26013]: using nameserver 8.8.8.8#53
+Fri Jun  2 18:56:06 2023 user.notice firewall: Reloading firewall due to ifup of up0v0 (up0v0)
+Fri Jun  2 18:56:10 2023 kern.info kernel: [77815.797760] up: port 1(eth0) entered forwarding state
+Fri Jun  2 18:57:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 18:57:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 18:57:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 18:57:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 18:57:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 18:57:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 18:57:10 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 18:57:10 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 18:57:10 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 18:57:13 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vv9uozgQfhff/bfZZPzb5gXuIaoocsEoaAmwBppdVXn3m4FsC2lT7Uq9I1IAezzzjb9vxjyzcawKlnHjtBVGOrlhfUxVqFnGAK+cA3eOC4bjQxgiy57Z2FQD3U/x1Kaf9DS0A61Q0nBnuTQbVqaItkJzAOMtDuQhP8ZiHlLSqQ17HMsyJhpzTuMlLhtWt3moh+oUr5CkEBIhjd08Zq2znqwCrnqALTdGg9nggzZCC3xQEj2p/YYN8dTFFIYx4boHpTfK7DFACkXV9jjyzPJjaJqIsAnv9YVm8FWJ/ZTC9zE2OWb4oLmDjRYc9i+mh3NVDEcEDxjsx6FrzzEhaoTXj+kp0io07o74wLo6DGWbTru+zXc5TNf2XJUVuwGq0NljaCg7pv9hiHiBcw3TbNwNSKGk3Qil7FuQagVS6D8C+YW/gclfYQqCiU6qZoipDHmcd7cJRBgyB0/AZmKHqm1waPdquaOpqntSJKJQFCn2/bSecSuQ3a0QYqv4jhuGEeoY+jgLwQAmVBzz7oBqfaKcfq1ALbDLq2KMRbumv5pNrt12+pHHvK5iM8yATyFHLz7PjM8eFUbIosicugI8vIeOYu2nebOeL6ODbP75OPkry6yMk090SVvepikui8MRpuRCPyDKiDsEtJ15O9I29bQzCZkL+bdIK4QT3CvD+Uzor2HOBbfaeUwXrR9/DgREKQlKCakM1dvwMo4VqrQHbqWByT6m1FKoWSWLN5wrUtt1VKXz5PL1NGKt5gicZZ4Q13XVI8e09ELKvWqgaM8N/0gF/K4KPO2z2/LtrIEFsQrAUa31VTHzN1U2efg7xRID/LWbax01dvmdOpz1TFV3H+duCjeplp5wmm6HcxfEoRhDfZic4Ma0BSUeOvJ7tQRUA2Q5z4Bjw8s4Ketei6koHq4516GhYPfEwJ
+Fri Jun  2 18:57:47 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: authenticated
+Fri Jun  2 18:57:47 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: associated (aid 1)
+Fri Jun  2 18:57:47 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 18:57:47 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 RADIUS: starting accounting session C6B6DD190B4583F6
+Fri Jun  2 18:57:47 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 18:57:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 18:57:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:57:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:57:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:57:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:57:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:58:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:58:18 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:18 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:58:21 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vm2O4jgQvYt3/20a/BnbucAeotVCJnGaaEKSdRyYUYu7b1WSbggNzKzUsyBB4o+qV/Velf1GhqEqSMZSozRPhREJ6X2oXE0yQuGTM8qMYZzAeHTRk+yNDE0V8X/v9234gU+xjbhDipQZzUSakDJ4WMsVoxp+eEJyl+98MQ1JYWRCtkNZ+oBjxij48FNC6jZ3daz2foYkuKAsIUM3jWltpcZVDnY90xWnUlmR0BVTklsLD5IJavlLQqLfdz64OATY9yxVItULOAiuqNoeRt5IvnNN4wE24p1fcAZeJVqAEP4ZfJNDhM+KGZoozujLx9LNsSriDsBTcPZ907VHHwC1hUQN4eBxFyzudvBAutrFsg37dd/m65yOn9WxKityBVSCsa1rMDqi/iaA+ALnEmaamCuQXAqdcCn1Z5ByAZKr/wTyL/YJJjvD5AgTjFRN9KF0uZ+y2zgkDJijB0omYmPVNjC0Pq9c41TVHSSKyBVF8H0/7idM8xVLV5xzoHTNUgIeau96PwkhpRBQscu7Daj1gDG97wAtkNNZMUxArEXTz+tG22Y1ftFkXle+iRPivcvBjM2z1GZbCS4yzzMjZ4SbW/DQ2cs4ny7nS29oNn2tH+2VZVb60SaYxJy3YfRLfNzRMTrXR0DpIUUU85m3A+apx9QEoM7l3zzu4IYzK1OmJ0bfhxnjTCtLobBg9fZHRCBSCiolF1BzfFw+j0OJQuFQsKPsuN6H0KKrSSYXbzBXhLbrsEynycvX/QDFmgNwMEkRcl1XPbCMe0+o3VkFRXts2CMdsLs6sJhos2KrSQUX1ErKlL5FIZVZSTPOMiEzv8224jaFs2WRrhi3C0qOtWvYLU76viomT2MfQbR/Bl+Czz/WU2cBRZ9+peqn6sEav5+T9ehurBF8gmn82xw7xzfF4OrNaARYaA
+Fri Jun  2 18:58:30 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:30 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:30 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:30 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:58:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:58:45 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:53 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: authenticated
+Fri Jun  2 18:58:53 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: associated (aid 1)
+Fri Jun  2 18:58:53 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:53 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 RADIUS: starting accounting session F02B7F0D9BFEB633
+Fri Jun  2 18:58:53 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 18:58:54 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:54 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:54 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:54 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:58:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:58:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:59:03 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:03 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:59:14 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 18:59:14 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 18:59:14 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 18:59:14 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 18:59:14 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 18:59:14 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 18:59:19 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 18:59:19 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 18:59:19 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 18:59:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:59:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:59:29 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vt1yqzgMfhfv3i1NLP9gwwvsQ3Q6GQdMwxwCrDHpOdPJu68EtA05SffsTHfJRUC2pE/SJ9mvbBzrkuWQWm1EKq1M2OBD7RqWM45PARysBcFQHl30LH9lY1tH+j/6Yxd+0FvsImkomYI1INOEVcHjXqG5NTrjKmGFKw6+JBFwJS1K9mNV+UAyazU+4pywpitcE+ujXyBJIdMsYWM/y4zloGmXQ61HvhFS2dQkfAOpUYidb2RmMymeEhb9sffBxTGg3qPSidJP6CC4su4GlLyy4uDa1iNswrt80Ap+KrKAIfw1+rbACB81WJ5oAfzpfevupS7jAcFzdPZ913cvPiBqRDuM4eRJCzf3B3xhfeNi1YXjduiKbcGnZ/NSVzW7AqrQ2N61FB3TfzJEfIFzDTNN7BVIoaRJhFLmZ5BqBVLofwXyD/gJJnzAFAQTjdRt9KFyhZ+z2zoqGFaOnzibCxvrrkXR9mPnlpbq/qSIRK4sgx+GSZ+BEVjUjRBio2ALKUMPjXeDn4mQcgyoPBT9Dtl6opjeNJAL7PzBGMGR0WU7LPsm23Yz/chk0dS+jTPioyvQTFbkaZbvFbrIvcitWhDubsEjZ0/Terper7zl+fzL/GSvqvLKTzbRJOW8C5Nf5uOBT9G5ISJKjynilM+iGylPA6UmYOlc8c2ThrACMpUKOVf0TQwgAFsNsLFw9/5HJCBKSa6UkNRd0/ZFji2qsC2FACIG7vchdORqpsnFF66Voet7atN58fLzOGKzFggcTXKC3DT1gFUm3TNxd2FB2b208BkP4C4PMkq03cBmZsFFaRXi17dKyFVe8VxALlXu9/le3i7hYlmmGxDZqiQvjWvhVk2GoS5nT9McIbS/B1+hz9+282RBRp9/pevn7qEev5+T7eRu6hF6w2X62730TuzK0TW7yQhWoS
+Fri Jun  2 18:59:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 18:59:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 18:59:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:07 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:07 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:12 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:12 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:38 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9VttyozgQ/Rftvg2xdZfgB/YjUimXDCKmgoERwp6plP99u4FxwImzs1XZxQ/Wtft09+luvZJhqAqSMW2V4VpYkZDeh8rVJCMUvpxRZi3jBNaji55kr2Roqoj/R39sw08cxTbiDSk0s4YJnZAyeDjLFWNUcUsTkrv84ItxiUphZUL2Q1n6gGvWKvj4JSF1m7s6Vkc/QxIcziZk6KY1YynerFsHtx7phnOlbJrQDdNCGQMDYbQ07Ckh0R87H1wcAtx7lCqR6gkUBFdUbQ8rryQ/uKbxABvxzhPcgankT6MJ3wff5GDho2Jgg+KMPl2P7s5VEQ8AHoyLP3Zde/YBUKfgqCGcPN6Cw90BBqSrXSzbcNz2bb7N6fhtzlVZkRugkoNfXIPWEfUXAcQLnGuYOrE3IMFXJuFSmvcg5QokV/8K5Df2DiZ7g8kRJgipmuhD6XI/ebdxGDCIHD1RMgU2Vm0DS9u3k1vcqrqTRBK5ogi+78f7hBkOQYUA841kW6YJaKi96/1EBE3BoOKQdztg6wlt+nUDuEAub4zhBjxaNP18bpRtN+MPReZ15Zs4IT66HMSkeabTbC9BReZ5ZuWMcPcRPFT2NO7r9X7pLc2mX+pHeWWZlX6UCSLR520Y9RIfD3S0zvURUHpwEUV/5u2AfurRNQFC5/IXjze45SyVGmMYF8uMcWZUyiBb4PT+Z0QgUgoqJRdKWzsen9chRaVKKXAF/QjnfQgtqppospjBXhHarsM0nTaX0+MAyZoDcNSPkOu66iHKePeC3J1ZULTnhn3GA3aXByk62m7YZmLBIrSS8hSKQd9XxRTAMbdRwp/Bl6Dgj+2U7cCyy+9k4sRozLv7OLejupG3OIJt/NudO8d3xeDq3SgEPNMWaLjrUO58kgIdaJazjDIoeRlDat0rMhXqgzvn2jWo7B
+Fri Jun  2 19:00:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:00:53 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:57 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: authenticated
+Fri Jun  2 19:00:57 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: associated (aid 1)
+Fri Jun  2 19:00:57 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:57 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 RADIUS: starting accounting session 74505CF35521AC3C
+Fri Jun  2 19:00:57 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 19:00:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:00:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:01:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:01:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: sending renew to 172.16.0.1
+Fri Jun  2 19:01:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: lease of 172.16.222.41 obtained, lease time 600
+Fri Jun  2 19:01:21 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:21 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:24 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 19:01:24 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 19:01:24 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":67,"data":{"unit":{"memory":42},"interfaces":{"down1v0":{"dhcp":false,"location":"/interfaces/1","warning":["DHCP did not offer any leases"]}}}}}
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:01:28 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:28 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:01:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:01:46 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9VtuSozYQ/Rclb2FstW4IfiAfMTXlkkGMqcVAhLB3a8r/nm5gZox3PNlUdoMfLKS+nO4+3eKFjWNdshyM1akw0sqEDT7UrmE54/gUwMFaEAz3o4ue5S9sbOtI/0d/7MI3WsUukoaSBmwK0iSsCh5lhQbOhbU8YYUrDr6ct5S0KmH7sap8oD1rNT7ikrCmK1wT66NfIEmhOVob+3kvtaAFSTnUeuQbIQSkkPANGG5Uigup0wzMU8KiP/Y+uDgG1HtUOlH6CR0EV9bdgDsvrDi4tvUIm/AuL3SCr0o8TSH8Nfq2wAgfNWAMWgB/ehPdnesyHhA8Bhe/7vru7AOizjBRYzh50kLh/oAL1jcuVl04boeu2BZ8ejbnuqrZDVCFxvaupeiY/pMh4iuca5gmsTcghZJpIpRKvwepViCF/lcg/4DvYMI7TEEw0UjdRh8qV/g5u62jgmHl+ImzubCx7lrc2r5Lbumo7k+KSOTKMvhhmPQZpAKLSgXeKNiCYeih8W7wMxEMx4DKQ9HvkK0niulVA7nALu+MkRR52Q6L3GTbbqYfmSya2rdxRnx0BZrJitxk+V6hi9yL3KoF4e4jeOTsaTo36/PKW57Pv8xP9qoqr/xkE01Szrsw+WU+HvgUnRsiovSYIk75LLqR8jRQagKWzhVfPGkIKyBTRsJc0ddtAGwFnQnkH0rvv0UCopTkSglsS2kn8WUfW1TpjItUUyVR3ofQkauZJldveFaGru+pTefD69fjiM1aIHDyT5Cbph6wyqR7Ie4uLCi7cwuf8QDu8iCjRNsNbGYWXJVWcWlwGAxDXc4FnHqbLPwefIUOftvO3Y4su/xIJ86Mpr67j3M7uZt4Sys8pr/duXdiV46u2U1GMDNdSYG7nuwukhzpwPMCcg448nIgat0bMjX5Q51z41pydo8NoL
+Fri Jun  2 19:01:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:01:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:08 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:08 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:08 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:08 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:28 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:28 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:42 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:42 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:42 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:42 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:02:54 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vlty6zYM3Qvbvzo23yK1gS4ik/HQEhVrIksqRdn3TsZ7L0ApieXY6e1MWvnDfIDAAXAA8pWMY12SnGmjMq6FESsy+FC7huSEwlcwyoxhnMB6dNGT/JWMbR3x/+APXfiJo9hFPCGFZiZjQq9IFTzIcsWozCwuFK7Y+3JeEkauyG6sKh9wzRgFHz+vSNMVron1wc+QBFcZiI79tJYZzilKOTj1SNdcCGPpiq6ZpkxZGAgpMqWeViT6Q++Di2OAc49SraR6AgPBlXU3wMorKfaubT3ATvCmCe7AVPKn5MJfo28L8PBRMUNXijP69C66PdVl3AN4ABR/bPvu5AOgthCoMRw9ngLhfg8D0jcuVl04bIau2BQ0fetTXdXkCqgEZTvXondE/UkA8QXOJUy9MlcgOfi+4lJmn0HKBUiu/hXIP9gnmOwDJkeYoKRuow+VK/wU3dZhwiBz9EjJlNhYdy0sbT4kN7hV90eJJHJlGfwwpPOEZRySuuacryXbME3AQuPd4CciaAoOlfui3wJbj+jT2wngAjl/MEZSA4LtMMsl3WadfqiyaGrfxgnxwRWgxha5tvlOgonc89zIGeH2Fjw09pT29XK/8obm08/6pK+q8sonnaASY96FZJf4uKfJOzdEQOkhRBTjWXQjxmnA0ARInStePJ7ghjMrtVBTRt+WGeMsUxYYgNK7nxGBSCmolFxoyScCzOtQolJZyq1lMsn7EDo0NUldzGCvDF3fY5lOm5fTwwjFWgBwtI+Qm6YeIMt49ozcnVlQdqeWfcUDdpcHFgNt1mw9sWCRWvDuVgqpzCuac5YLmftdvhO3UzhrFnrNuF2k5NS4lt3KyTDU5WQp9RFE+3vwFdj8bTN1FmD0+VeqfqoerPH7Mdkkc6lGcATb+Lc99Y5vy9E126QEstCVGGTXo95Zkg
+Fri Jun  2 19:02:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:02:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:09 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:09 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:09 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:09 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:17 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:17 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:03:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:03:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:03:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:03:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:03:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:03:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 19:03:32 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 19:03:32 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 19:03:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:39 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:39 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:39 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:45 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: authenticated
+Fri Jun  2 19:03:45 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: associated (aid 1)
+Fri Jun  2 19:03:45 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:45 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 RADIUS: starting accounting session DA2AE54C21E29C1C
+Fri Jun  2 19:03:45 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 19:03:46 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:46 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:46 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:46 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:03:56 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:03:56 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:02 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vu9yozgMfxfffTua+D82L3AP0elkHDANswQ4Y5Ld6eTdTzJsG7JNd2+me+RDjGxLP0k/SbyQaWoqUjBtVM61MCIjow+Na0lBKDwlo8wYxgnIo4ueFC9k6pqI/0d/7MM3XMU+4g0pNDM5EzojdfBwlitGtZEMBKUrD76aRVIYmZH9VNc+oMwYBQ+/ZKTtS9fG5ugXSIJryTMyDbMsN9wYPOXg1iPdcEuV4BndgFnKFCyEsEbap4xEfxx8cHEKcO9RqkyqJzAQXNX0I0heSHlwXecBNuJdXnAHXiV/Si78M/muBA8fFTM0U5zRp9eju3NTxQOAp2Ds627ozz4AaguBmsLJ4y04PBxgQYbWxboPx+3Yl9uSpmdzbuqG3ACVoGzvOvSOqL8JIL7CuYapM3MDkkuRZ1zK/EeQcgWSq/8E8i/2A0z2BpMjTFDSdNGH2pV+jm7nMGGQOXqiZE5sbPoORNu3k1vcaoaTRBK5qgp+HNN9wnK+YXrDOd9ItmWagIXWu9HPRNAUHKoO5bADtp7Qp+83gAvk8sYYmUPUqm5cziXdZpN+qLJsG9/FGfHRlaDGloW2xV6CicLzwsgF4e49eGjsKe3r9X7tDS3mn/VJX10XtU86QSXGvA/JLvHxQJN3boyA0kOIKMaz7CeM04ihCZA6V37xeIMbzqxMZRGvxIxxlisr8wxP779FBCKloFJyoa2eCbDIoUSlslTwHNXAeR9Cj6bmU1dvsFeFfhiwTOfN69fjBMVaAnC0j5Dbthkhy3j3gtxdWFD15459xAN2lwcWA202bDOz4Dq1VFpoBuPYVHMCU22jhj+Dr8HAH9u52oFll1+pxJnRWHf3cW6TucRbXME2/u3Og+O7anLtLimByPQVOu4G1LucpEAHWpSsoAxaXsGQWveaTIP24M65dR0au8cGJp
+Fri Jun  2 19:04:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:11 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:17 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:17 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:27 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:32 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:32 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:45 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:45 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:45 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:45 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:51 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:04:59 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:59 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:59 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:04:59 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:05:03 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:03 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:05:08 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:08 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:05:10 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9V9tyozgQ/Rftvq1jq3VD8AP7EamUSwYRU4OBFcKeqZT/fbuBJMaxM7NVmbUfLHTpPt3nqBu/sGGoCpaBsToRRlq5Yr0PlatZxjh+cuBgLQiG89FFz7IXNjRVpN+DP7ThB41iG+mEkgZsAtKsWBk87hUahLBg+IrlLt/7YpziSlq1YruhLH2gOWs1fsR5xeo2d3WsDn6GJEUCeHjoprnESm1ol8NTj3wNiRGJWOHAKG40DqTgEpKnFYv+0Png4hDw3KPSK6Wf0EFwRdX2OPPC8r1rGo+wCe/8QCv4qMTTGMI/g29yjPBRg+UrLYA/vW3dnqoi7hE84ovft1178gFRp5ioIRw9ncLN3R4HrKtdLNtw2PRtvsn5+FmfqrJiV0AVGtu5hqJj+m+GiC9wLmGalb0CKZRMVkKp5CNItQAp9H8C+Rd8gAnvMAXBRCNVE30oXe6n7DaOCEPm+JGzidhYtQ1Obd53bmip6o6KROSKIvi+H88zSASSuhZCrBVswDD0UHvX+0kIhmNAxT7vtqjWI8X0egK1wM7vitEKlVY0/bxvtG3X45dM5nXlmzghPrgczaR5ZtJsp9BF5kVm1YxwewseOXsa181yvfSWZ9M39aO9ssxKP9pEk5TzNox+mY97Pkbn+ogoPaaIUz7zdqA89ZSagNS5/JunE8IKSJVRZmL0dRpAQKJTjeHi7t2PSECUklwpIRMB0/Z5Hq+o0imXKrXpuN+H0JKrSSYXT7hWhLbr6JpOi5ePhwEva47AyT9BruuqR5bp7Jm0O6ugaE8NfKYDuKuDlBJt17CeVHBBreLamFsUcpWVPBOQSZX5XbaTtymcLUuzBpEuKDnVroFbnPR9VUyexjpCaP8MvkSff2ymyoKKPv/KrZ9uD93x+znZjO7GO0IjXKaf7alzYlsMrt6ORpCFtq
+Fri Jun  2 19:05:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:05:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:05:35 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:05:35 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:05:35 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:05:35 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:05:35 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:05:35 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:05:40 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 19:05:40 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 19:05:40 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 19:05:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:05:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:05:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:06:00 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:00 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:00 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:00 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:06:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:06:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: sending renew to 172.16.0.1
+Fri Jun  2 19:06:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: lease of 172.16.222.41 obtained, lease time 600
+Fri Jun  2 19:06:18 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vu9yozgMfxfffTuaWP6H4QXuITqdjAOmYZYAZ6DdnU7e/SRDW0g3nb3Z3SMfYmxZ+kn6SeKFTVNdshyM1akw0sqEDT7UrmE54/gUwMFaEAz3Rzd6lr+wqa1H+j/7cxe+0WrsRrqhpAGbgjQJq4JHWaFBGVRsE1a44uTLuMWVtCphx6mqfKA9azU+4pKwpitcM9Znv0CSIk3x8tTPe6lVQpGUw1v3fCd4qoVM+A4MgNS4kFyZTDwkbPTn3gc3TgHv3SudKP2ABoIr627AnRdWnFzbeoRNeJcXOsFXRRrQhX8m3xbo4b0GyxMtgD+8iR6e63I8IXiOxr4e+u7ZB0SdYaCm8OTpFgr3J1ywvnFj1YXzfuiKfcHjs3uuq5pdAVWo7Oha8o7pvxkiXuHcwjSJvQIplEwToVT6EaTagBT6P4H8Cz7AhHeYgmCikrodfahc4efoto4ShpnjT5zNiR3rrsWt/bvkno7q/kkRiVxZBj8M8T6DVGBSd0KInYI9GIYWGu8GPxPBcHSoPBX9Adn6RD693kAusMs7YwwIFGyHRS7qtrv4I5VFU/t2nBGfXYFqsiI3WX5UaCL3IrdqQXj4Hjwy9hDPzfa88pbn8y/zUV9V5ZWPOlElxbwL0S7z44lH79wwIkqPIeIUz6KbKE4DhSZg6lzxxdMNYQVkWFVqzujrNoCAVGcGU4vSx28jAVEK60EJiUVkoviyjyWqdMZlmmUmyvsQOjI102T1hmdl6PqeynQ+XL+eJyzWAoGTfYLcNPWAWaa7F+LuwoKye27hMx7ATR5kFGi7g93MglVqFTcSgzAMdTknMNY2afgz+AoN/LGfqx1ZdvmRSpwZTXV3G+c+mou8pRUe09/huXfiUE6uOUQlGJmuJMddT3oXSY504HkBOQdseTkQtW41mZrs4Z3nxrVk7B
+Fri Jun  2 19:06:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:06:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:24 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:06:34 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:34 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:34 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:34 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:06:41 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:06:41 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:07:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:07:13 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:13 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:07:26 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9VutyqzgMfhfv/ts0sXwBwwvsQ3Q6GQdMwxwCrDHJOdPJu69kaBvSJnPObM/CD4wv0ifpk+QXNo51yXJIjE5FIo1cscH52jYsZxyfAjgYA4LhfLDBsfyFjW0d6Htwh87/oFHoAp1QMgGTgkxWrPIO9woNGpQxfMUKW+xdGae4kkat2G6sKudpzhiNjzivWNMVtgn1wc2QpDAKpY39NJcalQnaZfHUI1+DSjMNKxoorjQOhNGQwNOKBXfonbdh9HjuEdeUfkIF3pZ1N+DMCyv2tm0dwia88w+t4K8ST9GEf0bXFmjhowa0QQvgT29bt6e6DHsEj8aF79u+OzmPqDN01OiPjk7h5n6PA9Y3NlSdP2yGrtgUPD7rU13V7AqoQmE725J1TP/NEPEFziXMZGWuQAol05VQKv0IUi1ACv1LIP+CDzDhHaYgmCikboPzlS3c5N3WUsAwcvzI2RTYUHctTm3ed25oqe6Pikhky9K7YYjnGaRiDclaCLFWsIGEoYbG2cFNREg4GlTui36LbD2STa8nkAvs/M6YhMJTtsO8L8o26/iSyKKpXRsmxAdboJisyJMs3ylUkTuRGzUj3H4Gj5Q9xfVkuV45w/PpzVyUV1V55aJMFEk+73zUy1zY82idHQKidOgiTv4supH8NJBrPIbOFt8cnRBGQKYSraeIvk4DCEh1lmJkcPfuRyAgSkmulJCp0SJun+cxRZXOuOJSJ3G/874jVRNNLv5wrfRd31OaTouXv4cRk7VA4KSfIDdNPWCU6eyZuDuzoOxOLdzjAdzkQUaONmtYTyy4CK3iKUerhqEupwDG3CYJf3pXoYI/NlO2I8vOP5OJE6Mp727j3ER1kbc0wmX6bE+9FdtytM02CkHPdCUZbnuSO+/kSAeeF5BzwJKXA1HrVpGpSR+eOTW2JWW32A
+Fri Jun  2 19:07:29 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:29 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:29 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:29 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:07:35 2023 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:43 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: authenticated
+Fri Jun  2 19:07:43 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 IEEE 802.11: associated (aid 1)
+Fri Jun  2 19:07:43 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:43 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 RADIUS: starting accounting session 7D064263E519467A
+Fri Jun  2 19:07:43 2023 daemon.info hostapd: wlan1: STA 04:f0:21:34:eb:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 19:07:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:07:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:07:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:07:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:07:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:07:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:07:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:07:47 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 19:07:47 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 19:07:47 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 19:07:52 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:52 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:07:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:07:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:10 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:10 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:25 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:25 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:34 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vu9yozgMfxfvfTua+D+GF9iH6HQyDpiGWQKcMcnudPLuJxnaQrbJ7s10j3wIyLL0k/ST7BcyjnVJcqaNSrkWRiRkcL62DckJhadglBnDOAF5sMGR/IWMbR3w/+iOnf+Bb6ELuEMKzUzKhE5I5R3ocsWESTMqE1LY4uDKKKJSGJDsx6pyHmXGKHj4JSFNV9gm1Ec3QxI8Y6A69pMsNUpT1LKw65FueJYJzhK6YanimYYXbjgX7CkhwR17520YPex7lDKR6gkceFvW3QCSF1IcbNs6gI145w9cgU/Jn2II/4yuLSDCR8UMTRRn9OlNdXeuy3AA8AAofN/13dl5QJ1BokZ/crgLlPsDvJC+saHq/HE7dMW2oPHZnOuqJldAJRjb2xajI+orAcQLnGuYOjFXILkUacKlTH8GKVcgufpPIP9mP8Fk7zA5wgQjdRucr2zhpuy2FgsGlaMnSqbChrprQbR919ziUt2fJJLIlqV3wxD3E5byDdMbzvlGsi3TBDw0zg5uIoKmEFB5KPodsPWEMb3uAC6Qy4Ix0oBiO8x60bbZxB+aLJratWFCfLQFmMmKXGf5XoKL3PHcyBnh7iN46Owpruv1euUMzadf5qK9qsorF22CScx556Nf4sKBxujsEAClgxRRzGfRjZinAVPjoXS2+OZwBzCcZVJrMVX0VcwYhybIDFQGtPc/AgKRUlApObSbMlF9lkOLSgVtKSgwBvWd9x26mmiy+IK10nd9j206LS4/jyM0awHA0T9Cbpp6gCrj3gtyd2ZB2Z1bdo8H7CYPMky02bDNxIJFaSVNU8AwDHU5FTD2Nlr4y7sKHHzZTt0OLLv8TidOjMa+u41zG91F3uIbLOPf7txbvitH2+yiEchMV2Lgtke7syYFOtC8YDllMPJyhtS6NWRq9Ad7zo1t0dktNj
+Fri Jun  2 19:08:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:36 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:08:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:08:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:04 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:10 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:10 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:16 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:25 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:25 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:43 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9Vm1yozgQvYt2/y2x9Y3gAnuIVMolg4hVg4EVwp6plO++3YIkJokzs1WZhR9AS+p+3e+1xBOZJl+Tkmmjcq6FERkZXfC2JSWhcFWMMmMYJ2CPNjpSPpGp8xGfR3fsww98i33EFVJoZnImdEaa4GAuV0yJQiowVLY6uDqZqBRGZmQ/NY0LaDNGwcUvGWn7yrbRH90CSfDC8IxMw2zLjeYGZ1lYdU83HFzTIqMbpouCS3jhOQPUDxmJ7ji4YOMUYN29VJlUDxAg2Nr3I1ieSHWwXecANuJdPnAEPiV/SCn8M7muggzvFTM0U5yh52Xq7uzreADwFIJ93w392QVAXUChpnByuAomDwd4IUNrY9OH43bsq21F07U5+8aTN0AlONvbDrMj6m8CiK9wrmHqzLwByaXIMy5l/h6kXIHk6j+B/Iu9g8leYXKECU58F11obOXm6nYWCQPm6ImSmdjo+w5M29eZWxzyw0miiGxdBzeOaT1hOQdSN5zzjWRbpglEaJ0d3SwETSGh+lANO1DrCXN6XgFaIJdXxRgGVau7cZmXfJtNutFl1XrXxRnx0VbgpqhKXZR7CSFKx0sjF4S7j+BhsIc0rtfjjTO0nO/CJX9NUzYu+QSXWPM+pLjExQNN2dkxAkoHJaJYz6qfsE4jliYAdbb65nAFN5wVUms9M/psZoyzXBUG2gNm739EBCKloFJyYbSUafpihxaVqqBS8UKn+S6EHkPNMrn6grE69MOAbToPXn8eJ2jWCoBjfITctn4ElnHtBbW7qKDuzx37TAfspg4KLLTZsM2sgitqJTUCu2309Uxg6m308GdwDQT4Yzt3O6js8iudOCsa++42zm0Kl3SLbzCMj915sHxXT7bdJSdQmb7GxO2AfpeZFORAy4qVlMGWVzKU1q1NxmM8WHNubYfBbqmBSS
+Fri Jun  2 19:09:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:43 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:50 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:55 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:55 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:55 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:09:55 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:09:55 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 19:09:55 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 19:09:55 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685726383,"sanity":100,"data":{"unit":{"memory":42}}}}
+Fri Jun  2 19:10:03 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:03 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:19 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:22 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:22 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:29 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:29 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:41 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:41 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:41 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:41 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:44 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:48 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:10:51 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9V+9yozgMfxfffTuaWP6H4QXuITqdjAOmYZYAZyDdnU7e/SRD29Amnd257pEPgCxLP0k/yeSZTVNdshyM1akw0sqEDT7UrmE543gVwMFaEAzloxs9y5/Z1NYj3Y/+2IUf9DR2I+1Q0oBNQZqEVcGjrtAgbZpxlbDCFQdfRhFX0qJkP1WVDySzVuMlzglrusI1Y330CyQpuYaETf0sS63JUtJyuOueb4QCATrhGzBplgI+YAyI9yFhoz/2PrhxCrjvXulE6Qd0EFxZdwNKnllxcG3rETbhXV5oBV+VeIgh/DP5tsAI7zVYnmgB/OFVdfdUl+MBwXN09n3Xd08+IOoMEzWFk6ddqNwf8IH1jRurLhy3Q1dsCx6vzVNd1ewdUIXG9q6l6Jj+myHiC5xrmCax70AKJdNEKJV+BKlWIIX+JZB/wQeY8AZTEEw0UrejD5Ur/Jzd1lHBsHL8xNlc2LHuWhRt3zS3tFT3J0UkcmUZ/DDE/QxSgUXdCCE2CrZgGHpovBv8TATDMaDyUPQ7ZOuJYnrZgVxg5zfGILVQsR0WvWjbbuKPTBZN7dtxRnx0BZrJitxk+V6hi9yL3KoF4e4aPHL2ENfNer3ylufzL/PRXlXllY820STlvAvRL/Pjgcfo3DAiSo8p4pTPopsoTwOlJmDpXPHN0w5hBWTKpGKu6IsYsBNSnWVIEtTe/xgJiFKSKyVkxjMV1Rc5tqjS2JYp2or6PoSOXM00uXjDtTJ0fU9tOi9evh4nbNYCgZN/gtw09YBVpr1n4u7CgrJ7auEzHsBNHmSUaLuBzcyCi9IqnvH0Wgm5yiueC8ilyv0+38vrJVwsS7MBka1K8tS4Fq7VZBjqcvYU5wih/TP4Cn3+sZ0nCzL6/DNdP3cP9fjtnGyju9gj9ITLdNs99U7sysk1u2gEq9CVlG
+Fri Jun  2 19:10:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:10:57 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:01 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:05 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: sending renew to 172.16.0.1
+Fri Jun  2 19:11:06 2023 daemon.notice netifd: up0v0 (30278): udhcpc: lease of 172.16.222.41 obtained, lease time 600
+Fri Jun  2 19:11:12 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:12 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:12 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:12 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:17 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:17 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:31 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:37 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:37 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:47 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:54 2023 daemon.info dnsmasq-dhcp[26013]: DHCPREQUEST(down1v0) 192.168.36.129 04:f0:21:34:eb:b3
+Fri Jun  2 19:11:54 2023 daemon.info dnsmasq-dhcp[26013]: DHCPNAK(down1v0) 192.168.36.129 04:f0:21:34:eb:b3 no leases left
+Fri Jun  2 19:11:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:11:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:11:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:11:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:11:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 19:11:58 2023 daemon.info dnsmasq-dhcp[26013]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 19:11:59 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJy9V9tyozgQ/Rftvi2x1boh+IH9iFTKJYOIqcHACkhmKuV/325BEuPYqZnazOIH0K37dJ+jlvzCpqkuWQ7G6lQYaWXCBh9q17CccXwK4GAtCIb9oxs9y1/Y1NYjvY/+2IUf9DV2I61Q0oBNQZqEVcHjXKEBMi0zkbDCFQdfxi6upFUJ209V5QP1WavxEaeENV3hmrE++gWSlGggYVM/96U2NZpmOVx1zzdCpFrJhG/ASJ2m+CGwndmHhI3+2PvgxingunulEqUf0EFwZd0N2PPCioNrW4+wCe/SoBFsKvEQQ/hn8m2BEd5rsDzRAvjD29Tdc12OBwTP0dn3Xd89+4CoEe0whSdPq3Byf8AP1jdurLpw3A5dsS14fDbPdVWzC6AKje1dS9Ex/TdDxGc41zBNYi9ACiXTRCiVfgSpViCF/iWQf8EHmPAOUxBMNFK3ow+VK/yc3dYRYcgcf+JsJnasuxa7tu8ztzRU90+KROTKMvhhiOsZpAJJRYLFRsEWDEMPjXeDn4VgOAZUHop+h2p9opheV6AW2OldMag+nNgOy7xo227ij0wWTe3bcUZ8dAWayYrcZPleoYvci9yqBeHuGjxy9hDHzXq88pbn8y/z0V5V5ZWPNtEk5bwL0S/z44HH6NwwIkqPKeKUz6KbKE8DpSYgda745mmFsAIyZVI9M/raDSAgxbRgN87e/xgJiFKSKyVwAy4qXfpxiyqdcc2NkXG+D6EjV/OssxaOlaHre9qm8+B58zjhZi0QOPknyE1TD8gyrT2RdhcVlN1zC5/pAG7qIKNE2w1sZhWcUat4Rkn4SCFXecVzAblUud/ne3mdwsWyNBsQ2YqS58a1cI2TYajL2VOsI4T2z+Ar9PnHdq4sqOjTz+z6effQHr+dk210F/cIfeEwvXbPvRO7cnLNLhpBFrqSku
+Fri Jun  2 19:12:02 2023 user.notice root: stop testcase: V0NH50WGB

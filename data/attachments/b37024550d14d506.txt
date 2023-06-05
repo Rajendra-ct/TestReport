@@ -1,0 +1,3 @@
+:~# /etc/init.d/maverick status
+active with no instances
+

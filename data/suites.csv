@@ -1,0 +1,37 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 02 18:04:16 UTC 2023","Fri Jun 02 18:37:12 UTC 2023","1975366","Client Scale Tests","WPA2 Personal Security","NAT Mode","","","Test for TCP Bidirectional 2.4 GHz and 5 GHz"," Client Scale Test NAT mode
+            pytest -m ""client_scale_tests and nat and wpa2_personal and dual_band and tcp_bidirectional""
+        "
+"passed","Fri Jun 02 15:48:05 UTC 2023","Fri Jun 02 16:06:08 UTC 2023","1082814","Client Scale Tests","WPA2 Personal Security","BRIDGE Mode","","","Test for UDP Download 2.4 GHz and 5 GHz"," Client Scale Test BRIDGE mode
+            pytest -m ""client_scale_tests and bridge and wpa2_personal and dual_band and udp_download""
+        "
+"passed","Fri Jun 02 16:06:25 UTC 2023","Fri Jun 02 16:24:27 UTC 2023","1082789","Client Scale Tests","WPA2 Personal Security","BRIDGE Mode","","","Test for TCP Bidirectional 2.4 GHz and 5 GHz"," Client Scale Test BRIDGE mode
+            pytest -m ""client_scale_tests and bridge and wpa2_personal and dual_band and tcp_bidirectional""
+        "
+"passed","Fri Jun 02 18:54:58 UTC 2023","Fri Jun 02 19:11:56 UTC 2023","1018749","Client Scale Tests","WPA2 Personal Security","NAT Mode","","","Test for TCP Upload 2.4 GHz and 5 GHz"," Client Scale Test NAT mode
+            pytest -m ""client_scale_tests and nat and wpa2_personal and dual_band and tcp_upload""
+        "
+"passed","Fri Jun 02 17:43:21 UTC 2023","Fri Jun 02 18:04:00 UTC 2023","1238928","Client Scale Tests","WPA2 Personal Security","NAT Mode","","","Test for UDP Download 2.4 GHz and 5 GHz"," Client Scale Test NAT mode
+            pytest -m ""client_scale_tests and nat and wpa2_personal and dual_band and udp_download""
+        "
+"passed","Fri Jun 02 17:22:15 UTC 2023","Fri Jun 02 17:43:04 UTC 2023","1249052","Client Scale Tests","WPA2 Personal Security","NAT Mode","","","Test for TCP Download 2.4 GHz and 5 GHz"," Client Scale Test NAT mode
+            pytest -m ""client_scale_tests and nat and wpa2_personal and dual_band and tcp_download""
+        "
+"passed","Fri Jun 02 19:12:13 UTC 2023","Fri Jun 02 19:29:10 UTC 2023","1017657","Client Scale Tests","WPA2 Personal Security","NAT Mode","","","Test for UDP Upload 2.4 GHz and 5 GHz"," Client Scale Test NAT mode
+            pytest -m ""client_scale_tests and nat and wpa2_personal and dual_band and udp_upload""
+        "
+"passed","Fri Jun 02 16:24:44 UTC 2023","Fri Jun 02 16:42:26 UTC 2023","1062613","Client Scale Tests","WPA2 Personal Security","BRIDGE Mode","","","Test for UDP Bidirectional 2.4 GHz and 5 GHz"," Client Scale Test BRIDGE mode
+            pytest -m ""client_scale_tests and bridge and wpa2_personal and dual_band and udp_bidirectional""
+        "
+"passed","Fri Jun 02 15:30:34 UTC 2023","Fri Jun 02 15:47:50 UTC 2023","1035275","Client Scale Tests","WPA2 Personal Security","BRIDGE Mode","","","Test for TCP Download 2.4 GHz and 5 GHz"," Client Scale Test BRIDGE mode
+            pytest -m ""client_scale_tests and bridge and wpa2_personal and dual_band and tcp_download""
+        "
+"passed","Fri Jun 02 17:00:50 UTC 2023","Fri Jun 02 17:18:56 UTC 2023","1086048","Client Scale Tests","WPA2 Personal Security","BRIDGE Mode","","","Test for UDP Upload 2.4 GHz and 5 GHz"," Client Scale Test BRIDGE mode
+            pytest -m ""client_scale_tests and bridge and wpa2_personal and dual_band and udp_upload""
+        "
+"passed","Fri Jun 02 18:37:26 UTC 2023","Fri Jun 02 18:54:41 UTC 2023","1035150","Client Scale Tests","WPA2 Personal Security","NAT Mode","","","Test for UDP Bidirectional 2.4 GHz and 5 GHz"," Client Scale Test NAT mode
+            pytest -m ""client_scale_tests and nat and wpa2_personal and dual_band and udp_bidirectional""
+        "
+"passed","Fri Jun 02 16:42:43 UTC 2023","Fri Jun 02 17:00:34 UTC 2023","1071672","Client Scale Tests","WPA2 Personal Security","BRIDGE Mode","","","Test for TCP Upload 2.4 GHz and 5 GHz"," Client Scale Test BRIDGE mode
+            pytest -m ""client_scale_tests and bridge and wpa2_personal and dual_band and tcp_upload""
+        "

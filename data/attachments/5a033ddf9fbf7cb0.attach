@@ -1,0 +1,612 @@
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:02:52:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:1d:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1d:53:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:1d:a5 IEEE 802.11: associated (aid 67)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1d:53:a8 IEEE 802.11: associated (aid 78)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:4a:1d:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:1d:a5 RADIUS: starting accounting session B45DAE22EC7F022D
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:1d:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:1d:53:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1d:53:a8 RADIUS: starting accounting session 60A617E525FC3B2D
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1d:53:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cf:d6:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cf:d6:b3 IEEE 802.11: associated (aid 79)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:ef:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:cf:d6:b3
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cf:d6:b3 RADIUS: starting accounting session 2EC3BC9A64CCC2CC
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cf:d6:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:ef:68 IEEE 802.11: associated (aid 68)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:84:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:17:03:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:70:ef:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:ef:68 RADIUS: starting accounting session B6FDFAEA82A3A837
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:ef:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:84:a8 IEEE 802.11: associated (aid 80)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:17:03:a5 IEEE 802.11: associated (aid 69)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:e6:84:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:84:a8 RADIUS: starting accounting session 861E53B217D7108A
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:84:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:17:03:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:17:03:a5 RADIUS: starting accounting session 02119A5235025E97
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:17:03:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2b:cd:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2b:cd:b3 IEEE 802.11: associated (aid 81)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:2b:cd:b3
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2b:cd:b3 RADIUS: starting accounting session 0E72A025F9290DAE
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2b:cd:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bb:f2:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bb:f2:68 IEEE 802.11: associated (aid 70)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:0b:43:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:47:ba:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:bb:f2:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bb:f2:68 RADIUS: starting accounting session 6234A4377A364B16
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bb:f2:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:0b:43:a8 IEEE 802.11: associated (aid 82)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:47:ba:a5 IEEE 802.11: associated (aid 71)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:0b:43:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:0b:43:a8 RADIUS: starting accounting session F3C5CF888B91A4AC
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:0b:43:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:47:ba:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:47:ba:a5 RADIUS: starting accounting session 48E13BF4905ED66E
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:47:ba:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:25:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:25:b3 IEEE 802.11: associated (aid 83)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:35:f1:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:58:25:b3
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:25:b3 RADIUS: starting accounting session EE9A72ABF4AFE85B
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:25:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:35:f1:68 IEEE 802.11: associated (aid 72)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:32:02:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:35:f1:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:35:f1:68 RADIUS: starting accounting session 09C6705D6D9A53AF
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:35:f1:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:db:69:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:32:02:a5 IEEE 802.11: associated (aid 73)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:db:69:a8 IEEE 802.11: associated (aid 84)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:db:69:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:db:69:a8 RADIUS: starting accounting session FB2D575B2F09DCC8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:db:69:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:32:02:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:32:02:a5 RADIUS: starting accounting session 0BFD5CB3252309EC
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:32:02:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ac:cf:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:14:10:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:01:38:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ac:cf:68 IEEE 802.11: associated (aid 74)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:14:10:a8 IEEE 802.11: associated (aid 85)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:01:38:a5 IEEE 802.11: associated (aid 75)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:ac:cf:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ac:cf:68 RADIUS: starting accounting session 2BAC9B6DA9210AD8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ac:cf:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:14:10:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:14:10:a8 RADIUS: starting accounting session 0A7E6BAAC023DE86
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:14:10:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:01:38:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:01:38:a5 RADIUS: starting accounting session 37A52E7F75680519
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:01:38:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:55:4f:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:70:92:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:55:4f:68 IEEE 802.11: associated (aid 76)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:36:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:70:92:a8 IEEE 802.11: associated (aid 86)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:55:4f:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:55:4f:68 RADIUS: starting accounting session 347D8509A3CB9C7B
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:55:4f:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:36:a5 IEEE 802.11: associated (aid 77)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:70:92:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:70:92:a8 RADIUS: starting accounting session 3A73D21C19F6F47B
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:70:92:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:8c:36:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:36:a5 RADIUS: starting accounting session 7AF1713F39662A15
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:36:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:48:6d:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:48:6d:a8 IEEE 802.11: associated (aid 87)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:93:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:05:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:93:a5 IEEE 802.11: associated (aid 78)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:48:6d:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:48:6d:a8 RADIUS: starting accounting session F9D4E4CFC8BE1E88
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:48:6d:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:05:68 IEEE 802.11: associated (aid 79)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:c0:93:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:93:a5 RADIUS: starting accounting session 7022A344502EC2B1
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:93:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:8e:05:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:05:68 RADIUS: starting accounting session 72F170F2503BE674
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:05:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:7b:8f:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4c:d6:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:7b:8f:a8 IEEE 802.11: associated (aid 88)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:f2:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4c:d6:68 IEEE 802.11: associated (aid 80)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:f2:a5 IEEE 802.11: associated (aid 81)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:7b:8f:a8
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:7b:8f:a8 RADIUS: starting accounting session D00C7D9AF06917AE
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan1: STA 04:f0:21:7b:8f:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:4c:d6:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4c:d6:68 RADIUS: starting accounting session AE7F6ACECBA3D195
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4c:d6:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:4a:f2:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:f2:a5 RADIUS: starting accounting session 2FB44546B7EE06A2
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:4a:f2:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:0c:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:60:28:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:0c:68 IEEE 802.11: associated (aid 82)
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:60:28:a5 IEEE 802.11: associated (aid 83)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:69:0c:68
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:0c:68 RADIUS: starting accounting session B11B0EE21E6DE775
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:0c:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:36 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:60:28:a5
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:60:28:a5 RADIUS: starting accounting session 6CF9A1C3076CD4E3
+Fri Jun  2 17:13:36 2023 daemon.info hostapd: wlan0: STA 04:f0:21:60:28:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:6a:15:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f1:b5:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:6a:15:68 IEEE 802.11: associated (aid 84)
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f1:b5:a5 IEEE 802.11: associated (aid 85)
+Fri Jun  2 17:13:37 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:6a:15:68
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:6a:15:68 RADIUS: starting accounting session 6B8297460740D4F4
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:6a:15:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:37 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:f1:b5:a5
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f1:b5:a5 RADIUS: starting accounting session C1ECC886EF70423C
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f1:b5:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e8:d9:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e8:d9:68 IEEE 802.11: associated (aid 86)
+Fri Jun  2 17:13:37 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:e8:d9:68
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e8:d9:68 RADIUS: starting accounting session A0F0DAEAE30EE456
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e8:d9:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:90:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:90:68 IEEE 802.11: associated (aid 87)
+Fri Jun  2 17:13:37 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:69:90:68
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:90:68 RADIUS: starting accounting session 442503DE05687D15
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:69:90:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:cb:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:cb:68 IEEE 802.11: associated (aid 88)
+Fri Jun  2 17:13:37 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:bd:cb:68
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:cb:68 RADIUS: starting accounting session 4ED282477C827C40
+Fri Jun  2 17:13:37 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:cb:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f8:f1:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f8:f1:b3 IEEE 802.11: associated (aid 89)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:f8:f1:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f8:f1:b3 RADIUS: starting accounting session F5436E27A081FC7C
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f8:f1:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ab:d0:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ab:d0:b3 IEEE 802.11: associated (aid 90)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:ab:d0:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ab:d0:b3 RADIUS: starting accounting session 024C0B1E7A238EA9
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ab:d0:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a6:7b:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a6:7b:a8 IEEE 802.11: associated (aid 91)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f2:c1:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:a6:7b:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a6:7b:a8 RADIUS: starting accounting session EAD994D8BBC46FDA
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a6:7b:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f2:c1:b3 IEEE 802.11: associated (aid 92)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:f2:c1:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f2:c1:b3 RADIUS: starting accounting session 6CC648441B3F4914
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f2:c1:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:9c:f6:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:9c:f6:a8 IEEE 802.11: associated (aid 93)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:5b:4b:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:9c:f6:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:9c:f6:a8 RADIUS: starting accounting session 7467A7F4797F4AC9
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:9c:f6:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:5b:4b:b3 IEEE 802.11: associated (aid 94)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:5b:4b:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:5b:4b:b3 RADIUS: starting accounting session D0686ACD8E0E5D3D
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:5b:4b:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:16:66:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:16:66:a8 IEEE 802.11: associated (aid 95)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:16:66:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:16:66:a8 RADIUS: starting accounting session 4310491AF2A828AB
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:16:66:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:3e:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:3e:b3 IEEE 802.11: associated (aid 96)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:e6:3e:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:3e:b3 RADIUS: starting accounting session 3714293C5CD8B762
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e6:3e:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cb:38:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cb:38:a8 IEEE 802.11: associated (aid 97)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:cb:38:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cb:38:a8 RADIUS: starting accounting session 3439320EB53E8E52
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cb:38:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:09:a4:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:09:a4:b3 IEEE 802.11: associated (aid 98)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:48:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:09:a4:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:09:a4:b3 RADIUS: starting accounting session 77596761CBB85B75
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:09:a4:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:48:a8 IEEE 802.11: associated (aid 99)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:48:a8 IEEE 802.11: associated (aid 99)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e1:53:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-POSSIBLE-PSK-MISMATCH 04:f0:21:26:48:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e1:53:b3 IEEE 802.11: associated (aid 100)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:e1:53:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e1:53:b3 RADIUS: starting accounting session A0161882C70FFF46
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e1:53:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f3:c8:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f3:c8:a5 IEEE 802.11: associated (aid 89)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:f3:c8:a5
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f3:c8:a5 RADIUS: starting accounting session 4973EED8587577B6
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f3:c8:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:35:09:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:35:09:b3 IEEE 802.11: associated (aid 101)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:35:09:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:35:09:b3 RADIUS: starting accounting session 58A83D39FF42967B
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:35:09:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:78:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:78:a5 IEEE 802.11: associated (aid 90)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:70:78:a5
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:78:a5 RADIUS: starting accounting session CF3BB69CACC512B7
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:70:78:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e9:d1:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:72:7f:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e9:d1:b3 IEEE 802.11: associated (aid 102)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:72:7f:68 IEEE 802.11: associated (aid 91)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:26:48:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:48:a8 RADIUS: starting accounting session 263ED74FE3FB252D
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:48:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:e9:d1:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e9:d1:b3 RADIUS: starting accounting session C1118CE9ED4E6474
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e9:d1:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:72:7f:68
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:72:7f:68 RADIUS: starting accounting session 5A7145087B0CCADB
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:72:7f:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:40:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:be:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:b1:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:20:43:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:40:a5 IEEE 802.11: associated (aid 92)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:be:a8 IEEE 802.11: associated (aid 103)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:b1:b3 IEEE 802.11: associated (aid 104)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:20:43:68 IEEE 802.11: associated (aid 93)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:c7:be:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:be:a8 RADIUS: starting accounting session 0EB93AA4F8FFA38E
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:be:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:c0:40:a5
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:40:a5 RADIUS: starting accounting session C429E1A724E4FFCA
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:c0:40:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:20:43:68
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:20:43:68 RADIUS: starting accounting session 8F89158FBF45C5C9
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:20:43:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:c7:b1:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:b1:b3 RADIUS: starting accounting session 55474BDB90165D7F
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:c7:b1:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d1:04:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:25:b2:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d1:04:a8 IEEE 802.11: associated (aid 105)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d1:04:a8 IEEE 802.11: associated (aid 105)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2f:c8:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2f:c8:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:25:b2:a5 IEEE 802.11: associated (aid 94)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-POSSIBLE-PSK-MISMATCH 04:f0:21:d1:04:a8
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2f:c8:b3 IEEE 802.11: associated (aid 106)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:25:b2:a5
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:25:b2:a5 RADIUS: starting accounting session 6A9BEE6718EA448D
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:25:b2:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:2f:c8:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2f:c8:b3 RADIUS: starting accounting session E8B5A9EC4163CF89
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:2f:c8:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f5:d9:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:3a:49:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:3a:49:b3 IEEE 802.11: associated (aid 107)
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f5:d9:a5 IEEE 802.11: associated (aid 95)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:3a:49:b3
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:3a:49:b3 RADIUS: starting accounting session 3F122B95985078AC
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan1: STA 04:f0:21:3a:49:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:41 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:f5:d9:a5
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f5:d9:a5 RADIUS: starting accounting session A8D1253168E7EAC5
+Fri Jun  2 17:13:41 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f5:d9:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:13:41:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:13:41:a5 IEEE 802.11: associated (aid 96)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:d1:04:a8
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d1:04:a8 RADIUS: starting accounting session F8F73D0DDE8C0A1F
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d1:04:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:13:41:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:13:41:a5 RADIUS: starting accounting session DED68C219DF45F15
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:13:41:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:76:ef:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f6:2a:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:76:ef:a8 IEEE 802.11: associated (aid 108)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:76:ef:a8
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:76:ef:a8 RADIUS: starting accounting session 3492AB0B34F4326D
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:76:ef:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f6:2a:a5 IEEE 802.11: associated (aid 97)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:f6:2a:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f6:2a:a5 RADIUS: starting accounting session 105A4F38F0BC8C68
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:f6:2a:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:5e:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:45:3f:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:5e:a8 IEEE 802.11: associated (aid 109)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:45:3f:a5 IEEE 802.11: associated (aid 98)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:58:5e:a8
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:5e:a8 RADIUS: starting accounting session 33408D01EA430007
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:58:5e:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:45:3f:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:45:3f:a5 RADIUS: starting accounting session 6DAC19E7EE0B4A88
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:45:3f:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:75:63:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:75:63:a8 IEEE 802.11: associated (aid 110)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:75:63:a8
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:75:63:a8 RADIUS: starting accounting session 95E4D4BFAC9A6C32
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:75:63:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:78:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:78:a5 IEEE 802.11: associated (aid 99)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:e5:78:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:78:a5 RADIUS: starting accounting session 5AEE73077CCE1F16
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:78:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a2:51:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a2:51:a8 IEEE 802.11: associated (aid 111)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:a2:51:a8
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a2:51:a8 RADIUS: starting accounting session 8DFD716FA9058486
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a2:51:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:42:e6:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:42:e6:a5 IEEE 802.11: associated (aid 100)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:42:e6:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:42:e6:a5 RADIUS: starting accounting session 27CDE397E89E4FEC
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:42:e6:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:fe:8b:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:fe:8b:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:fe:8b:a8 IEEE 802.11: associated (aid 112)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:fe:8b:a8
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:fe:8b:a8 RADIUS: starting accounting session C4A3DD335616EF13
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan1: STA 04:f0:21:fe:8b:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:ce:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:ce:a5 IEEE 802.11: associated (aid 101)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:b0:ce:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:ce:a5 RADIUS: starting accounting session 67FDDC1840E47681
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:ce:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:cf:52:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:cf:52:a5 IEEE 802.11: associated (aid 102)
+Fri Jun  2 17:13:42 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:cf:52:a5
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:cf:52:a5 RADIUS: starting accounting session 2A42088AEF40D8DA
+Fri Jun  2 17:13:42 2023 daemon.info hostapd: wlan0: STA 04:f0:21:cf:52:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4c:31:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4c:31:b3 IEEE 802.11: associated (aid 113)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cc:b6:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:4c:31:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4c:31:b3 RADIUS: starting accounting session 06A3DCAB10B1D4B1
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4c:31:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cc:b6:a8 IEEE 802.11: associated (aid 114)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:cc:b6:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cc:b6:a8 RADIUS: starting accounting session FB32276E44BD2A7E
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:cc:b6:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:08:47:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:08:47:b3 IEEE 802.11: associated (aid 115)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:08:47:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:08:47:b3 RADIUS: starting accounting session 9AAF37987C467576
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:08:47:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:61:3e:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:61:3e:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:61:3e:a8 IEEE 802.11: associated (aid 116)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:61:3e:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:61:3e:a8 RADIUS: starting accounting session A4F8F9E31E846378
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:61:3e:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:eb:01:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:eb:01:b3 IEEE 802.11: associated (aid 117)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:eb:01:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:eb:01:b3 RADIUS: starting accounting session 8117616C27C23834
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:eb:01:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ac:f0:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ac:f0:a8 IEEE 802.11: associated (aid 118)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:ac:f0:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ac:f0:a8 RADIUS: starting accounting session 842E33C8161A2037
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:ac:f0:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:39:26:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:39:26:b3 IEEE 802.11: associated (aid 119)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:39:26:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:39:26:b3 RADIUS: starting accounting session 26145295AD17CC9B
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:39:26:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:49:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:49:a8 IEEE 802.11: associated (aid 120)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:26:49:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:49:a8 RADIUS: starting accounting session A6C7011D299AB6A3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:26:49:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4b:e5:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4b:e5:b3 IEEE 802.11: associated (aid 121)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:1e:72:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:4b:e5:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4b:e5:b3 RADIUS: starting accounting session 67CD0CAC0845441A
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4b:e5:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:1e:72:a5 IEEE 802.11: associated (aid 103)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:1e:72:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:1e:72:a5 RADIUS: starting accounting session 7441788089D69298
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:1e:72:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e8:26:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e8:26:a8 IEEE 802.11: associated (aid 122)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f7:3e:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:e8:26:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e8:26:a8 RADIUS: starting accounting session 27300CC4936F43C8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:e8:26:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f7:3e:b3 IEEE 802.11: associated (aid 123)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:f7:3e:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f7:3e:b3 RADIUS: starting accounting session 3B56FAD4F1861E13
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:f7:3e:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:66:c3:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d4:00:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:66:c3:a5 IEEE 802.11: associated (aid 104)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d4:00:a8 IEEE 802.11: associated (aid 124)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:66:c3:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:66:c3:a5 RADIUS: starting accounting session D3F6D4B43BE5F8DA
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:66:c3:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:d4:00:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d4:00:a8 RADIUS: starting accounting session 307D961F3CCFB081
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:d4:00:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a7:53:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a7:53:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a7:53:b3 IEEE 802.11: associated (aid 125)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:a7:53:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a7:53:b3 RADIUS: starting accounting session 25856EC3D4F5467E
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:a7:53:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:91:5a:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a1:ae:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:8c:a1:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:8c:a1:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:91:5a:a5 IEEE 802.11: associated (aid 105)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a1:ae:68 IEEE 802.11: associated (aid 106)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:8c:a1:a8 IEEE 802.11: associated (aid 126)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:91:5a:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:91:5a:a5 RADIUS: starting accounting session FA028D6F3576B5AF
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:91:5a:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1b:1d:b3 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:a1:ae:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a1:ae:68 RADIUS: starting accounting session 897C6123E00D4F7D
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a1:ae:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:8c:a1:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:8c:a1:a8 RADIUS: starting accounting session 343C8A8761140493
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:8c:a1:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1b:1d:b3 IEEE 802.11: associated (aid 127)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:1b:1d:b3
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1b:1d:b3 RADIUS: starting accounting session AD3636B7932FCC55
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:1b:1d:b3 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4a:a9:a8 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8d:61:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:7a:9b:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4a:a9:a8 IEEE 802.11: associated (aid 128)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8d:61:a5 IEEE 802.11: associated (aid 107)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:7a:9b:68 IEEE 802.11: associated (aid 108)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 04:f0:21:4a:a9:a8
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4a:a9:a8 RADIUS: starting accounting session 1E356D62495193C1
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan1: STA 04:f0:21:4a:a9:a8 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:8d:61:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8d:61:a5 RADIUS: starting accounting session D76191F930D07D8E
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8d:61:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:7a:9b:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:7a:9b:68 RADIUS: starting accounting session 96DF48C7F8BE8124
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:7a:9b:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:50:37:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ad:fd:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:50:37:68 IEEE 802.11: associated (aid 109)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ad:fd:a5 IEEE 802.11: associated (aid 110)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:50:37:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:50:37:68 RADIUS: starting accounting session 9939838171AAF0C6
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:50:37:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:ad:fd:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ad:fd:a5 RADIUS: starting accounting session 9A94BB0D3BA82F9D
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:ad:fd:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:86:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:86:68 IEEE 802.11: associated (aid 111)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:da:6e:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:8e:86:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:86:68 RADIUS: starting accounting session 549591AD7246B5B1
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8e:86:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:da:6e:a5 IEEE 802.11: associated (aid 112)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:da:6e:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:da:6e:a5 RADIUS: starting accounting session 3519A797BFD7CF89
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:da:6e:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:29:3c:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:29:3c:68 IEEE 802.11: associated (aid 113)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:29:3c:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:29:3c:68 RADIUS: starting accounting session 3C4C12DEBB77A78B
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:29:3c:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:3e:00:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:3e:00:a5 IEEE 802.11: associated (aid 114)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:3e:00:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:3e:00:a5 RADIUS: starting accounting session DE982EA30B6BDC68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:3e:00:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:56:7e:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:63:68:a5 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:56:7e:68 IEEE 802.11: associated (aid 115)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:63:68:a5 IEEE 802.11: associated (aid 116)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:56:7e:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:56:7e:68 RADIUS: starting accounting session E51AAAB529E3161B
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:56:7e:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:63:68:a5
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:63:68:a5 RADIUS: starting accounting session 6D25E5CBC3E77FB0
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:63:68:a5 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:e5:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:e5:68 IEEE 802.11: associated (aid 117)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:8c:e5:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:e5:68 RADIUS: starting accounting session EE3DE2AB7E35E5A9
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:8c:e5:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:83:d9:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:83:d9:68 IEEE 802.11: associated (aid 118)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:83:d9:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:83:d9:68 RADIUS: starting accounting session FCA8112F47F58356
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:83:d9:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:ec:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:ec:68 IEEE 802.11: associated (aid 119)
+Fri Jun  2 17:13:46 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:bd:ec:68
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:ec:68 RADIUS: starting accounting session CBF6148C4ACEEB87
+Fri Jun  2 17:13:46 2023 daemon.info hostapd: wlan0: STA 04:f0:21:bd:ec:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:29:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:29:68 IEEE 802.11: associated (aid 120)
+Fri Jun  2 17:13:47 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:e5:29:68
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:29:68 RADIUS: starting accounting session 6A54B2B3709EED44
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:e5:29:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:cf:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:cf:68 IEEE 802.11: associated (aid 121)
+Fri Jun  2 17:13:47 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:03:cf:68
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:cf:68 RADIUS: starting accounting session CE285AFB3E4F1DE8
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:cf:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:2b:5f:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:2b:5f:68 IEEE 802.11: associated (aid 122)
+Fri Jun  2 17:13:47 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:2b:5f:68
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:2b:5f:68 RADIUS: starting accounting session 0C85EC0D998927CA
+Fri Jun  2 17:13:47 2023 daemon.info hostapd: wlan0: STA 04:f0:21:2b:5f:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:48 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJztXe1SI7mSfRfu/tu+bin1rRfYh5iY6CiXy3eIpYEFevremJh331QZGktVLmUlBRjjno5pMLZQ6ejkt1J/Xfz4cbm5iNJ642SwHr5c3Hd3l83VRbwQ+KeVQnov4QJff2geuov418WP68uH9O/37vvN3X/SVw83D+kTWlnpnVT2y8X2rsP3ghLaKQf+y0XbtH90+JvASPDBii8X6x/bbXeXXvPe4B/4+8vF1U3bXD1cfu8epwRWpA//uN295qR1Or2rwU/9JlZW4qTdF7EyXhlh8AsLUgr1+5eLh+77bXfXPPy4w8/9pt0X7X/HX3DXbC5v7vGVvy7aP5rr6w6nLRU+9eN36Ufpe6n87/1T/N+P7rrFh/zNWJy0sUH8/uvN335ebh7+wPnj0zz8+9vtzc/uDp8QZ3j/4+7PLn0K33z7B35xcXvVPGxv7r5/vb9pv7ai/7P6ebm9vCjmqvHj6+Y6PeCF+Z8LnPTeVF02UfclFJMEreELaAPDSep8kmbWJP9bDqYJz9OENE0c5PL6obvbNm23W+DrJmGG4Ik/xcUO24fLm2t86evzO7+mH13e/qnTPmo2m7vu/r7//IV0sJJ2BQArLb9Ke4G/4apr7rvdXrACH2jzR3v7DTfsn+mZnj4hVvLi7+dNY0EoXNPN9f3jO/vR/ar/Lw3aXl121w+7OX9vWhwotNGGuNb4S2IH0evHOX4bm2D6db/3P7f5z7edF3H3X+j68bbbuO36MXHItOo3d/3vvege/hD98zX3DzjLDhdJJOB30xE6bkUEGZWPaxUbMzUd43HJTDb6z6vmWux2UjFgGtNE66cGtGYld6tPGNBBXLeVGfYDBuKAXYhCUgb0xAE3TVSa8MggiQM2m2i6ygylX0lNHM9s43pDmaAjDihMWsX6EgIVEwlRU3YNeRs6FzdAGZ
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:6c:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:6c:68 IEEE 802.11: associated (aid 123)
+Fri Jun  2 17:13:51 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:03:6c:68
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:6c:68 RADIUS: starting accounting session E993C26F6C2688F1
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:03:6c:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:d3:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:d3:68 IEEE 802.11: associated (aid 124)
+Fri Jun  2 17:13:51 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:b0:d3:68
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:d3:68 RADIUS: starting accounting session B7AD618DD92E2D7B
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b0:d3:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a3:52:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a3:52:68 IEEE 802.11: associated (aid 125)
+Fri Jun  2 17:13:51 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:a3:52:68
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a3:52:68 RADIUS: starting accounting session 8E170D0CBDA0B7BE
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:a3:52:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:82:ce:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:82:ce:68 IEEE 802.11: associated (aid 126)
+Fri Jun  2 17:13:51 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:82:ce:68
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:82:ce:68 RADIUS: starting accounting session 1AF3031BDA69FB96
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:82:ce:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b2:fd:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b2:fd:68 IEEE 802.11: associated (aid 127)
+Fri Jun  2 17:13:51 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:b2:fd:68
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b2:fd:68 RADIUS: starting accounting session 07C3248776A0FE94
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:b2:fd:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:61:24:68 IEEE 802.11: authenticated
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:61:24:68 IEEE 802.11: associated (aid 128)
+Fri Jun  2 17:13:51 2023 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 04:f0:21:61:24:68
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:61:24:68 RADIUS: starting accounting session 252C3328427AF91B
+Fri Jun  2 17:13:51 2023 daemon.info hostapd: wlan0: STA 04:f0:21:61:24:68 WPA: pairwise key handshake completed (RSN)
+Fri Jun  2 17:14:37 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:14:37 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:14:37 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:14:37 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:14:37 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:14:37 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:14:42 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 17:14:42 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 17:14:42 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685719682,"sanity":100,"data":{"unit":{"memory":47}}}}
+Fri Jun  2 17:14:49 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzlXely3DiSfhft/ltPGUjcfIF9iI4OB4vFmlasLGkluXsnJvrdN0FJdgFkAYkU3SqxPY5pWQcF8mNeX17/vvr27fpw1UnrjZPBevh09Tg+XPc3V92VwD+DFNJ7CVf4+af+abzq/n317fb6Kf736/j17uFf8aOnu6f4E1pZ6Z1U9tPV8WHE7wUIWtpgxaeroR9+G/E3gZFB64Dfsv92PI4P8XPeG/wDf366urkb+pun66/jy5HACu8/XX27f/6ck07p+F09/tQvYodfN05/EjsLwkoTP1DgAX79dPU0fr0fH/qnbw/4c79o/0mHX/EXPPSH67tH/My/r4bf+tvbEY8tFd71y7/il+K/pfK/Tnfxv9/G2wFv8hdj8TaMDeLX79/85Y/rw9NveH68v6f/+3J/98f4gHeIJ3z89vD7GH8Kv/n+N/zg6v6mfzrePXz9/Hg3fB7E9Gf3x/Xx+io7q8Yf3/e38QavzH9f4aFPjuqSg7pPITskaA2fQBuYH1KnhzRNh/wvOTsm/DgmxGPiRa5vn8aHYz+Mzw/4to+YIXjid3H1jO3T9d0tfurzj+/8HL90ff+7ju9Rfzg8jI+P089fSQc7aXcAsNPys7RX+Btuxv5xfH4XrMAbOvw23H/BF/b3eE+vPyF28urPHy8NvhsBn+nh9vHlO6er+930v3jR4eZ6vH16PvPXfsALhaGzodtr/CXdCJ3XL2f8snTA+Ot+nb5u068fRy+65/+Fcbre8dgdx+maeMn41O8ept97NT79Jqb76x+f8JQjPiQRgX8+jtDdUXQgO+W7vep6UzqO8fjITHL1P276W/H8JmUXjNc0nfWlC1qzk89Pn3BBB91+qJxwumAgXnAMnZCUC3riBQ99pzThlkESL9gfOjNWTij9Tmri9cyx2x8oB3TECwoTn2L9EQIVEw
+Fri Jun  2 17:15:49 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzlXWtyHDeSvgt3/62GAhLvusAeYsLh6OeYsRTFJSl7JyZ8900USamRqAKykkWz1eNxjCWKAtH1Vb4zv/zX1bdvN/urQfvogk4+wqerx8PDzeb2arhS+M9OKx2jhiv8+tPm6XA1/Ovq293NU/7vl8OXrw//zL96+vqU/4Y1Xsegjf90dXw44PcCJIg6JDx1t9n9dsCfBA6UD9F+utp+Ox4PD/lrMTr8B/78dHX7dbe5fbr5cni5Enht06erb/fPXwt4lsvftcG/9Xd17axNRn1S114Fa3T+BYRk0i+frp4OX+4PD5unbw/49/5uwycbfsEf8LDZ33x9xK/862r32+bu7oDX1ibf7/l3+Y/y77WJv4yf4n+/He52+CH/7rxXn5xP6pfv3/zrHzf7p9/w/gp/3v/9ev/1j8MDfkL8bI/fHn4/5L+F33z/G/7i6v5283T8+vDl8+PX3eedGv+5/uPmeHNF7mrzo9nc5Q945f77Ci99ctVQXDR8SuSSYC18AuugvqQtL+kWXfK/dHVN+HFNyNfEQ27ung4Px83u8PyA7zYZMwRP/a6unrF9uvl6h1/6/OM7P+c/urn/3eb3aLPfPxweH8e/f6UDXGt/DQDXVn/W/gp/wu1h83h4fhe8wg+0/213/yu+sL/nz/T6N9S1vvrzx0vjQTv8tPu7x5fvHE+P1+P/8qG725vD3dPznb9sdnhQ2g0+DVuLP2Q4wBDtyx1/nbpg/nG/jH/uyz8/HqIanv+XDuN5x+NwPIxn4pH5qX99GH/u1eHpNzV+vs3jE97ygA9JZeCfr6PscFQD6MHEYWuGjWtdx0V8ZK44/Y/bzZ16fpPIgflMN/jYOtC7a/389BkHBhi2u84NxwMT88BDGpTmHBiZB+43g7GMjwyaeeBmP7hD54Y6XmvLPM8dh+2ec8HAPF
+Fri Jun  2 17:16:45 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:16:45 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:16:45 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:16:45 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:16:45 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:16:45 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:16:50 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzlfelyHTeS9btw5t+oKSCx1wvMQzgcjru2GUMtQ1L2dHT43b9EkZQuElVAVrJolvi5HW2JokDcOpWZJ/d/X337dnO8GrSPLujkI3y4uj/d3exur4Yrhf8ctNIxarjCrz/sHk5Xw7+vvn2+ecj//XT69OXuX/lXD18e8t+wxusYtPEfrs53J/xegGSV9QFPPewOv5/wJ4ED5UO0H672387n013+WowO/4G/Plzdfjnsbh9uPp2ergQetPpw9e3r49eCjs7n79rh3/pFXesUg7Ef1LVNVtuIv3DRJzC/frh6OH36errbPXy7w7/3i/UfbPgVf8Dd7njz5R6/8u+rw++7z59PeG1t8v0ef5f/KP9em/jr+Cn+99vp8wE/5C/Oe/XB+aR+/f7Nv/15c3z4He+PV3z4v9++fvnzdIefED/b/be7P075b+E3f/0df3H19Xb3cP5y9+nj/ZfDx4Ma/7n+8+Z8c0XuavOj2X3OH/DK/fcVXvriqqG4aPiQyCXBWvgA1kF9SVte0i265H/p6prw45qQr4mH3Hx+ON2dd4fT4wP+vMuYIXjqD3X1iO3DzZfP+KWPP77zY/6jm69/2Pwe7Y7Hu9P9/fj3r3SAa+2vAeDa6o/aX+FPuD3t7k+P74JX+IGOvx++/oYv7B/5Mz3/DXwvrv768dJ4AI0vzfHz/dN3jqfH6/F/+dDD7c3p88PjnT/tDnhQOgw+DXuLP2Q4wRDt0x1/m7pg/nG/jn/uyz8/n6IaHv+XTuN55/NwPo1n4pH5qX+5G3/u1enhdzV+vt39A97yhA9JZeAfr6PscFYD6MHEYW+GnWtdx0V8ZK44/c/b3Wf1+CaRA/OZbvCxdaB31/rx6TMODDDsD50bjgcm5oGnNCjNOTAyDzzuBmMZHxk088DdcXCnzg11vNaWeZ47D/sj54
+Fri Jun  2 17:16:50 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 17:16:50 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 17:16:50 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685719682,"sanity":100,"data":{"unit":{"memory":47}}}}
+Fri Jun  2 17:17:42 2023 daemon.notice netifd: up0v0 (3644): udhcpc: sending renew to 172.16.0.1
+Fri Jun  2 17:17:42 2023 daemon.notice netifd: up0v0 (3644): udhcpc: lease of 172.16.222.41 obtained, lease time 600
+Fri Jun  2 17:17:50 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzlfety3EaS9btw999qqKqsO15gH8LhcPQFPWYsRWpJyt6JCb/7lwXeurIAVCIJmhA/j2MsUVSxGgd5P5n574sfP66OF5320QWdfIQvF/f93dXu+qK7UPjPQSsdo4YL/PrD7qG/6P598ePm6iH/91v/7fbuX/lXD7cP+W9Y43UM2vgvF6e7Hr8XIEWjvMMvHHaH33v8SeBA+RDtl4v9j9Opv8tfi9HhP/DXl4vr28Pu+uHqW/90JfAQ1JeLH98fv4ZX1D5/1w7/1i/qUgUNSX1RlxZv6QF/4axLKvz65eKh//a9v9s9/LjDv/eL9V9s+BV/wN3ueHV7j1/598Xh993NTY/X1gY/9dPv8h/l32sTfx0+xf/+6G8O+CF/cd6rL84n9evLN//259Xx4Xe8P17x4f9++377Z3+HnxA/2/2Puz/6/Lfwm7//jr+4+H69ezjd3n37en97+HpQwz+Xf16dri7IXS1eZr+7yR/wwv33BV767KqhuGj4ksglweJfB+ugvqQtL+kWXfK/9Nw1IV8TD7m6eejvTrtD//iAb3YZMwRP/aEuHrF9uLq9wS99ff3Or/mPrr7/YfN7tDse7/r7++HvX+gAl9pfAsCl1V+1v8CfcN3v7vvHd8Er/EDH3w/ff8MX9o/8mZ7/hrrUF3+9vjQeIOBLc7y5f/rO4fR4OfwvH3q4vupvHh7v/G13wIPSofOp21v8IV0PXbRPd/xt7IL5x/06/Lkv//zUR9U9/i/1w3mnU3fqhzPxyPzUb++Gn3vRP/yuhs+3u3/AW/b4kFQG/vE6ynYn1YHuTOz2ptu5ueu4iI/MFaf/eb27UY9vEjkwn+k6H+cO9O5SPz59xoEBuv2hccPhwMQ8sE+d0pwDI/PA464zlvGRQTMP3B071zduqOOltszz3KnbHzkXDMwDlctPsf
+Fri Jun  2 17:18:51 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"state","params":{"compress_64":"eJzlfely3shu9r0o+RcfuYHeeQO5iFNTU++aUUVeIskzSZ2ae//QlGS/DS4NQpRF6/O4xrYWqsmHAB7s/7r69u3meNVBSD5CDgk/XN2f7m52t1fdlaFfBzCQEuAVffxh93C66v519e3zzUP589Pp05e7/yt/e/jyUL7D2QApgg0frs53J/paxOwB6OIfrg67wx8n+kno0YSY3Ier/bfz+XRXPpaSp1/494er2y+H3e3DzafT05EwWAsfrr59ffwYHTHG8lU7+q5/mmuDzoH7YK4tBqDPmGsPBgP+9uHq4fTp6+lu9/Dtjr7vny58cPE3+gF3u+PNl3v6yL+uDn/sPn8+0bHB0l0//at8qvwbbPqtv4v/+Xb6fKCb/KcPwXzwIZvfvn/x73/dHB/+oPMb+nn/+/vXL3+d7ugO6d7uv939eSrfRV/89Q/6y9XX293D+cvdp4/3Xw4fD6b/df3Xzfnmip3V0WH2u8/lBq/8f17RoS+OGquDxg+ZHZKeB35A53F4SFcf0i865H/A3DGxHJMucvP54XR33h1Ojw/4865gRuCZP83VI7YPN18+04c+/vjKj+VTN1//dOU92h2Pd6f7+/77ryDiNYRrRLx28BHCFf2E29Pu/vT4LgRDN3T84/D1d3ph/yz39Pwd5hqu/v7x0gS0lp7b8fP901f2V0/X/X/loofbm9Pnh8czf9od6EL50IXc7R39kO6EXXJPZ/x97IDlx/3Wfz7Unz+fkuke/8un/nrnc3c+9dekS5an/uWu/7lXp4c/TH9/u/sHOuWJHpIpwD8ex7jubDqEzqZub7udnzuOT/TIfHX1v253n83jm8QuWK7pu5DmLhj8NTw+fcEFI3b7Q+OE/QWz8IKn3BmQXDAJL3jcddYJbhlBeMHdsfOnxgkhXYMTXs+fu/1RcsAovKDx5S
+Fri Jun  2 17:18:54 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:18:54 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:18:54 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:18:54 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:18:54 2023 daemon.info dnsmasq-dhcp[21713]: DHCPDISCOVER(down1v0) 00:00:c1:01:88:12
+Fri Jun  2 17:18:54 2023 daemon.info dnsmasq-dhcp[21713]: DHCPOFFER(down1v0) 192.168.27.132 00:00:c1:01:88:12
+Fri Jun  2 17:18:59 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 192.168.1.1
+Fri Jun  2 17:18:59 2023 daemon.info dnsprobe: attempting to probe dns - telecominfraproject.com 8.8.8.8
+Fri Jun  2 17:18:59 2023 daemon.debug ucentral: TX: {"jsonrpc":"2.0","method":"healthcheck","params":{"serial":"0000c1018812","uuid":1685719682,"sanity":100,"data":{"unit":{"memory":47}}}}
+Fri Jun  2 17:19:02 2023 user.notice root: stop testcase: DTSD6PED7
+Fri Jun  2 17:19:33 2023 user.notice root: start testcase: GFLCEMH62

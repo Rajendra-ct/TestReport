@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 2587,
+  "reportUrl" : "../2587/index.html",
+  "reportName" : "Telecominfraproject/wlan-testing manual pytest execution #2587",
+  "data" : {
+    "run" : 12,
+    "retry" : 0
+  }
+} ]

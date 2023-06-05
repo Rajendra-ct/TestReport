@@ -1,0 +1,407 @@
+2023-06-02 17:00:48 INFO Executing Command on AP: logger start testcase: DTSD6PED7
+2023-06-02 17:00:48 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 17:00:48 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 17:00:49 INFO Authentication (password) successful!
+2023-06-02 17:00:49 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 17:00:50 INFO Authentication (password) successful!
+2023-06-02 17:00:50 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger start testcase: DTSD6PED7" 
+2023-06-02 17:00:50 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger start testcase: DTSD6PED7" 
+2023-06-02 17:00:50 INFO Output for command: logger start testcase: DTSD6PED7
+2023-06-02 17:00:50 INFO Upstream data: 1.1.eth2
+2023-06-02 17:00:50 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 0 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:15 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 17:00:50 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 1 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:14 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 17:00:51 INFO Radio data: {'1.1.wiphy0': 64, '1.1.wiphy2': 64}
+2023-06-02 17:00:51 INFO creating dhcp-bridge scenario using raw lines
+2023-06-02 17:00:52 INFO Raw Lines type: custom
+2023-06-02 17:00:52 INFO Raw Lines: [['profile_link 1.1 upstream-dhcp 1 NA NA eth2,AUTO -1 NA'], ["profile_link 1.1 uplink-nat 1 'DUT: upstream LAN 10.28.2.1/24' NA eth1,eth2 -1 NA"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy0"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy2"]]
+2023-06-02 17:00:52 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:00:54 INFO Applying dhcp-bridge scenario
+2023-06-02 17:00:54 INFO Applying dhcp-bridge scenario
+2023-06-02 17:00:55 INFO Building scenario
+2023-06-02 17:00:55 INFO is-built: False 
+2023-06-02 17:00:55 INFO Waiting 0/300 for Chamber-View to be built.
+2023-06-02 17:00:57 INFO is-built: False 
+2023-06-02 17:00:57 INFO Waiting 1/300 for Chamber-View to be built.
+2023-06-02 17:00:58 INFO is-built: False 
+2023-06-02 17:00:58 INFO Waiting 2/300 for Chamber-View to be built.
+2023-06-02 17:01:00 INFO is-built: False 
+2023-06-02 17:01:00 INFO Waiting 3/300 for Chamber-View to be built.
+2023-06-02 17:01:01 INFO is-built: False 
+2023-06-02 17:01:01 INFO Waiting 4/300 for Chamber-View to be built.
+2023-06-02 17:01:03 INFO is-built: False 
+2023-06-02 17:01:03 INFO Waiting 5/300 for Chamber-View to be built.
+2023-06-02 17:01:04 INFO is-built: False 
+2023-06-02 17:01:04 INFO Waiting 6/300 for Chamber-View to be built.
+2023-06-02 17:01:06 INFO is-built: False 
+2023-06-02 17:01:06 INFO Waiting 7/300 for Chamber-View to be built.
+2023-06-02 17:01:07 INFO is-built: False 
+2023-06-02 17:01:07 INFO Waiting 8/300 for Chamber-View to be built.
+2023-06-02 17:01:09 INFO is-built: False 
+2023-06-02 17:01:09 INFO Waiting 9/300 for Chamber-View to be built.
+2023-06-02 17:01:11 INFO is-built: False 
+2023-06-02 17:01:11 INFO Waiting 10/300 for Chamber-View to be built.
+2023-06-02 17:01:12 INFO is-built: False 
+2023-06-02 17:01:12 INFO Waiting 11/300 for Chamber-View to be built.
+2023-06-02 17:01:13 INFO is-built: False 
+2023-06-02 17:01:13 INFO Waiting 12/300 for Chamber-View to be built.
+2023-06-02 17:01:15 INFO is-built: False 
+2023-06-02 17:01:15 INFO Waiting 13/300 for Chamber-View to be built.
+2023-06-02 17:01:16 INFO is-built: False 
+2023-06-02 17:01:16 INFO Waiting 14/300 for Chamber-View to be built.
+2023-06-02 17:01:18 INFO is-built: False 
+2023-06-02 17:01:18 INFO Waiting 15/300 for Chamber-View to be built.
+2023-06-02 17:01:19 INFO is-built: False 
+2023-06-02 17:01:19 INFO Waiting 16/300 for Chamber-View to be built.
+2023-06-02 17:01:21 INFO is-built: False 
+2023-06-02 17:01:21 INFO Waiting 17/300 for Chamber-View to be built.
+2023-06-02 17:01:22 INFO is-built: False 
+2023-06-02 17:01:22 INFO Waiting 18/300 for Chamber-View to be built.
+2023-06-02 17:01:23 INFO is-built: False 
+2023-06-02 17:01:23 INFO Waiting 19/300 for Chamber-View to be built.
+2023-06-02 17:01:25 INFO is-built: False 
+2023-06-02 17:01:25 INFO Waiting 20/300 for Chamber-View to be built.
+2023-06-02 17:01:26 INFO is-built: False 
+2023-06-02 17:01:26 INFO Waiting 21/300 for Chamber-View to be built.
+2023-06-02 17:01:27 INFO is-built: False 
+2023-06-02 17:01:27 INFO Waiting 22/300 for Chamber-View to be built.
+2023-06-02 17:01:29 INFO is-built: False 
+2023-06-02 17:01:29 INFO Waiting 23/300 for Chamber-View to be built.
+2023-06-02 17:01:30 INFO is-built: True 
+2023-06-02 17:01:31 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:01:33 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 10, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:01:48 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 0 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:15 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 17:01:48 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 1 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:14 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 17:01:48 INFO Radio data: {'1.1.wiphy1': 64, '1.1.wiphy3': 64}
+2023-06-02 17:01:49 INFO creating dhcp-bridge scenario using raw lines
+2023-06-02 17:01:50 INFO Raw Lines type: custom
+2023-06-02 17:01:50 INFO Raw Lines: [['profile_link 1.1 upstream-dhcp 1 NA NA eth2,AUTO -1 NA'], ["profile_link 1.1 uplink-nat 1 'DUT: upstream LAN 10.28.2.1/24' NA eth1,eth2 -1 NA"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy0"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy2"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-2' NA wiphy1"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-2' NA wiphy3"]]
+2023-06-02 17:01:50 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:01:52 INFO Applying dhcp-bridge scenario
+2023-06-02 17:01:53 INFO Applying dhcp-bridge scenario
+2023-06-02 17:01:53 INFO Building scenario
+2023-06-02 17:01:53 INFO is-built: False 
+2023-06-02 17:01:53 INFO Waiting 0/300 for Chamber-View to be built.
+2023-06-02 17:01:55 INFO is-built: False 
+2023-06-02 17:01:55 INFO Waiting 1/300 for Chamber-View to be built.
+2023-06-02 17:01:56 INFO is-built: False 
+2023-06-02 17:01:56 INFO Waiting 2/300 for Chamber-View to be built.
+2023-06-02 17:01:57 INFO is-built: False 
+2023-06-02 17:01:57 INFO Waiting 3/300 for Chamber-View to be built.
+2023-06-02 17:01:59 INFO is-built: False 
+2023-06-02 17:01:59 INFO Waiting 4/300 for Chamber-View to be built.
+2023-06-02 17:02:00 INFO is-built: False 
+2023-06-02 17:02:00 INFO Waiting 5/300 for Chamber-View to be built.
+2023-06-02 17:02:02 INFO is-built: False 
+2023-06-02 17:02:02 INFO Waiting 6/300 for Chamber-View to be built.
+2023-06-02 17:02:03 INFO is-built: False 
+2023-06-02 17:02:03 INFO Waiting 7/300 for Chamber-View to be built.
+2023-06-02 17:02:04 INFO is-built: False 
+2023-06-02 17:02:04 INFO Waiting 8/300 for Chamber-View to be built.
+2023-06-02 17:02:06 INFO is-built: False 
+2023-06-02 17:02:06 INFO Waiting 9/300 for Chamber-View to be built.
+2023-06-02 17:02:07 INFO is-built: False 
+2023-06-02 17:02:07 INFO Waiting 10/300 for Chamber-View to be built.
+2023-06-02 17:02:09 INFO is-built: True 
+2023-06-02 17:02:09 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:02:11 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:02:27 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 17:02:32 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:02:34 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 10, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 17:02:35 INFO adding -:sel_port-0: 1.1.eth2:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:35 INFO adding -:sel_port-1: 1.1.sta01000:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:35 INFO adding -:sel_port-2: 1.1.sta01001:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:35 INFO adding -:sel_port-3: 1.1.sta01002:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:36 INFO adding -:sel_port-4: 1.1.sta01003:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:36 INFO adding -:sel_port-5: 1.1.sta01004:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:36 INFO adding -:sel_port-6: 1.1.sta01005:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:36 INFO adding -:sel_port-7: 1.1.sta01006:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:36 INFO adding -:sel_port-8: 1.1.sta01007:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:37 INFO adding -:sel_port-9: 1.1.sta01008:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:37 INFO adding -:sel_port-10: 1.1.sta01009:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:37 INFO adding -:sel_port-11: 1.1.sta01010:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:37 INFO adding -:sel_port-12: 1.1.sta01011:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:37 INFO adding -:sel_port-13: 1.1.sta01012:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:38 INFO adding -:sel_port-14: 1.1.sta01013:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:38 INFO adding -:sel_port-15: 1.1.sta01014:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:38 INFO adding -:sel_port-16: 1.1.sta01015:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:38 INFO adding -:sel_port-17: 1.1.sta01016:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:39 INFO adding -:sel_port-18: 1.1.sta01017:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:39 INFO adding -:sel_port-19: 1.1.sta01018:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:39 INFO adding -:sel_port-20: 1.1.sta01019:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:39 INFO adding -:sel_port-21: 1.1.sta01020:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:39 INFO adding -:sel_port-22: 1.1.sta01021:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:40 INFO adding -:sel_port-23: 1.1.sta01022:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:40 INFO adding -:sel_port-24: 1.1.sta01023:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:40 INFO adding -:sel_port-25: 1.1.sta01024:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:40 INFO adding -:sel_port-26: 1.1.sta01025:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:40 INFO adding -:sel_port-27: 1.1.sta01026:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:41 INFO adding -:sel_port-28: 1.1.sta01027:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:41 INFO adding -:sel_port-29: 1.1.sta01028:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:41 INFO adding -:sel_port-30: 1.1.sta01029:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:41 INFO adding -:sel_port-31: 1.1.sta01030:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:42 INFO adding -:sel_port-32: 1.1.sta01031:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:42 INFO adding -:sel_port-33: 1.1.sta01032:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:42 INFO adding -:sel_port-34: 1.1.sta01033:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:42 INFO adding -:sel_port-35: 1.1.sta01034:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:42 INFO adding -:sel_port-36: 1.1.sta01035:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:43 INFO adding -:sel_port-37: 1.1.sta01036:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:43 INFO adding -:sel_port-38: 1.1.sta01037:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:43 INFO adding -:sel_port-39: 1.1.sta01038:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:43 INFO adding -:sel_port-40: 1.1.sta01039:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:44 INFO adding -:sel_port-41: 1.1.sta01040:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:44 INFO adding -:sel_port-42: 1.1.sta01041:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:44 INFO adding -:sel_port-43: 1.1.sta01042:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:44 INFO adding -:sel_port-44: 1.1.sta01043:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:44 INFO adding -:sel_port-45: 1.1.sta01044:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:45 INFO adding -:sel_port-46: 1.1.sta01045:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:45 INFO adding -:sel_port-47: 1.1.sta01046:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:45 INFO adding -:sel_port-48: 1.1.sta01047:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:45 INFO adding -:sel_port-49: 1.1.sta01048:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:45 INFO adding -:sel_port-50: 1.1.sta01049:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:46 INFO adding -:sel_port-51: 1.1.sta01050:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:46 INFO adding -:sel_port-52: 1.1.sta01051:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:46 INFO adding -:sel_port-53: 1.1.sta01052:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:46 INFO adding -:sel_port-54: 1.1.sta01053:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:46 INFO adding -:sel_port-55: 1.1.sta01054:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:47 INFO adding -:sel_port-56: 1.1.sta01055:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:47 INFO adding -:sel_port-57: 1.1.sta01056:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:47 INFO adding -:sel_port-58: 1.1.sta01057:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:47 INFO adding -:sel_port-59: 1.1.sta01058:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:47 INFO adding -:sel_port-60: 1.1.sta01059:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:48 INFO adding -:sel_port-61: 1.1.sta01060:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:48 INFO adding -:sel_port-62: 1.1.sta01061:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:48 INFO adding -:sel_port-63: 1.1.sta01062:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:48 INFO adding -:sel_port-64: 1.1.sta01063:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:49 INFO adding -:sel_port-65: 1.1.sta01500:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:49 INFO adding -:sel_port-66: 1.1.sta01501:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:49 INFO adding -:sel_port-67: 1.1.sta01502:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:49 INFO adding -:sel_port-68: 1.1.sta01503:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:49 INFO adding -:sel_port-69: 1.1.sta01504:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:50 INFO adding -:sel_port-70: 1.1.sta01505:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:50 INFO adding -:sel_port-71: 1.1.sta01506:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:50 INFO adding -:sel_port-72: 1.1.sta01507:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:50 INFO adding -:sel_port-73: 1.1.sta01508:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:50 INFO adding -:sel_port-74: 1.1.sta01509:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:51 INFO adding -:sel_port-75: 1.1.sta01510:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:51 INFO adding -:sel_port-76: 1.1.sta01511:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:51 INFO adding -:sel_port-77: 1.1.sta01512:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:51 INFO adding -:sel_port-78: 1.1.sta01513:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:51 INFO adding -:sel_port-79: 1.1.sta01514:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:52 INFO adding -:sel_port-80: 1.1.sta01515:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:52 INFO adding -:sel_port-81: 1.1.sta01516:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:52 INFO adding -:sel_port-82: 1.1.sta01517:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:52 INFO adding -:sel_port-83: 1.1.sta01518:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:53 INFO adding -:sel_port-84: 1.1.sta01519:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:53 INFO adding -:sel_port-85: 1.1.sta01520:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:53 INFO adding -:sel_port-86: 1.1.sta01521:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:53 INFO adding -:sel_port-87: 1.1.sta01522:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:53 INFO adding -:sel_port-88: 1.1.sta01523:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:54 INFO adding -:sel_port-89: 1.1.sta01524:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:54 INFO adding -:sel_port-90: 1.1.sta01525:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:54 INFO adding -:sel_port-91: 1.1.sta01526:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:54 INFO adding -:sel_port-92: 1.1.sta01527:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:54 INFO adding -:sel_port-93: 1.1.sta01528:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:55 INFO adding -:sel_port-94: 1.1.sta01529:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:55 INFO adding -:sel_port-95: 1.1.sta01530:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:55 INFO adding -:sel_port-96: 1.1.sta01531:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:55 INFO adding -:sel_port-97: 1.1.sta01532:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:55 INFO adding -:sel_port-98: 1.1.sta01533:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:56 INFO adding -:sel_port-99: 1.1.sta01534:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:56 INFO adding -:sel_port-100: 1.1.sta01535:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:56 INFO adding -:sel_port-101: 1.1.sta01536:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:56 INFO adding -:sel_port-102: 1.1.sta01537:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:56 INFO adding -:sel_port-103: 1.1.sta01538:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:57 INFO adding -:sel_port-104: 1.1.sta01539:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:57 INFO adding -:sel_port-105: 1.1.sta01540:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:57 INFO adding -:sel_port-106: 1.1.sta01541:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:57 INFO adding -:sel_port-107: 1.1.sta01542:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:57 INFO adding -:sel_port-108: 1.1.sta01543:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:58 INFO adding -:sel_port-109: 1.1.sta01544:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:58 INFO adding -:sel_port-110: 1.1.sta01545:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:58 INFO adding -:sel_port-111: 1.1.sta01546:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:58 INFO adding -:sel_port-112: 1.1.sta01547:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:59 INFO adding -:sel_port-113: 1.1.sta01548:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:59 INFO adding -:sel_port-114: 1.1.sta01549:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:59 INFO adding -:sel_port-115: 1.1.sta01550:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:59 INFO adding -:sel_port-116: 1.1.sta01551:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:02:59 INFO adding -:sel_port-117: 1.1.sta01552:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:00 INFO adding -:sel_port-118: 1.1.sta01553:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:00 INFO adding -:sel_port-119: 1.1.sta01554:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:00 INFO adding -:sel_port-120: 1.1.sta01555:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:00 INFO adding -:sel_port-121: 1.1.sta01556:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:00 INFO adding -:sel_port-122: 1.1.sta01557:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:01 INFO adding -:sel_port-123: 1.1.sta01558:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:01 INFO adding -:sel_port-124: 1.1.sta01559:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:01 INFO adding -:sel_port-125: 1.1.sta01560:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:01 INFO adding -:sel_port-126: 1.1.sta01561:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:01 INFO adding -:sel_port-127: 1.1.sta01562:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:02 INFO adding -:sel_port-128: 1.1.sta01563:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:02 INFO adding -:sel_port-129: 1.1.sta02000:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:02 INFO adding -:sel_port-130: 1.1.sta02001:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:02 INFO adding -:sel_port-131: 1.1.sta02002:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:02 INFO adding -:sel_port-132: 1.1.sta02003:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:03 INFO adding -:sel_port-133: 1.1.sta02004:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:03 INFO adding -:sel_port-134: 1.1.sta02005:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:03 INFO adding -:sel_port-135: 1.1.sta02006:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:03 INFO adding -:sel_port-136: 1.1.sta02007:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:04 INFO adding -:sel_port-137: 1.1.sta02008:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:04 INFO adding -:sel_port-138: 1.1.sta02009:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:04 INFO adding -:sel_port-139: 1.1.sta02010:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:04 INFO adding -:sel_port-140: 1.1.sta02011:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:04 INFO adding -:sel_port-141: 1.1.sta02012:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:05 INFO adding -:sel_port-142: 1.1.sta02013:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:05 INFO adding -:sel_port-143: 1.1.sta02014:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:05 INFO adding -:sel_port-144: 1.1.sta02015:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:05 INFO adding -:sel_port-145: 1.1.sta02016:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:05 INFO adding -:sel_port-146: 1.1.sta02017:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:06 INFO adding -:sel_port-147: 1.1.sta02018:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:06 INFO adding -:sel_port-148: 1.1.sta02019:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:06 INFO adding -:sel_port-149: 1.1.sta02020:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:06 INFO adding -:sel_port-150: 1.1.sta02021:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:06 INFO adding -:sel_port-151: 1.1.sta02022:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:07 INFO adding -:sel_port-152: 1.1.sta02023:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:07 INFO adding -:sel_port-153: 1.1.sta02024:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:07 INFO adding -:sel_port-154: 1.1.sta02025:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:07 INFO adding -:sel_port-155: 1.1.sta02026:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:07 INFO adding -:sel_port-156: 1.1.sta02027:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:08 INFO adding -:sel_port-157: 1.1.sta02028:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:08 INFO adding -:sel_port-158: 1.1.sta02029:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:08 INFO adding -:sel_port-159: 1.1.sta02030:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:08 INFO adding -:sel_port-160: 1.1.sta02031:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:09 INFO adding -:sel_port-161: 1.1.sta02032:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:09 INFO adding -:sel_port-162: 1.1.sta02033:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:09 INFO adding -:sel_port-163: 1.1.sta02034:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:09 INFO adding -:sel_port-164: 1.1.sta02035:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:09 INFO adding -:sel_port-165: 1.1.sta02036:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:10 INFO adding -:sel_port-166: 1.1.sta02037:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:10 INFO adding -:sel_port-167: 1.1.sta02038:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:10 INFO adding -:sel_port-168: 1.1.sta02039:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:10 INFO adding -:sel_port-169: 1.1.sta02040:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:10 INFO adding -:sel_port-170: 1.1.sta02041:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:11 INFO adding -:sel_port-171: 1.1.sta02042:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:11 INFO adding -:sel_port-172: 1.1.sta02043:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:11 INFO adding -:sel_port-173: 1.1.sta02044:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:11 INFO adding -:sel_port-174: 1.1.sta02045:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:11 INFO adding -:sel_port-175: 1.1.sta02046:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:12 INFO adding -:sel_port-176: 1.1.sta02047:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:12 INFO adding -:sel_port-177: 1.1.sta02048:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:12 INFO adding -:sel_port-178: 1.1.sta02049:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:12 INFO adding -:sel_port-179: 1.1.sta02050:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:12 INFO adding -:sel_port-180: 1.1.sta02051:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:13 INFO adding -:sel_port-181: 1.1.sta02052:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:13 INFO adding -:sel_port-182: 1.1.sta02053:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:13 INFO adding -:sel_port-183: 1.1.sta02054:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:13 INFO adding -:sel_port-184: 1.1.sta02055:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:14 INFO adding -:sel_port-185: 1.1.sta02056:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:14 INFO adding -:sel_port-186: 1.1.sta02057:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:14 INFO adding -:sel_port-187: 1.1.sta02058:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:14 INFO adding -:sel_port-188: 1.1.sta02059:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:14 INFO adding -:sel_port-189: 1.1.sta02060:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:15 INFO adding -:sel_port-190: 1.1.sta02061:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:15 INFO adding -:sel_port-191: 1.1.sta02062:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:15 INFO adding -:sel_port-192: 1.1.sta02063:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:15 INFO adding -:sel_port-193: 1.1.sta02500:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:15 INFO adding -:sel_port-194: 1.1.sta02501:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:16 INFO adding -:sel_port-195: 1.1.sta02502:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:16 INFO adding -:sel_port-196: 1.1.sta02503:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:16 INFO adding -:sel_port-197: 1.1.sta02504:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:16 INFO adding -:sel_port-198: 1.1.sta02505:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:16 INFO adding -:sel_port-199: 1.1.sta02506:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:17 INFO adding -:sel_port-200: 1.1.sta02507:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:17 INFO adding -:sel_port-201: 1.1.sta02508:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:17 INFO adding -:sel_port-202: 1.1.sta02509:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:17 INFO adding -:sel_port-203: 1.1.sta02510:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:17 INFO adding -:sel_port-204: 1.1.sta02511:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:18 INFO adding -:sel_port-205: 1.1.sta02512:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:18 INFO adding -:sel_port-206: 1.1.sta02513:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:18 INFO adding -:sel_port-207: 1.1.sta02514:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:18 INFO adding -:sel_port-208: 1.1.sta02515:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:19 INFO adding -:sel_port-209: 1.1.sta02516:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:19 INFO adding -:sel_port-210: 1.1.sta02517:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:19 INFO adding -:sel_port-211: 1.1.sta02518:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:19 INFO adding -:sel_port-212: 1.1.sta02519:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:19 INFO adding -:sel_port-213: 1.1.sta02520:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:20 INFO adding -:sel_port-214: 1.1.sta02521:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:20 INFO adding -:sel_port-215: 1.1.sta02522:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:20 INFO adding -:sel_port-216: 1.1.sta02523:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:20 INFO adding -:sel_port-217: 1.1.sta02524:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:20 INFO adding -:sel_port-218: 1.1.sta02525:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:21 INFO adding -:sel_port-219: 1.1.sta02526:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:21 INFO adding -:sel_port-220: 1.1.sta02527:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:21 INFO adding -:sel_port-221: 1.1.sta02528:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:21 INFO adding -:sel_port-222: 1.1.sta02529:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:21 INFO adding -:sel_port-223: 1.1.sta02530:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:22 INFO adding -:sel_port-224: 1.1.sta02531:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:22 INFO adding -:sel_port-225: 1.1.sta02532:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:22 INFO adding -:sel_port-226: 1.1.sta02533:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:22 INFO adding -:sel_port-227: 1.1.sta02534:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:22 INFO adding -:sel_port-228: 1.1.sta02535:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:23 INFO adding -:sel_port-229: 1.1.sta02536:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:23 INFO adding -:sel_port-230: 1.1.sta02537:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:23 INFO adding -:sel_port-231: 1.1.sta02538:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:23 INFO adding -:sel_port-232: 1.1.sta02539:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:24 INFO adding -:sel_port-233: 1.1.sta02540:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:24 INFO adding -:sel_port-234: 1.1.sta02541:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:24 INFO adding -:sel_port-235: 1.1.sta02542:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:24 INFO adding -:sel_port-236: 1.1.sta02543:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:24 INFO adding -:sel_port-237: 1.1.sta02544:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:25 INFO adding -:sel_port-238: 1.1.sta02545:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:25 INFO adding -:sel_port-239: 1.1.sta02546:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:25 INFO adding -:sel_port-240: 1.1.sta02547:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:25 INFO adding -:sel_port-241: 1.1.sta02548:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:25 INFO adding -:sel_port-242: 1.1.sta02549:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:26 INFO adding -:sel_port-243: 1.1.sta02550:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:26 INFO adding -:sel_port-244: 1.1.sta02551:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:26 INFO adding -:sel_port-245: 1.1.sta02552:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:26 INFO adding -:sel_port-246: 1.1.sta02553:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:26 INFO adding -:sel_port-247: 1.1.sta02554:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:27 INFO adding -:sel_port-248: 1.1.sta02555:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:27 INFO adding -:sel_port-249: 1.1.sta02556:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:27 INFO adding -:sel_port-250: 1.1.sta02557:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:27 INFO adding -:sel_port-251: 1.1.sta02558:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:27 INFO adding -:sel_port-252: 1.1.sta02559:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:28 INFO adding -:sel_port-253: 1.1.sta02560:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:28 INFO adding -:sel_port-254: 1.1.sta02561:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:28 INFO adding -:sel_port-255: 1.1.sta02562:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:28 INFO adding -:sel_port-256: 1.1.sta02563:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:29 INFO adding -:batch_size: 1,5,10,20,40,64,128,256:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:29 INFO adding -:loop_iter: 1:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:29 INFO adding -:protocol: UDP-IPv4:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:29 INFO adding -:duration: 60000:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:29 INFO adding -:ul_rate: 1Gbps:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:30 INFO adding -:dl_rate: 100Kbps:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:30 INFO adding -:save_csv: 1:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 17:03:36 INFO Running CV set command:cv set 'M12DZ3BY4WZT' 'DUT_NAME' '{'model': 'cig_wf188n', 'supported_bands': ['2G', '5G'], 'supported_modes': ['BRIDGE', 'NAT', 'VLAN'], 'wan_port': '1.1.eth2', 'lan_port': None, 'ssid': {}, 'mode': 'wifi6', 'identifier': '0000c1018812', 'method': 'serial', 'host_ip': '10.28.3.103', 'host_username': 'lanforge', 'host_password': 'pumpkin77', 'host_ssh_port': 22, 'serial_tty': '/dev/ttyAP1', 'firmware_version': 'next-latest'}'
+2023-06-02 17:03:36 INFO Running CV set command:cv click 'M12DZ3BY4WZT' 'Interleave Sort'
+2023-06-02 17:15:21 INFO "Report Location:::/home/lanforge/html-reports/wifi-capacity-2023-06-02-10-15-16"
+2023-06-02 17:15:21 INFO None
+2023-06-02 17:15:21 INFO /home/lanforge/html-reports/wifi-capacity-2023-06-02-10-15-16
+2023-06-02 17:15:21 INFO Pulling report to directory: ../reports/ from lanforge@10.28.3.28//home/lanforge/html-reports/wifi-capacity-2023-06-02-10-15-16
+2023-06-02 17:15:21 INFO Connected (version 2.0, client OpenSSH_8.0)
+2023-06-02 17:15:21 INFO Authentication (password) successful!
+2023-06-02 17:18:46 INFO is-built: True 
+2023-06-02 17:18:56 INFO report_name: wifi-capacity-2023-06-02-10-15-16/
+2023-06-02 17:18:56 INFO Entries['chart-19-print.png', 'chart-csv-16.csv', 'custom.css', 'chart-11.png', 'chart-18.png', 'chart-13-print.png', 'chart-csv-2.csv', 'chart-8-print.png', 'chart-csv-11.csv', 'csv-data', 'chart-11-print.png', 'chart-5.png', 'chart-19.png', 'chart-9.png', 'chart-csv-7.csv', 'chart-22.png', 'report_banner-1000x205.jpg', 'chart-6-print.png', 'chart-7-print.png', 'chart-6.png', 'index-print.html', 'kpi.csv', 'chart-15.png', 'chart-3.png', 'logo.png', 'chart-21-print.png', 'wifi-capacity-report-2023-06-02-10-03-37.pdf', 'chart-csv-15.csv', 'chart-9-print.png', 'chart-5-print.png', 'chart-7.png', 'chart-2-print.png', 'CandelaLogo2-90dpi-200x90-trans.png', 'chart-csv-18.csv', 'kpi-chart-1-print.png', 'chart-13.png', 'chart-21.png', 'kpi-chart-1.png', 'chart-17.png', 'chart-10-print.png', 'index.html', 'chart-csv-5.csv', 'chart-20-print.png', 'chart-csv-0.csv', 'chart-14.png', 'CenturyGothic.woff', 'wifi-cap-csv-data', 'chart-16.png', 'chart-12.png', 'chart-csv-4.csv', 'chart-0-print.png', 'chart-0.png', 'chart-csv-9.csv', 'chart-2.png', 'chart-17-print.png', 'chart-14-print.png', 'chart-23.png', 'chart-8.png', 'chart-3-print.png', 'chart-csv-3.csv', 'chart-csv-6.csv', 'canvil.ico', 'chart-18-print.png', 'chart-23-print.png', 'report.css', 'chart-csv-13.csv', 'chart-csv-17.csv', 'chart-22-print.png', 'chart-4-print.png', 'chart-csv-8.csv', 'chart-4.png', 'candela_swirl_small-72h.png', 'chart-csv-10.csv', 'chart-20.png', 'chart-csv-12.csv', 'chart-16-print.png', 'chart-12-print.png', 'chart-csv-19.csv', 'chart-15-print.png', 'chart-10.png', 'chart-csv-14.csv', 'chart-csv-1.csv']
+2023-06-02 17:18:56 INFO Numeric-score: [[0.10004], [250.55739], [250.65743], [0.101335], [549.650453], [549.751788], [0.103877], [685.459335], [685.563212], [0.107608], [683.879679], [683.987287], [0.110311], [694.628139], [694.73845], [0.11357], [671.516573], [671.630143], [0.113201], [545.827464], [545.940665], [0.146315], [456.873808], [457.020123], [256.0], [256.0], [0.0], [0.0]]
+2023-06-02 17:18:56 INFO Connected (version 2.0, client OpenSSH_8.0)
+2023-06-02 17:18:57 INFO Authentication (password) successful!
+2023-06-02 17:18:59 INFO Connected (version 2.0, client OpenSSH_8.0)
+2023-06-02 17:18:59 INFO Authentication (password) successful!
+2023-06-02 17:19:00 INFO Executing Command on AP: logger stop testcase: DTSD6PED7
+2023-06-02 17:19:00 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 17:19:00 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 17:19:01 INFO Authentication (password) successful!
+2023-06-02 17:19:01 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 17:19:02 INFO Authentication (password) successful!
+2023-06-02 17:19:02 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger stop testcase: DTSD6PED7" 
+2023-06-02 17:19:02 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger stop testcase: DTSD6PED7" 
+2023-06-02 17:19:02 INFO Output for command: logger stop testcase: DTSD6PED7
+
+2023-06-02 17:19:02 INFO Executing Command on AP: logread
+2023-06-02 17:19:02 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 17:19:02 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 17:19:03 INFO Authentication (password) successful!
+2023-06-02 17:19:03 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 17:19:04 INFO Authentication (password) successful!

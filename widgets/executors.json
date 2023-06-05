@@ -1,0 +1,9 @@
+[ {
+  "name" : "Github runner",
+  "type" : "github",
+  "buildOrder" : 2587,
+  "buildName" : "Telecominfraproject/wlan-testing manual pytest execution #2587",
+  "buildUrl" : "https://github.com/Telecominfraproject/wlan-testing/actions/runs/5157026536",
+  "reportName" : "Telecominfraproject/wlan-testing manual pytest execution #2587",
+  "reportUrl" : "../2587/index.html"
+} ]

@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: GET
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:27:25.016956
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1746450444, 'filename': 'restapi-cert.pem'}, {'expiresOn': 1746450444, 'filename': 'websocket-cert.pem'}, {'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owgw-5fc74c8f8f-qzwj4', 'os': 'Linux', 'processors': 4, 'start': 1685024552, 'uptime': 695092, 'version': '2.10.0(57) - 1ca7645'}

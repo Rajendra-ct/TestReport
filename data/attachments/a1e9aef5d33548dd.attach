@@ -1,0 +1,4 @@
+Sending Command: 
+TimeStamp: 2023-06-02 15:27:24.946009
+URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}

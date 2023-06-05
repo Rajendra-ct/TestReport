@@ -1,0 +1,7 @@
+Command Response: 
+Command Type: POST
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/oauth2
+Response Headers: 
+TimeStamp: 2023-06-02 15:27:24.907505
+Response Code: 200
+Response Body: {'access_token': '3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'aclTemplate': {'Delete': True, 'PortalLogin': True, 'Read': True, 'ReadWrite': True, 'ReadWriteCreate': True}, 'created': 1685719644, 'errorCode': 0, 'expires_in': 2592000, 'idle_timeout': 300, 'lastRefresh': 0, 'refresh_token': 'd6c1f5c630ebbe0f25220fd76eacce4fc6f879c1202ab6fea0ee56db43b3f4b7', 'token_type': 'Bearer', 'userMustChangePassword': False, 'username': 'tip@ucentral.com'}

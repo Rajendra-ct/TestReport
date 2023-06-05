@@ -1,0 +1,28 @@
+[ {
+  "values" : [ "https://sec-qa01.cicd.lab.wlan.tip.build:16001" ],
+  "name" : "Cloud-Controller-SDK-URL"
+}, {
+  "values" : [ "2.10.0(17) - bd5ae33" ],
+  "name" : "ow_fms-version"
+}, {
+  "values" : [ "2.10.0(57) - 1ca7645" ],
+  "name" : "ow_gw-version"
+}, {
+  "values" : [ "2.10.0(21) - 776ecab" ],
+  "name" : "ow_sec-version"
+}, {
+  "values" : [ "2.10.0(28) - 7b3de5d" ],
+  "name" : "ow_prov-version"
+}, {
+  "values" : [ "OpenWrt 21.02-SNAPSHOT r16399+164-c67509efd7 / TIP-v2.9.1-ce441c5" ],
+  "name" : "Firmware-Version_0000c1018812"
+}, {
+  "values" : [ "cig_wf188n" ],
+  "name" : "DUT-Model/s"
+}, {
+  "values" : [ "0000c1018812" ],
+  "name" : "Serial-Number/s"
+}, {
+  "values" : [ "2320a2a778176eb2622131ee0b9a005c697afd42" ],
+  "name" : "Tests.CommitId"
+} ]

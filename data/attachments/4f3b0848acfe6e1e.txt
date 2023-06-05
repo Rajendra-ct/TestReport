@@ -1,0 +1,1801 @@
+2023-06-02 15:26:18 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 15:26:23 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 15:26:28 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 15:26:33 INFO Profiles: None
+2023-06-02 15:26:33 INFO upstream_dhcp profile: Available
+2023-06-02 15:26:35 INFO Available Ports: ['1.1.eth0', '1.1.eth1', '1.1.eth2', '1.1.eth3']
+2023-06-02 15:26:35 INFO WAN Port is Available on LANforge Port Manager: 1.1.eth2
+2023-06-02 15:26:35 INFO Radio Information is Extracted
+2023-06-02 15:26:35 INFO Available Radios: ['1.1.wiphy0', '1.1.wiphy1', '1.1.wiphy2', '1.1.wiphy3', '1.1.wiphy4', '1.1.wiphy5', '1.1.wiphy6', '1.1.wiphy7']  -  Phantom Radios: []
+2023-06-02 15:26:35 INFO max_possible_stations: 260
+2023-06-02 15:26:35 INFO max_2g_stations: 132
+2023-06-02 15:26:35 INFO max_5g_stations: 132
+2023-06-02 15:26:35 INFO max_6g_stations: 0
+2023-06-02 15:26:35 INFO max_ax_stations: 4
+2023-06-02 15:26:35 INFO max_ac_stations: 256
+2023-06-02 15:26:35 INFO Scenario name: dhcp-bridge
+2023-06-02 15:26:37 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 15:26:42 INFO creating dhcp-bridge scenario using raw lines
+2023-06-02 15:26:43 INFO Raw Lines type: default
+2023-06-02 15:26:43 INFO Raw Lines: [['profile_link 1.1 upstream-dhcp 1 NA NA eth2,AUTO -1 NA'], ["profile_link 1.1 uplink-nat 1 'DUT: upstream LAN 10.28.2.1/24' NA eth1,eth2 -1 NA"]]
+2023-06-02 15:26:43 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:26:45 INFO Applying dhcp-bridge scenario
+2023-06-02 15:26:46 INFO Applying dhcp-bridge scenario
+2023-06-02 15:26:46 INFO Building scenario
+2023-06-02 15:26:46 INFO is-built: False 
+2023-06-02 15:26:46 INFO Waiting 0/300 for Chamber-View to be built.
+2023-06-02 15:26:48 INFO is-built: False 
+2023-06-02 15:26:48 INFO Waiting 1/300 for Chamber-View to be built.
+2023-06-02 15:26:49 INFO is-built: False 
+2023-06-02 15:26:49 INFO Waiting 2/300 for Chamber-View to be built.
+2023-06-02 15:26:50 INFO is-built: False 
+2023-06-02 15:26:50 INFO Waiting 3/300 for Chamber-View to be built.
+2023-06-02 15:26:52 INFO is-built: False 
+2023-06-02 15:26:52 INFO Waiting 4/300 for Chamber-View to be built.
+2023-06-02 15:26:54 INFO is-built: False 
+2023-06-02 15:26:54 INFO Waiting 5/300 for Chamber-View to be built.
+2023-06-02 15:26:55 INFO is-built: False 
+2023-06-02 15:26:55 INFO Waiting 6/300 for Chamber-View to be built.
+2023-06-02 15:26:57 INFO is-built: False 
+2023-06-02 15:26:57 INFO Waiting 7/300 for Chamber-View to be built.
+2023-06-02 15:26:58 INFO is-built: False 
+2023-06-02 15:26:58 INFO Waiting 8/300 for Chamber-View to be built.
+2023-06-02 15:26:59 INFO is-built: False 
+2023-06-02 15:26:59 INFO Waiting 9/300 for Chamber-View to be built.
+2023-06-02 15:27:01 INFO is-built: True 
+2023-06-02 15:27:02 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:27:04 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:27:19 INFO DUT Data: [{'model': 'cig_wf188n', 'supported_bands': ['2G', '5G'], 'supported_modes': ['BRIDGE', 'NAT', 'VLAN'], 'wan_port': '1.1.eth2', 'lan_port': None, 'ssid': {}, 'mode': 'wifi6', 'identifier': '0000c1018812', 'method': 'serial', 'host_ip': '10.28.3.103', 'host_username': 'lanforge', 'host_password': 'pumpkin77', 'host_ssh_port': 22, 'serial_tty': '/dev/ttyAP1', 'firmware_version': 'next-latest'}]
+2023-06-02 15:27:19 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 15:27:24 INFO Creating DUT
+2023-06-02 15:27:24 INFO Setting up the Controller metadata for tip_2x Library: {
+  "url": "https://sec-qa01.cicd.lab.wlan.tip.build:16001",
+  "username": "tip@ucentral.com",
+  "password": "OpenWifi%123"
+}
+2023-06-02 15:27:24 INFO Setting up the DUT metadata for tip_2x Library: [
+  {
+    "model": "cig_wf188n",
+    "supported_bands": [
+      "2G",
+      "5G"
+    ],
+    "supported_modes": [
+      "BRIDGE",
+      "NAT",
+      "VLAN"
+    ],
+    "wan_port": "1.1.eth2",
+    "lan_port": null,
+    "ssid": {},
+    "mode": "wifi6",
+    "identifier": "0000c1018812",
+    "method": "serial",
+    "host_ip": "10.28.3.103",
+    "host_username": "lanforge",
+    "host_password": "pumpkin77",
+    "host_ssh_port": 22,
+    "serial_tty": "/dev/ttyAP1",
+    "firmware_version": "next-latest"
+  }
+]
+2023-06-02 15:27:24 INFO Number of DUT's in lab_info.json: 1
+2023-06-02 15:27:24 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:27:24.812390
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/oauth2
+Data: {"userId": "tip@ucentral.com", "password": "OpenWifi%123"}
+Headers: {'Authorization': 'Bearer ', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:27:24 INFO Command Response: 
+Command Type: POST
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/oauth2
+Response Headers: 
+TimeStamp: 2023-06-02 15:27:24.906913
+Response Code: 200
+Response Body: {'access_token': '3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'aclTemplate': {'Delete': True, 'PortalLogin': True, 'Read': True, 'ReadWrite': True, 'ReadWriteCreate': True}, 'created': 1685719644, 'errorCode': 0, 'expires_in': 2592000, 'idle_timeout': 300, 'lastRefresh': 0, 'refresh_token': 'd6c1f5c630ebbe0f25220fd76eacce4fc6f879c1202ab6fea0ee56db43b3f4b7', 'token_type': 'Bearer', 'userMustChangePassword': False, 'username': 'tip@ucentral.com'}
+2023-06-02 15:27:24 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:27:24.908034
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/systemEndpoints
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:27:24 INFO Command Response: 
+Command Type: GET
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/systemEndpoints
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:27:24.944166
+Response Code: 200
+Response Body: {'endpoints': [{'authenticationType': 'internal_v1', 'id': 1108530243880924160, 'type': 'owrrm', 'uri': 'https://rrm-qa01.cicd.lab.wlan.tip.build:16789', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1679206586355803729, 'type': 'owanalytics', 'uri': 'https://analytics-qa01.cicd.lab.wlan.tip.build:16009', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1679176023574458512, 'type': 'owfms', 'uri': 'https://fms-qa01.cicd.lab.wlan.tip.build:16004', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1685110661078149376, 'type': 'owgw', 'uri': 'https://gw-qa01.cicd.lab.wlan.tip.build:16002', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1685080374477778307, 'type': 'owprov', 'uri': 'https://prov-qa01.cicd.lab.wlan.tip.build:16005', 'vendor': 'OpenWiFi'}, {'authenticationType': 'internal_v1', 'id': 1679417283512587899, 'type': 'owsub', 'uri': 'https://sub-qa01.cicd.lab.wlan.tip.build:16006', 'vendor': 'OpenWiFi'}]}
+2023-06-02 15:27:24 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:27:24.945684
+URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:27:24 INFO Command Response: 
+Command Type: GET
+Response URI: https://fms-qa01.cicd.lab.wlan.tip.build:16004/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:27:24.984721
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owfms-5f9d966ccf-sb2jx', 'os': 'Linux', 'processors': 4, 'start': 1685024558, 'uptime': 695086, 'version': '2.10.0(17) - bd5ae33'}
+2023-06-02 15:27:24 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:27:24.985892
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:27:25 INFO Command Response: 
+Command Type: GET
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:27:25.016611
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1746450444, 'filename': 'restapi-cert.pem'}, {'expiresOn': 1746450444, 'filename': 'websocket-cert.pem'}, {'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owgw-5fc74c8f8f-qzwj4', 'os': 'Linux', 'processors': 4, 'start': 1685024552, 'uptime': 695092, 'version': '2.10.0(57) - 1ca7645'}
+2023-06-02 15:27:25 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:27:25.017700
+URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:27:25 INFO Command Response: 
+Command Type: GET
+Response URI: https://sec-qa01.cicd.lab.wlan.tip.build:16001/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:27:25.034411
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owsec-785cdc4f9b-6mdrh', 'os': 'Linux', 'processors': 4, 'start': 1685024563, 'uptime': 695081, 'version': '2.10.0(21) - 776ecab'}
+2023-06-02 15:27:25 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:27:25.035815
+URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/system?command=info
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:27:25 INFO Command Response: 
+Command Type: GET
+Response URI: https://prov-qa01.cicd.lab.wlan.tip.build:16005/api/v1/system?command=info
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:27:25.111746
+Response Code: 200
+Response Body: {'UI': 'https://webui-qa01.cicd.lab.wlan.tip.build', 'certificates': [{'expiresOn': 1692101865, 'filename': 'tls.crt'}], 'hostname': 'owprov-6999647866-9zxbp', 'os': 'Linux', 'processors': 4, 'start': 1685024559, 'uptime': 695085, 'version': '2.10.0(28) - 7b3de5d'}
+2023-06-02 15:27:25 INFO Executing Command on AP: cat /tmp/ucentral.version
+2023-06-02 15:27:25 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:25 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:25 INFO Authentication (password) successful!
+2023-06-02 15:27:26 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:26 INFO Authentication (password) successful!
+2023-06-02 15:27:26 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "cat /tmp/ucentral.version" 
+2023-06-02 15:27:27 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "cat /tmp/ucentral.version" 
+2023-06-02 15:27:27 INFO Output for command: cat /tmp/ucentral.version
+OpenWrt 21.02-SNAPSHOT r16399+164-c67509efd7 / TIP-v2.9.1-ce441c5
+
+2023-06-02 15:27:27 INFO Executing Command on AP: chmod +x /usr/share/ucentral/wifi_max_user.uc
+2023-06-02 15:27:27 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:27 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:27 INFO Authentication (password) successful!
+2023-06-02 15:27:28 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:28 INFO Authentication (password) successful!
+2023-06-02 15:27:28 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "chmod +x /usr/share/ucentral/wifi_max_user.uc" 
+2023-06-02 15:27:28 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "chmod +x /usr/share/ucentral/wifi_max_user.uc" 
+2023-06-02 15:27:28 INFO Output for command: chmod +x /usr/share/ucentral/wifi_max_user.uc
+
+2023-06-02 15:27:28 INFO Executing Command on AP: /usr/share/ucentral/wifi_max_user.uc
+2023-06-02 15:27:28 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:29 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:29 INFO Authentication (password) successful!
+2023-06-02 15:27:29 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:30 INFO Authentication (password) successful!
+2023-06-02 15:27:30 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "/usr/share/ucentral/wifi_max_user.uc" 
+2023-06-02 15:27:30 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "/usr/share/ucentral/wifi_max_user.uc" 
+2023-06-02 15:27:30 INFO Output for command: /usr/share/ucentral/wifi_max_user.uc
+128
+
+2023-06-02 15:27:30 INFO All logs: ['128\n']
+2023-06-02 15:27:30 INFO Max stations: 128
+2023-06-02 15:27:30 INFO requested_combination: [['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal'], ['wpa2_personal', '5G', '2G', 'wpa2_personal']]
+2023-06-02 15:27:30 INFO Base dict: {'2G': ['psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2'], '5G': ['psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2', 'psk2'], '6G': [], '5G-lower': [], '5G-upper': []}
+2023-06-02 15:27:30 INFO Selected Configuration: {
+  "mode": "BRIDGE",
+  "ssid_modes": {
+    "wpa2_personal": [
+      {
+        "ssid_name": "ssid_wpa2_dual_band",
+        "appliedRadios": [
+          "2G",
+          "5G"
+        ],
+        "security_key": "something",
+        "security": "psk2"
+      }
+    ]
+  },
+  "rf": {},
+  "radius": false
+}
+2023-06-02 15:27:30 INFO Configuration That is getting pushed: {
+  "uuid": 1,
+  "radios": [
+    {
+      "band": "2G",
+      "country": "US",
+      "channel-mode": "HE",
+      "channel": "auto"
+    },
+    {
+      "band": "5G",
+      "country": "US",
+      "allow-dfs": true,
+      "channel-mode": "HE",
+      "channel": "auto"
+    },
+    {
+      "band": "6G",
+      "country": "US",
+      "channel-mode": "HE",
+      "channel": "auto"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "WAN",
+      "role": "upstream",
+      "services": [
+        "ssh",
+        "lldp",
+        "dhcp-snooping"
+      ],
+      "ethernet": [
+        {
+          "select-ports": [
+            "WAN*"
+          ]
+        }
+      ],
+      "ipv4": {
+        "addressing": "dynamic"
+      },
+      "ssids": [
+        {
+          "name": "ssid_wpa2_dual_band",
+          "bss-mode": "ap",
+          "wifi-bands": [
+            "2G",
+            "5G"
+          ],
+          "services": [
+            "wifi-frames"
+          ],
+          "encryption": {
+            "proto": "psk2",
+            "key": "something",
+            "ieee80211w": "optional"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LAN",
+      "role": "downstream",
+      "services": [
+        "ssh",
+        "lldp",
+        "dhcp-snooping"
+      ],
+      "ethernet": [
+        {
+          "select-ports": [
+            "LAN*"
+          ]
+        }
+      ],
+      "ipv4": {
+        "addressing": "static",
+        "subnet": "192.168.1.1/16",
+        "dhcp": {
+          "lease-first": 10,
+          "lease-count": 10000,
+          "lease-time": "6h"
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "statistics": {
+      "interval": 60,
+      "types": [
+        "ssids",
+        "lldp",
+        "clients"
+      ]
+    },
+    "health": {
+      "interval": 120
+    },
+    "wifi-frames": {
+      "filters": [
+        "probe",
+        "auth",
+        "assoc",
+        "disassoc",
+        "deauth",
+        "local-deauth",
+        "inactive-deauth",
+        "key-mismatch",
+        "beacon-report",
+        "radar-detected"
+      ]
+    },
+    "dhcp-snooping": {
+      "filters": [
+        "ack",
+        "discover",
+        "offer",
+        "request",
+        "solicit",
+        "reply",
+        "renew"
+      ]
+    }
+  },
+  "services": {
+    "lldp": {
+      "describe": "TIP OpenWiFi",
+      "location": "QA"
+    },
+    "ssh": {
+      "port": 22
+    }
+  }
+}
+2023-06-02 15:27:30 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:31 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:31 INFO Authentication (password) successful!
+2023-06-02 15:27:31 INFO Expected Serial Console Port, /dev/ttyAP1 is available on 10.28.3.103
+2023-06-02 15:27:31 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:31 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:32 INFO Authentication (password) successful!
+2023-06-02 15:27:33 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:27:33 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:33 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:34 INFO Authentication (password) successful!
+2023-06-02 15:27:34 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:35 INFO Authentication (password) successful!
+2023-06-02 15:27:35 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:27:35 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:27:35 INFO Output for command: ubus call ucentral status
+{
+	"connected": 24930,
+	"latest": 1685704959,
+	"active": 1685704959
+}
+
+2023-06-02 15:27:35 INFO Executing Command on AP: cd
+2023-06-02 15:27:35 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:35 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:36 INFO Authentication (password) successful!
+2023-06-02 15:27:36 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:37 INFO Authentication (password) successful!
+2023-06-02 15:27:37 INFO Executing Command on AP: [ -f /etc/ucentral/cas.pem ] && echo "True" || echo "False"
+2023-06-02 15:27:37 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:37 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:38 INFO Authentication (password) successful!
+2023-06-02 15:27:38 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:38 INFO Authentication (password) successful!
+2023-06-02 15:27:39 INFO Executing Command on AP: [ -f /etc/ucentral/dev-id ] && echo "True" || echo "False"
+2023-06-02 15:27:39 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:39 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:39 INFO Authentication (password) successful!
+2023-06-02 15:27:40 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:40 INFO Authentication (password) successful!
+2023-06-02 15:27:41 INFO Executing Command on AP: [ -f /etc/ucentral/key.pem ] && echo "True" || echo "False"
+2023-06-02 15:27:41 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:41 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:41 INFO Authentication (password) successful!
+2023-06-02 15:27:42 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:42 INFO Authentication (password) successful!
+2023-06-02 15:27:43 INFO Executing Command on AP: [ -f /etc/ucentral/cert.pem ] && echo "True" || echo "False"
+2023-06-02 15:27:43 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:43 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:43 INFO Authentication (password) successful!
+2023-06-02 15:27:44 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:44 INFO Authentication (password) successful!
+2023-06-02 15:27:44 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:27:44 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:45 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:45 INFO Authentication (password) successful!
+2023-06-02 15:27:46 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:46 INFO Authentication (password) successful!
+2023-06-02 15:27:46 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:27:46 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:27:46 INFO Output for command: ubus call ucentral status
+{
+	"connected": 24941,
+	"latest": 1685704959,
+	"active": 1685704959
+}
+
+2023-06-02 15:27:46 INFO Executing Command on AP: wifi status
+2023-06-02 15:27:46 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:47 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:47 INFO Authentication (password) successful!
+2023-06-02 15:27:47 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:48 INFO Authentication (password) successful!
+2023-06-02 15:27:48 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:27:48 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:27:48 INFO Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "HE80",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_0_0",
+				"ifname": "wlan1",
+				"config": {
+					"uci_section": "up0v0_0_0",
+					"ssid": "ssid_wpa2_2g",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan1-v#",
+						"config": {
+							"iface": "up0v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	}
+}
+
+2023-06-02 15:27:48 INFO Executing Command on AP: wifi status
+2023-06-02 15:27:48 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:49 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:49 INFO Authentication (password) successful!
+2023-06-02 15:27:50 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:50 INFO Authentication (password) successful!
+2023-06-02 15:27:50 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:27:51 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:27:51 INFO Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "HE80",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_0_0",
+				"ifname": "wlan1",
+				"config": {
+					"uci_section": "up0v0_0_0",
+					"ssid": "ssid_wpa2_2g",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan1-v#",
+						"config": {
+							"iface": "up0v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	}
+}
+
+2023-06-02 15:27:51 INFO Executing Command on AP: logger start testcase: F6PX9BJN0
+2023-06-02 15:27:51 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:51 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:51 INFO Authentication (password) successful!
+2023-06-02 15:27:52 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:52 INFO Authentication (password) successful!
+2023-06-02 15:27:52 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger start testcase: F6PX9BJN0" 
+2023-06-02 15:27:53 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger start testcase: F6PX9BJN0" 
+2023-06-02 15:27:53 INFO Output for command: logger start testcase: F6PX9BJN0
+
+2023-06-02 15:27:53 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:27:53 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:53 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:53 INFO Authentication (password) successful!
+2023-06-02 15:27:54 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:54 INFO Authentication (password) successful!
+2023-06-02 15:27:54 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:27:54 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:27:54 INFO Output for command: ubus call ucentral status
+{
+	"connected": 24949,
+	"latest": 1685704959,
+	"active": 1685704959
+}
+
+2023-06-02 15:27:54 INFO Executing Command on AP: logread
+2023-06-02 15:27:54 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:27:55 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:55 INFO Authentication (password) successful!
+2023-06-02 15:27:56 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:27:56 INFO Authentication (password) successful!
+2023-06-02 15:28:02 INFO Sending Command: 
+TimeStamp: 2023-06-02 15:28:02.862086
+URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0000c1018812/configure
+Data: {
+  "configuration": {
+    "uuid": 1,
+    "radios": [
+      {
+        "band": "2G",
+        "country": "US",
+        "channel-mode": "HE",
+        "channel": "auto"
+      },
+      {
+        "band": "5G",
+        "country": "US",
+        "allow-dfs": true,
+        "channel-mode": "HE",
+        "channel": "auto"
+      },
+      {
+        "band": "6G",
+        "country": "US",
+        "channel-mode": "HE",
+        "channel": "auto"
+      }
+    ],
+    "interfaces": [
+      {
+        "name": "WAN",
+        "role": "upstream",
+        "services": [
+          "ssh",
+          "lldp",
+          "dhcp-snooping"
+        ],
+        "ethernet": [
+          {
+            "select-ports": [
+              "WAN*"
+            ]
+          }
+        ],
+        "ipv4": {
+          "addressing": "dynamic"
+        },
+        "ssids": [
+          {
+            "name": "ssid_wpa2_dual_band",
+            "bss-mode": "ap",
+            "wifi-bands": [
+              "2G",
+              "5G"
+            ],
+            "services": [
+              "wifi-frames"
+            ],
+            "encryption": {
+              "proto": "psk2",
+              "key": "something",
+              "ieee80211w": "optional"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LAN",
+        "role": "downstream",
+        "services": [
+          "ssh",
+          "lldp",
+          "dhcp-snooping"
+        ],
+        "ethernet": [
+          {
+            "select-ports": [
+              "LAN*"
+            ]
+          }
+        ],
+        "ipv4": {
+          "addressing": "static",
+          "subnet": "192.168.1.1/16",
+          "dhcp": {
+            "lease-first": 10,
+            "lease-count": 10000,
+            "lease-time": "6h"
+          }
+        }
+      }
+    ],
+    "metrics": {
+      "statistics": {
+        "interval": 60,
+        "types": [
+          "ssids",
+          "lldp",
+          "clients"
+        ]
+      },
+      "health": {
+        "interval": 120
+      },
+      "wifi-frames": {
+        "filters": [
+          "probe",
+          "auth",
+          "assoc",
+          "disassoc",
+          "deauth",
+          "local-deauth",
+          "inactive-deauth",
+          "key-mismatch",
+          "beacon-report",
+          "radar-detected"
+        ]
+      },
+      "dhcp-snooping": {
+        "filters": [
+          "ack",
+          "discover",
+          "offer",
+          "request",
+          "solicit",
+          "reply",
+          "renew"
+        ]
+      }
+    },
+    "services": {
+      "lldp": {
+        "describe": "TIP OpenWiFi",
+        "location": "QA"
+      },
+      "ssh": {
+        "port": 22
+      }
+    }
+  },
+  "serialNumber": "0000c1018812",
+  "UUID": 1
+}
+Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+2023-06-02 15:28:16 INFO Command Response: 
+Command Type: POST
+Response URI: https://gw-qa01.cicd.lab.wlan.tip.build:16002/api/v1/device/0000c1018812/configure
+Response Headers: {'Authorization': 'Bearer 3b668406182a6913be0c613d2efd9bad90e41684a5733f87e8d5a9dc2ba1bb36', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Keep-Alive': 'timeout=10, max=1000conte'}
+TimeStamp: 2023-06-02 15:28:16.406615
+Response Code: 200
+Response Body: {'UUID': 'b3438902-c9a1-460e-8d45-8601f1c45ee2', 'attachFile': 0, 'command': 'configure', 'completed': 1685719696, 'custom': 0, 'deferred': False, 'details': {'config': {'interfaces': [{'ethernet': [{'select-ports': ['WAN*']}], 'ipv4': {'addressing': 'dynamic'}, 'name': 'WAN', 'role': 'upstream', 'services': ['ssh', 'lldp', 'dhcp-snooping'], 'ssids': [{'bss-mode': 'ap', 'encryption': {'ieee80211w': 'optional', 'key': 'something', 'proto': 'psk2'}, 'name': 'ssid_wpa2_dual_band', 'services': ['wifi-frames'], 'wifi-bands': ['2G', '5G']}]}, {'ethernet': [{'select-ports': ['LAN*']}], 'ipv4': {'addressing': 'static', 'dhcp': {'lease-count': 10000, 'lease-first': 10, 'lease-time': '6h'}, 'subnet': '192.168.1.1/16'}, 'name': 'LAN', 'role': 'downstream', 'services': ['ssh', 'lldp', 'dhcp-snooping']}], 'metrics': {'dhcp-snooping': {'filters': ['ack', 'discover', 'offer', 'request', 'solicit', 'reply', 'renew']}, 'health': {'interval': 120}, 'statistics': {'interval': 60, 'types': ['ssids', 'lldp', 'clients']}, 'wifi-frames': {'filters': ['probe', 'auth', 'assoc', 'disassoc', 'deauth', 'local-deauth', 'inactive-deauth', 'key-mismatch', 'beacon-report', 'radar-detected']}}, 'radios': [{'band': '2G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'allow-dfs': True, 'band': '5G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'band': '6G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}], 'services': {'lldp': {'describe': 'TIP OpenWiFi', 'location': 'QA'}, 'ssh': {'port': 22}}, 'uuid': 1685719682}, 'serial': '0000c1018812', 'uuid': 1685719682, 'when': 0}, 'errorCode': 1, 'errorText': 'Failed', 'executed': 1685719696, 'executionTime': 13418.960039, 'lastTry': 0, 'results': {'serial': '0000c1018812', 'status': {'error': 1, 'rejected': ['[W] (In /radios/0) Selected radio does not support requested HT mode HE80, falling back to HE40', "[W] (In /radios/2) Can't find any suitable radio phy for band 6G radio settings"], 'text': 'Failed'}, 'uuid': 1685719682}, 'serialNumber': '0000c1018812', 'status': 'completed', 'submitted': 1685719682, 'submittedBy': 'tip@ucentral.com', 'waitingForFile': 0, 'when': 0}
+2023-06-02 15:28:16 INFO Response<Response [200]>
+2023-06-02 15:28:16 INFO Response for Config apply: 200
+2023-06-02 15:28:16 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:16 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:16 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:17 INFO Authentication (password) successful!
+2023-06-02 15:28:17 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:17 INFO Authentication (password) successful!
+2023-06-02 15:28:17 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:28:18 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:28:18 INFO Output for command: ubus call ucentral status
+{
+	"connected": 24973,
+	"latest": 1685719682,
+	"active": 1685719682
+}
+
+2023-06-02 15:28:23 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:23 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:23 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:23 INFO Authentication (password) successful!
+2023-06-02 15:28:24 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:24 INFO Authentication (password) successful!
+2023-06-02 15:28:25 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:25 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:25 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:25 INFO Authentication (password) successful!
+2023-06-02 15:28:26 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:26 INFO Authentication (password) successful!
+2023-06-02 15:28:26 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:28:27 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:28:27 INFO Output for command: ubus call ucentral status
+{
+	"connected": 24982,
+	"latest": 1685719682,
+	"active": 1685719682
+}
+
+2023-06-02 15:28:27 INFO Executing Command on AP: cat /etc/ucentral/ucentral.cfg.1685719682
+2023-06-02 15:28:27 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:27 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:27 INFO Authentication (password) successful!
+2023-06-02 15:28:28 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:28 INFO Authentication (password) successful!
+2023-06-02 15:28:28 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685719682" 
+2023-06-02 15:28:29 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685719682" 
+2023-06-02 15:28:29 INFO Output for command: cat /etc/ucentral/ucentral.cfg.1685719682
+{"interfaces":[{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WAN","role":"upstream","services":["ssh","lldp","dhcp-snooping"],"ssids":[{"bss-mode":"ap","encryption":{"ieee80211w":"optional","key":"something","proto":"psk2"},"name":"ssid_wpa2_dual_band","services":["wifi-frames"],"wifi-bands":["2G","5G"]}]},{"ethernet":[{"select-ports":["LAN*"]}],"ipv4":{"addressing":"static","dhcp":{"lease-count":10000,"lease-first":10,"lease-time":"6h"},"subnet":"192.168.1.1/16"},"name":"LAN","role":"downstream","services":["ssh","lldp","dhcp-snooping"]}],"metrics":{"dhcp-snooping":{"filters":["ack","discover","offer","request","solicit","reply","renew"]},"health":{"interval":120},"statistics":{"interval":60,"types":["ssids","lldp","clients"]},"wifi-frames":{"filters":["probe","auth","assoc","disassoc","deauth","local-deauth","inactive-deauth","key-mismatch","beacon-report","radar-detected"]}},"radios":[{"band":"2G","channel":"auto","channel-mode":"HE","country":"US"},{"allow-dfs":true,"band":"5G","channel":"auto","channel-mode":"HE","country":"US"},{"band":"6G","channel":"auto","channel-mode":"HE","country":"US"}],"services":{"lldp":{"describe":"TIP OpenWiFi","location":"QA"},"ssh":{"port":22}},"uuid":1685719682}
+2023-06-02 15:28:29 INFO Latest config is : {'interfaces': [{'ethernet': [{'select-ports': ['WAN*']}], 'ipv4': {'addressing': 'dynamic'}, 'name': 'WAN', 'role': 'upstream', 'services': ['ssh', 'lldp', 'dhcp-snooping'], 'ssids': [{'bss-mode': 'ap', 'encryption': {'ieee80211w': 'optional', 'key': 'something', 'proto': 'psk2'}, 'name': 'ssid_wpa2_dual_band', 'services': ['wifi-frames'], 'wifi-bands': ['2G', '5G']}]}, {'ethernet': [{'select-ports': ['LAN*']}], 'ipv4': {'addressing': 'static', 'dhcp': {'lease-count': 10000, 'lease-first': 10, 'lease-time': '6h'}, 'subnet': '192.168.1.1/16'}, 'name': 'LAN', 'role': 'downstream', 'services': ['ssh', 'lldp', 'dhcp-snooping']}], 'metrics': {'dhcp-snooping': {'filters': ['ack', 'discover', 'offer', 'request', 'solicit', 'reply', 'renew']}, 'health': {'interval': 120}, 'statistics': {'interval': 60, 'types': ['ssids', 'lldp', 'clients']}, 'wifi-frames': {'filters': ['probe', 'auth', 'assoc', 'disassoc', 'deauth', 'local-deauth', 'inactive-deauth', 'key-mismatch', 'beacon-report', 'radar-detected']}}, 'radios': [{'band': '2G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'allow-dfs': True, 'band': '5G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'band': '6G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}], 'services': {'lldp': {'describe': 'TIP OpenWiFi', 'location': 'QA'}, 'ssh': {'port': 22}}, 'uuid': 1685719682}
+2023-06-02 15:28:29 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:29 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:29 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:29 INFO Authentication (password) successful!
+2023-06-02 15:28:30 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:30 INFO Authentication (password) successful!
+2023-06-02 15:28:31 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:31 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:31 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:31 INFO Authentication (password) successful!
+2023-06-02 15:28:32 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:32 INFO Authentication (password) successful!
+2023-06-02 15:28:43 INFO active_uuid: 1685719682
+2023-06-02 15:28:43 INFO latest_uuid: 1685719682
+2023-06-02 15:28:43 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:43 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:43 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:43 INFO Authentication (password) successful!
+2023-06-02 15:28:44 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:44 INFO Authentication (password) successful!
+2023-06-02 15:28:55 INFO active_uuid: 1685719682
+2023-06-02 15:28:55 INFO latest_uuid: 1685719682
+2023-06-02 15:28:55 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:28:55 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:28:55 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:55 INFO Authentication (password) successful!
+2023-06-02 15:28:56 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:28:56 INFO Authentication (password) successful!
+2023-06-02 15:29:07 INFO active_uuid: 1685719682
+2023-06-02 15:29:07 INFO latest_uuid: 1685719682
+2023-06-02 15:29:07 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:29:07 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:29:07 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:07 INFO Authentication (password) successful!
+2023-06-02 15:29:08 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:08 INFO Authentication (password) successful!
+2023-06-02 15:29:19 INFO active_uuid: 1685719682
+2023-06-02 15:29:19 INFO latest_uuid: 1685719682
+2023-06-02 15:29:19 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:29:19 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:29:19 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:19 INFO Authentication (password) successful!
+2023-06-02 15:29:20 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:20 INFO Authentication (password) successful!
+2023-06-02 15:29:30 INFO active_uuid: 1685719682
+2023-06-02 15:29:30 INFO latest_uuid: 1685719682
+2023-06-02 15:29:30 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:29:30 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:29:31 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:31 INFO Authentication (password) successful!
+2023-06-02 15:29:31 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:32 INFO Authentication (password) successful!
+2023-06-02 15:29:32 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:29:32 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:29:33 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:33 INFO Authentication (password) successful!
+2023-06-02 15:29:33 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:34 INFO Authentication (password) successful!
+2023-06-02 15:29:34 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:29:34 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:29:34 INFO Output for command: ubus call ucentral status
+{
+	"connected": 25049,
+	"latest": 1685719682,
+	"active": 1685719682
+}
+
+2023-06-02 15:29:34 INFO Executing Command on AP: cat /etc/ucentral/ucentral.cfg.1685719682
+2023-06-02 15:29:34 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:29:34 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:35 INFO Authentication (password) successful!
+2023-06-02 15:29:35 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:29:36 INFO Authentication (password) successful!
+2023-06-02 15:29:36 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685719682" 
+2023-06-02 15:29:36 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "cat /etc/ucentral/ucentral.cfg.1685719682" 
+2023-06-02 15:29:36 INFO Output for command: cat /etc/ucentral/ucentral.cfg.1685719682
+{"interfaces":[{"ethernet":[{"select-ports":["WAN*"]}],"ipv4":{"addressing":"dynamic"},"name":"WAN","role":"upstream","services":["ssh","lldp","dhcp-snooping"],"ssids":[{"bss-mode":"ap","encryption":{"ieee80211w":"optional","key":"something","proto":"psk2"},"name":"ssid_wpa2_dual_band","services":["wifi-frames"],"wifi-bands":["2G","5G"]}]},{"ethernet":[{"select-ports":["LAN*"]}],"ipv4":{"addressing":"static","dhcp":{"lease-count":10000,"lease-first":10,"lease-time":"6h"},"subnet":"192.168.1.1/16"},"name":"LAN","role":"downstream","services":["ssh","lldp","dhcp-snooping"]}],"metrics":{"dhcp-snooping":{"filters":["ack","discover","offer","request","solicit","reply","renew"]},"health":{"interval":120},"statistics":{"interval":60,"types":["ssids","lldp","clients"]},"wifi-frames":{"filters":["probe","auth","assoc","disassoc","deauth","local-deauth","inactive-deauth","key-mismatch","beacon-report","radar-detected"]}},"radios":[{"band":"2G","channel":"auto","channel-mode":"HE","country":"US"},{"allow-dfs":true,"band":"5G","channel":"auto","channel-mode":"HE","country":"US"},{"band":"6G","channel":"auto","channel-mode":"HE","country":"US"}],"services":{"lldp":{"describe":"TIP OpenWiFi","location":"QA"},"ssh":{"port":22}},"uuid":1685719682}
+2023-06-02 15:29:36 INFO Active config is : {'interfaces': [{'ethernet': [{'select-ports': ['WAN*']}], 'ipv4': {'addressing': 'dynamic'}, 'name': 'WAN', 'role': 'upstream', 'services': ['ssh', 'lldp', 'dhcp-snooping'], 'ssids': [{'bss-mode': 'ap', 'encryption': {'ieee80211w': 'optional', 'key': 'something', 'proto': 'psk2'}, 'name': 'ssid_wpa2_dual_band', 'services': ['wifi-frames'], 'wifi-bands': ['2G', '5G']}]}, {'ethernet': [{'select-ports': ['LAN*']}], 'ipv4': {'addressing': 'static', 'dhcp': {'lease-count': 10000, 'lease-first': 10, 'lease-time': '6h'}, 'subnet': '192.168.1.1/16'}, 'name': 'LAN', 'role': 'downstream', 'services': ['ssh', 'lldp', 'dhcp-snooping']}], 'metrics': {'dhcp-snooping': {'filters': ['ack', 'discover', 'offer', 'request', 'solicit', 'reply', 'renew']}, 'health': {'interval': 120}, 'statistics': {'interval': 60, 'types': ['ssids', 'lldp', 'clients']}, 'wifi-frames': {'filters': ['probe', 'auth', 'assoc', 'disassoc', 'deauth', 'local-deauth', 'inactive-deauth', 'key-mismatch', 'beacon-report', 'radar-detected']}}, 'radios': [{'band': '2G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'allow-dfs': True, 'band': '5G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}, {'band': '6G', 'channel': 'auto', 'channel-mode': 'HE', 'country': 'US'}], 'services': {'lldp': {'describe': 'TIP OpenWiFi', 'location': 'QA'}, 'ssh': {'port': 22}}, 'uuid': 1685719682}
+2023-06-02 15:29:36 INFO Config is Properly Applied on AP, Waiting for 30 Seconds for All interfaces to come up
+2023-06-02 15:30:06 INFO Executing Command on AP: ubus call ucentral status
+2023-06-02 15:30:06 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:06 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:07 INFO Authentication (password) successful!
+2023-06-02 15:30:07 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:08 INFO Authentication (password) successful!
+2023-06-02 15:30:08 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:30:08 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ubus call ucentral status" 
+2023-06-02 15:30:08 INFO Output for command: ubus call ucentral status
+{
+	"connected": 25083,
+	"latest": 1685719682,
+	"active": 1685719682
+}
+
+2023-06-02 15:30:08 INFO Executing Command on AP: /etc/init.d/maverick status
+2023-06-02 15:30:08 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:08 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:09 INFO Authentication (password) successful!
+2023-06-02 15:30:09 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:10 INFO Authentication (password) successful!
+2023-06-02 15:30:10 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "/etc/init.d/maverick status" 
+2023-06-02 15:30:10 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "/etc/init.d/maverick status" 
+2023-06-02 15:30:10 INFO Output for command: /etc/init.d/maverick status
+active with no instances
+
+2023-06-02 15:30:10 INFO Executing Command on AP: ifconfig up0v0
+2023-06-02 15:30:10 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:10 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:11 INFO Authentication (password) successful!
+2023-06-02 15:30:11 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:12 INFO Authentication (password) successful!
+2023-06-02 15:30:12 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ifconfig up0v0" 
+2023-06-02 15:30:12 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ifconfig up0v0" 
+2023-06-02 15:30:12 INFO Output for command: ifconfig up0v0
+up0v0     Link encap:Ethernet  HWaddr 00:00:C1:01:88:12  
+          inet addr:172.16.222.41  Bcast:172.16.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::200:c1ff:fe01:8812/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12455466 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:319243 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:18647753608 (17.3 GiB)  TX bytes:478089928 (455.9 MiB)
+
+
+2023-06-02 15:30:12 INFO Executing Command on AP: ip neigh show dev up0v0 REACHABLE
+2023-06-02 15:30:12 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:12 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:13 INFO Authentication (password) successful!
+2023-06-02 15:30:13 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:14 INFO Authentication (password) successful!
+2023-06-02 15:30:14 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ip neigh show dev up0v0 REACHABLE" 
+2023-06-02 15:30:14 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "ip neigh show dev up0v0 REACHABLE" 
+2023-06-02 15:30:14 INFO Output for command: ip neigh show dev up0v0 REACHABLE
+172.16.0.1 lladdr 9c:69:b4:60:e2:84 ref 1 used 0/0/0 probes 1 REACHABLE
+
+2023-06-02 15:30:14 INFO Executing Command on AP: wifi status
+2023-06-02 15:30:14 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:14 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:15 INFO Authentication (password) successful!
+2023-06-02 15:30:15 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:15 INFO Authentication (password) successful!
+2023-06-02 15:30:15 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:30:16 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:30:16 INFO Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "HE80",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_1_0",
+				"ifname": "wlan0",
+				"config": {
+					"uci_section": "up0v0_1_0",
+					"ssid": "ssid_wpa2_dual_band",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[1]",
+						"ifname": "wlan0-v#",
+						"config": {
+							"iface": "up0v0_1_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_0_0",
+				"ifname": "wlan1",
+				"config": {
+					"uci_section": "up0v0_0_0",
+					"ssid": "ssid_wpa2_dual_band",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan1-v#",
+						"config": {
+							"iface": "up0v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	}
+}
+
+2023-06-02 15:30:16 INFO Executing Command on AP: wifi status
+2023-06-02 15:30:16 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:16 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:17 INFO Authentication (password) successful!
+2023-06-02 15:30:17 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:18 INFO Authentication (password) successful!
+2023-06-02 15:30:18 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:30:18 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "wifi status" 
+2023-06-02 15:30:18 INFO Output for command: wifi status
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi",
+			"band": "5g",
+			"htmode": "HE80",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"channels": [
+				"36",
+				"44",
+				"52",
+				"60",
+				"100",
+				"108",
+				"116",
+				"124",
+				"132",
+				"140",
+				"149",
+				"157",
+				"165",
+				"173",
+				"184",
+				"192"
+			],
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_1_0",
+				"ifname": "wlan0",
+				"config": {
+					"uci_section": "up0v0_1_0",
+					"ssid": "ssid_wpa2_dual_band",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[1]",
+						"ifname": "wlan0-v#",
+						"config": {
+							"iface": "up0v0_1_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "platform/soc/c000000.wifi+1",
+			"band": "2g",
+			"htmode": "HE40",
+			"channel": "0",
+			"txantenna": 3,
+			"rxantenna": 3,
+			"beacon_int": 100,
+			"country": "US",
+			"legacy_rates": false,
+			"maxassoc_ignore_probe": false,
+			"noscan": "1",
+			"noscan": true,
+			"acs_exclude_dfs": false,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "up0v0_0_0",
+				"ifname": "wlan1",
+				"config": {
+					"uci_section": "up0v0_0_0",
+					"ssid": "ssid_wpa2_dual_band",
+					"mode": "ap",
+					"wds": false,
+					"wpa_disable_eapol_key_retries": false,
+					"disassoc_low_ack": false,
+					"auth_cache": true,
+					"ieee80211w": 1,
+					"encryption": "psk2",
+					"key": "something",
+					"proxy_arp": true,
+					"hidden": false,
+					"time_advertisement": 0,
+					"isolate": false,
+					"uapsd": false,
+					"multicast_to_unicast": true,
+					"dtim_period": 2,
+					"network": [
+						"up0v0"
+					],
+					"mode": "ap",
+					"proxy_arp": true,
+					"isolate": false,
+					"multicast_to_unicast": true
+				},
+				"vlans": [
+					{
+						"section": "@wifi-vlan[0]",
+						"ifname": "wlan1-v#",
+						"config": {
+							"iface": "up0v0_0_0",
+							"name": "v#",
+							"vid": "*"
+						}
+					}
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	}
+}
+
+2023-06-02 15:30:18 INFO Checking Wifi Status after Config Apply...
+2023-06-02 15:30:18 INFO radio0 is up and running
+2023-06-02 15:30:18 INFO radio1 is up and running
+2023-06-02 15:30:18 INFO Executing Command on AP: logger stop testcase: F6PX9BJN0
+2023-06-02 15:30:18 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:19 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:19 INFO Authentication (password) successful!
+2023-06-02 15:30:19 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:20 INFO Authentication (password) successful!
+2023-06-02 15:30:20 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger stop testcase: F6PX9BJN0" 
+2023-06-02 15:30:20 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger stop testcase: F6PX9BJN0" 
+2023-06-02 15:30:20 INFO Output for command: logger stop testcase: F6PX9BJN0
+
+2023-06-02 15:30:20 INFO Executing Command on AP: logread
+2023-06-02 15:30:20 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:20 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:21 INFO Authentication (password) successful!
+2023-06-02 15:30:21 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:22 INFO Authentication (password) successful!
+2023-06-02 15:30:28 INFO Executing Command on AP: iwinfo
+2023-06-02 15:30:28 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:29 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:29 INFO Authentication (password) successful!
+2023-06-02 15:30:30 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:30 INFO Authentication (password) successful!
+2023-06-02 15:30:30 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "iwinfo" 
+2023-06-02 15:30:31 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "iwinfo" 
+2023-06-02 15:30:31 INFO Output for command: iwinfo
+wlan0     ESSID: "ssid_wpa2_dual_band"
+          Access Point: 00:00:C1:01:88:14
+          Mode: Master  Channel: 132 (5.660 GHz)
+          Center Channel 1: 138 2: unknown
+          Tx-Power: 24 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -107 dBm
+          Bit Rate: unknown
+          Encryption: WPA2 PSK (CCMP)
+          Type: nl80211  HW Mode(s): 802.11nacax
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1     ESSID: "ssid_wpa2_dual_band"
+          Access Point: 00:00:C1:01:88:15
+          Mode: Master  Channel: 7 (2.442 GHz)
+          Center Channel 1: 9 2: unknown
+          Tx-Power: 25 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -99 dBm
+          Bit Rate: unknown
+          Encryption: WPA2 PSK (CCMP)
+          Type: nl80211  HW Mode(s): 802.11bgnax
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy1
+
+
+2023-06-02 15:30:31 INFO Executing Command on AP: iw dev | grep channel
+2023-06-02 15:30:31 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:31 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:31 INFO Authentication (password) successful!
+2023-06-02 15:30:32 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:32 INFO Authentication (password) successful!
+2023-06-02 15:30:32 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "iw dev | grep channel" 
+2023-06-02 15:30:32 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "iw dev | grep channel" 
+2023-06-02 15:30:32 INFO Output for command: iw dev | grep channel
+		channel 7 (2442 MHz), width: 40 MHz, center1: 2452 MHz
+		channel 132 (5660 MHz), width: 80 MHz, center1: 5690 MHz
+
+2023-06-02 15:30:32 INFO dut_data after config applied: {'0000c1018812': {'ssid_data': {0: {'ssid': 'ssid_wpa2_dual_band', 'encryption': 'wpa2', 'password': 'something', 'band': '2G', 'bssid': '00:00:C1:01:88:15'}, 1: {'ssid': 'ssid_wpa2_dual_band', 'encryption': 'wpa2', 'password': 'something', 'band': '5G', 'bssid': '00:00:C1:01:88:14'}}, 'radio_data': {'2G': {'channel': 7, 'bandwidth': 40, 'frequency': 2452}, '5G': {'channel': 132, 'bandwidth': 80, 'frequency': 5690}, '6G': {'channel': None, 'bandwidth': None, 'frequency': None}}}}
+2023-06-02 15:30:32 INFO Executing Command on AP: logger start testcase: MSTHMQ866
+2023-06-02 15:30:32 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:30:33 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:33 INFO Authentication (password) successful!
+2023-06-02 15:30:34 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:30:34 INFO Authentication (password) successful!
+2023-06-02 15:30:34 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger start testcase: MSTHMQ866" 
+2023-06-02 15:30:34 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger start testcase: MSTHMQ866" 
+2023-06-02 15:30:34 INFO Output for command: logger start testcase: MSTHMQ866
+2023-06-02 15:30:34 INFO Upstream data: 1.1.eth2
+2023-06-02 15:30:34 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 0 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:15 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 15:30:35 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 1 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:14 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 15:30:35 INFO Radio data: {'1.1.wiphy0': 64, '1.1.wiphy2': 64}
+2023-06-02 15:30:35 INFO creating dhcp-bridge scenario using raw lines
+2023-06-02 15:30:36 INFO Raw Lines type: custom
+2023-06-02 15:30:36 INFO Raw Lines: [['profile_link 1.1 upstream-dhcp 1 NA NA eth2,AUTO -1 NA'], ["profile_link 1.1 uplink-nat 1 'DUT: upstream LAN 10.28.2.1/24' NA eth1,eth2 -1 NA"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy0"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy2"]]
+2023-06-02 15:30:36 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:30:38 INFO Applying dhcp-bridge scenario
+2023-06-02 15:30:39 INFO Applying dhcp-bridge scenario
+2023-06-02 15:30:39 INFO Building scenario
+2023-06-02 15:30:39 INFO is-built: False 
+2023-06-02 15:30:39 INFO Waiting 0/300 for Chamber-View to be built.
+2023-06-02 15:30:41 INFO is-built: False 
+2023-06-02 15:30:41 INFO Waiting 1/300 for Chamber-View to be built.
+2023-06-02 15:30:42 INFO is-built: False 
+2023-06-02 15:30:42 INFO Waiting 2/300 for Chamber-View to be built.
+2023-06-02 15:30:44 INFO is-built: True 
+2023-06-02 15:30:44 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:30:46 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:31:01 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 0 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:15 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 15:31:02 INFO DUT profile add-ssid: name: 0000c1018812 ssid_idx: 1 ssid: ssid_wpa2_dual_band passwd: something bssid: 00:00:C1:01:88:14 ssid_flags: 32 ssid_flags_mask: 4294967295
+2023-06-02 15:31:02 INFO Radio data: {'1.1.wiphy1': 64, '1.1.wiphy3': 64}
+2023-06-02 15:31:02 INFO creating dhcp-bridge scenario using raw lines
+2023-06-02 15:31:03 INFO Raw Lines type: custom
+2023-06-02 15:31:03 INFO Raw Lines: [['profile_link 1.1 upstream-dhcp 1 NA NA eth2,AUTO -1 NA'], ["profile_link 1.1 uplink-nat 1 'DUT: upstream LAN 10.28.2.1/24' NA eth1,eth2 -1 NA"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy0"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-1' NA wiphy2"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-2' NA wiphy1"], ["profile_link 1.1 STA-AUTO 64 'DUT: 0000c1018812 Radio-2' NA wiphy3"]]
+2023-06-02 15:31:03 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 10, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:31:06 INFO Applying dhcp-bridge scenario
+2023-06-02 15:31:06 INFO Applying dhcp-bridge scenario
+2023-06-02 15:31:06 INFO Building scenario
+2023-06-02 15:31:07 INFO is-built: False 
+2023-06-02 15:31:07 INFO Waiting 0/300 for Chamber-View to be built.
+2023-06-02 15:31:08 INFO is-built: False 
+2023-06-02 15:31:08 INFO Waiting 1/300 for Chamber-View to be built.
+2023-06-02 15:31:09 INFO is-built: False 
+2023-06-02 15:31:09 INFO Waiting 2/300 for Chamber-View to be built.
+2023-06-02 15:31:11 INFO is-built: False 
+2023-06-02 15:31:11 INFO Waiting 3/300 for Chamber-View to be built.
+2023-06-02 15:31:12 INFO is-built: False 
+2023-06-02 15:31:12 INFO Waiting 4/300 for Chamber-View to be built.
+2023-06-02 15:31:13 INFO is-built: False 
+2023-06-02 15:31:13 INFO Waiting 5/300 for Chamber-View to be built.
+2023-06-02 15:31:15 INFO is-built: False 
+2023-06-02 15:31:15 INFO Waiting 6/300 for Chamber-View to be built.
+2023-06-02 15:31:16 INFO is-built: False 
+2023-06-02 15:31:16 INFO Waiting 7/300 for Chamber-View to be built.
+2023-06-02 15:31:17 INFO is-built: False 
+2023-06-02 15:31:17 INFO Waiting 8/300 for Chamber-View to be built.
+2023-06-02 15:31:19 INFO is-built: False 
+2023-06-02 15:31:19 INFO Waiting 9/300 for Chamber-View to be built.
+2023-06-02 15:31:20 INFO is-built: False 
+2023-06-02 15:31:20 INFO Waiting 10/300 for Chamber-View to be built.
+2023-06-02 15:31:22 INFO is-built: True 
+2023-06-02 15:31:22 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:31:25 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:31:40 ERROR 
+Scripts might fail because of unavailable features:
+** License item Support EXPIRED on 2022-12-31 20:50
+2023-06-02 15:31:45 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 11, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:31:47 INFO [{'handler': 'candela.lanforge.GenericJsonResponder', 'uri': 'gui-json/:cmd', 'LAST': {'cmd': 'NA', 'command': 'cv sync', 'duration': 10, 'response': 'YES'}, 'warnings': ['YES']}]
+2023-06-02 15:31:48 INFO adding -:sel_port-0: 1.1.eth2:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:48 INFO adding -:sel_port-1: 1.1.sta01000:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:48 INFO adding -:sel_port-2: 1.1.sta01001:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:49 INFO adding -:sel_port-3: 1.1.sta01002:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:49 INFO adding -:sel_port-4: 1.1.sta01003:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:49 INFO adding -:sel_port-5: 1.1.sta01004:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:49 INFO adding -:sel_port-6: 1.1.sta01005:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:50 INFO adding -:sel_port-7: 1.1.sta01006:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:50 INFO adding -:sel_port-8: 1.1.sta01007:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:50 INFO adding -:sel_port-9: 1.1.sta01008:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:50 INFO adding -:sel_port-10: 1.1.sta01009:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:50 INFO adding -:sel_port-11: 1.1.sta01010:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:51 INFO adding -:sel_port-12: 1.1.sta01011:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:51 INFO adding -:sel_port-13: 1.1.sta01012:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:51 INFO adding -:sel_port-14: 1.1.sta01013:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:51 INFO adding -:sel_port-15: 1.1.sta01014:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:52 INFO adding -:sel_port-16: 1.1.sta01015:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:52 INFO adding -:sel_port-17: 1.1.sta01016:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:52 INFO adding -:sel_port-18: 1.1.sta01017:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:52 INFO adding -:sel_port-19: 1.1.sta01018:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:52 INFO adding -:sel_port-20: 1.1.sta01019:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:53 INFO adding -:sel_port-21: 1.1.sta01020:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:53 INFO adding -:sel_port-22: 1.1.sta01021:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:53 INFO adding -:sel_port-23: 1.1.sta01022:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:53 INFO adding -:sel_port-24: 1.1.sta01023:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:53 INFO adding -:sel_port-25: 1.1.sta01024:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:54 INFO adding -:sel_port-26: 1.1.sta01025:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:54 INFO adding -:sel_port-27: 1.1.sta01026:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:54 INFO adding -:sel_port-28: 1.1.sta01027:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:54 INFO adding -:sel_port-29: 1.1.sta01028:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:55 INFO adding -:sel_port-30: 1.1.sta01029:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:55 INFO adding -:sel_port-31: 1.1.sta01030:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:55 INFO adding -:sel_port-32: 1.1.sta01031:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:55 INFO adding -:sel_port-33: 1.1.sta01032:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:55 INFO adding -:sel_port-34: 1.1.sta01033:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:56 INFO adding -:sel_port-35: 1.1.sta01034:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:56 INFO adding -:sel_port-36: 1.1.sta01035:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:56 INFO adding -:sel_port-37: 1.1.sta01036:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:56 INFO adding -:sel_port-38: 1.1.sta01037:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:56 INFO adding -:sel_port-39: 1.1.sta01038:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:57 INFO adding -:sel_port-40: 1.1.sta01039:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:57 INFO adding -:sel_port-41: 1.1.sta01040:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:57 INFO adding -:sel_port-42: 1.1.sta01041:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:57 INFO adding -:sel_port-43: 1.1.sta01042:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:57 INFO adding -:sel_port-44: 1.1.sta01043:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:58 INFO adding -:sel_port-45: 1.1.sta01044:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:58 INFO adding -:sel_port-46: 1.1.sta01045:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:58 INFO adding -:sel_port-47: 1.1.sta01046:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:58 INFO adding -:sel_port-48: 1.1.sta01047:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:58 INFO adding -:sel_port-49: 1.1.sta01048:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:59 INFO adding -:sel_port-50: 1.1.sta01049:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:59 INFO adding -:sel_port-51: 1.1.sta01050:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:59 INFO adding -:sel_port-52: 1.1.sta01051:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:31:59 INFO adding -:sel_port-53: 1.1.sta01052:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:00 INFO adding -:sel_port-54: 1.1.sta01053:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:00 INFO adding -:sel_port-55: 1.1.sta01054:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:00 INFO adding -:sel_port-56: 1.1.sta01055:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:00 INFO adding -:sel_port-57: 1.1.sta01056:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:00 INFO adding -:sel_port-58: 1.1.sta01057:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:01 INFO adding -:sel_port-59: 1.1.sta01058:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:01 INFO adding -:sel_port-60: 1.1.sta01059:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:01 INFO adding -:sel_port-61: 1.1.sta01060:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:01 INFO adding -:sel_port-62: 1.1.sta01061:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:01 INFO adding -:sel_port-63: 1.1.sta01062:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:02 INFO adding -:sel_port-64: 1.1.sta01063:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:02 INFO adding -:sel_port-65: 1.1.sta01500:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:02 INFO adding -:sel_port-66: 1.1.sta01501:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:02 INFO adding -:sel_port-67: 1.1.sta01502:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:02 INFO adding -:sel_port-68: 1.1.sta01503:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:03 INFO adding -:sel_port-69: 1.1.sta01504:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:03 INFO adding -:sel_port-70: 1.1.sta01505:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:03 INFO adding -:sel_port-71: 1.1.sta01506:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:03 INFO adding -:sel_port-72: 1.1.sta01507:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:03 INFO adding -:sel_port-73: 1.1.sta01508:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:04 INFO adding -:sel_port-74: 1.1.sta01509:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:04 INFO adding -:sel_port-75: 1.1.sta01510:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:04 INFO adding -:sel_port-76: 1.1.sta01511:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:04 INFO adding -:sel_port-77: 1.1.sta01512:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:05 INFO adding -:sel_port-78: 1.1.sta01513:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:05 INFO adding -:sel_port-79: 1.1.sta01514:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:05 INFO adding -:sel_port-80: 1.1.sta01515:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:05 INFO adding -:sel_port-81: 1.1.sta01516:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:05 INFO adding -:sel_port-82: 1.1.sta01517:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:06 INFO adding -:sel_port-83: 1.1.sta01518:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:06 INFO adding -:sel_port-84: 1.1.sta01519:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:06 INFO adding -:sel_port-85: 1.1.sta01520:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:06 INFO adding -:sel_port-86: 1.1.sta01521:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:06 INFO adding -:sel_port-87: 1.1.sta01522:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:07 INFO adding -:sel_port-88: 1.1.sta01523:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:07 INFO adding -:sel_port-89: 1.1.sta01524:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:07 INFO adding -:sel_port-90: 1.1.sta01525:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:07 INFO adding -:sel_port-91: 1.1.sta01526:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:07 INFO adding -:sel_port-92: 1.1.sta01527:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:08 INFO adding -:sel_port-93: 1.1.sta01528:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:08 INFO adding -:sel_port-94: 1.1.sta01529:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:08 INFO adding -:sel_port-95: 1.1.sta01530:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:08 INFO adding -:sel_port-96: 1.1.sta01531:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:09 INFO adding -:sel_port-97: 1.1.sta01532:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:09 INFO adding -:sel_port-98: 1.1.sta01533:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:09 INFO adding -:sel_port-99: 1.1.sta01534:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:09 INFO adding -:sel_port-100: 1.1.sta01535:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:09 INFO adding -:sel_port-101: 1.1.sta01536:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:10 INFO adding -:sel_port-102: 1.1.sta01537:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:10 INFO adding -:sel_port-103: 1.1.sta01538:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:10 INFO adding -:sel_port-104: 1.1.sta01539:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:10 INFO adding -:sel_port-105: 1.1.sta01540:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:10 INFO adding -:sel_port-106: 1.1.sta01541:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:11 INFO adding -:sel_port-107: 1.1.sta01542:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:11 INFO adding -:sel_port-108: 1.1.sta01543:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:11 INFO adding -:sel_port-109: 1.1.sta01544:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:11 INFO adding -:sel_port-110: 1.1.sta01545:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:11 INFO adding -:sel_port-111: 1.1.sta01546:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:12 INFO adding -:sel_port-112: 1.1.sta01547:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:12 INFO adding -:sel_port-113: 1.1.sta01548:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:12 INFO adding -:sel_port-114: 1.1.sta01549:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:12 INFO adding -:sel_port-115: 1.1.sta01550:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:12 INFO adding -:sel_port-116: 1.1.sta01551:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:13 INFO adding -:sel_port-117: 1.1.sta01552:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:13 INFO adding -:sel_port-118: 1.1.sta01553:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:13 INFO adding -:sel_port-119: 1.1.sta01554:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:13 INFO adding -:sel_port-120: 1.1.sta01555:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:14 INFO adding -:sel_port-121: 1.1.sta01556:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:14 INFO adding -:sel_port-122: 1.1.sta01557:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:14 INFO adding -:sel_port-123: 1.1.sta01558:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:14 INFO adding -:sel_port-124: 1.1.sta01559:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:14 INFO adding -:sel_port-125: 1.1.sta01560:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:15 INFO adding -:sel_port-126: 1.1.sta01561:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:15 INFO adding -:sel_port-127: 1.1.sta01562:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:15 INFO adding -:sel_port-128: 1.1.sta01563:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:15 INFO adding -:sel_port-129: 1.1.sta02000:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:15 INFO adding -:sel_port-130: 1.1.sta02001:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:16 INFO adding -:sel_port-131: 1.1.sta02002:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:16 INFO adding -:sel_port-132: 1.1.sta02003:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:16 INFO adding -:sel_port-133: 1.1.sta02004:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:16 INFO adding -:sel_port-134: 1.1.sta02005:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:16 INFO adding -:sel_port-135: 1.1.sta02006:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:17 INFO adding -:sel_port-136: 1.1.sta02007:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:17 INFO adding -:sel_port-137: 1.1.sta02008:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:17 INFO adding -:sel_port-138: 1.1.sta02009:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:17 INFO adding -:sel_port-139: 1.1.sta02010:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:17 INFO adding -:sel_port-140: 1.1.sta02011:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:18 INFO adding -:sel_port-141: 1.1.sta02012:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:18 INFO adding -:sel_port-142: 1.1.sta02013:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:18 INFO adding -:sel_port-143: 1.1.sta02014:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:18 INFO adding -:sel_port-144: 1.1.sta02015:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:18 INFO adding -:sel_port-145: 1.1.sta02016:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:19 INFO adding -:sel_port-146: 1.1.sta02017:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:19 INFO adding -:sel_port-147: 1.1.sta02018:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:19 INFO adding -:sel_port-148: 1.1.sta02019:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:19 INFO adding -:sel_port-149: 1.1.sta02020:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:20 INFO adding -:sel_port-150: 1.1.sta02021:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:20 INFO adding -:sel_port-151: 1.1.sta02022:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:20 INFO adding -:sel_port-152: 1.1.sta02023:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:20 INFO adding -:sel_port-153: 1.1.sta02024:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:20 INFO adding -:sel_port-154: 1.1.sta02025:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:21 INFO adding -:sel_port-155: 1.1.sta02026:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:21 INFO adding -:sel_port-156: 1.1.sta02027:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:21 INFO adding -:sel_port-157: 1.1.sta02028:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:21 INFO adding -:sel_port-158: 1.1.sta02029:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:21 INFO adding -:sel_port-159: 1.1.sta02030:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:22 INFO adding -:sel_port-160: 1.1.sta02031:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:22 INFO adding -:sel_port-161: 1.1.sta02032:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:22 INFO adding -:sel_port-162: 1.1.sta02033:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:22 INFO adding -:sel_port-163: 1.1.sta02034:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:22 INFO adding -:sel_port-164: 1.1.sta02035:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:23 INFO adding -:sel_port-165: 1.1.sta02036:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:23 INFO adding -:sel_port-166: 1.1.sta02037:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:23 INFO adding -:sel_port-167: 1.1.sta02038:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:23 INFO adding -:sel_port-168: 1.1.sta02039:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:24 INFO adding -:sel_port-169: 1.1.sta02040:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:24 INFO adding -:sel_port-170: 1.1.sta02041:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:24 INFO adding -:sel_port-171: 1.1.sta02042:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:24 INFO adding -:sel_port-172: 1.1.sta02043:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:24 INFO adding -:sel_port-173: 1.1.sta02044:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:25 INFO adding -:sel_port-174: 1.1.sta02045:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:25 INFO adding -:sel_port-175: 1.1.sta02046:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:25 INFO adding -:sel_port-176: 1.1.sta02047:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:25 INFO adding -:sel_port-177: 1.1.sta02048:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:25 INFO adding -:sel_port-178: 1.1.sta02049:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:26 INFO adding -:sel_port-179: 1.1.sta02050:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:26 INFO adding -:sel_port-180: 1.1.sta02051:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:26 INFO adding -:sel_port-181: 1.1.sta02052:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:26 INFO adding -:sel_port-182: 1.1.sta02053:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:26 INFO adding -:sel_port-183: 1.1.sta02054:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:27 INFO adding -:sel_port-184: 1.1.sta02055:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:27 INFO adding -:sel_port-185: 1.1.sta02056:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:27 INFO adding -:sel_port-186: 1.1.sta02057:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:27 INFO adding -:sel_port-187: 1.1.sta02058:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:27 INFO adding -:sel_port-188: 1.1.sta02059:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:28 INFO adding -:sel_port-189: 1.1.sta02060:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:28 INFO adding -:sel_port-190: 1.1.sta02061:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:28 INFO adding -:sel_port-191: 1.1.sta02062:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:28 INFO adding -:sel_port-192: 1.1.sta02063:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:28 INFO adding -:sel_port-193: 1.1.sta02500:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:29 INFO adding -:sel_port-194: 1.1.sta02501:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:29 INFO adding -:sel_port-195: 1.1.sta02502:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:29 INFO adding -:sel_port-196: 1.1.sta02503:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:29 INFO adding -:sel_port-197: 1.1.sta02504:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:30 INFO adding -:sel_port-198: 1.1.sta02505:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:30 INFO adding -:sel_port-199: 1.1.sta02506:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:30 INFO adding -:sel_port-200: 1.1.sta02507:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:30 INFO adding -:sel_port-201: 1.1.sta02508:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:30 INFO adding -:sel_port-202: 1.1.sta02509:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:31 INFO adding -:sel_port-203: 1.1.sta02510:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:31 INFO adding -:sel_port-204: 1.1.sta02511:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:31 INFO adding -:sel_port-205: 1.1.sta02512:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:31 INFO adding -:sel_port-206: 1.1.sta02513:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:31 INFO adding -:sel_port-207: 1.1.sta02514:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:32 INFO adding -:sel_port-208: 1.1.sta02515:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:32 INFO adding -:sel_port-209: 1.1.sta02516:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:32 INFO adding -:sel_port-210: 1.1.sta02517:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:32 INFO adding -:sel_port-211: 1.1.sta02518:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:32 INFO adding -:sel_port-212: 1.1.sta02519:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:33 INFO adding -:sel_port-213: 1.1.sta02520:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:33 INFO adding -:sel_port-214: 1.1.sta02521:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:33 INFO adding -:sel_port-215: 1.1.sta02522:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:33 INFO adding -:sel_port-216: 1.1.sta02523:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:33 INFO adding -:sel_port-217: 1.1.sta02524:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:34 INFO adding -:sel_port-218: 1.1.sta02525:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:34 INFO adding -:sel_port-219: 1.1.sta02526:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:34 INFO adding -:sel_port-220: 1.1.sta02527:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:34 INFO adding -:sel_port-221: 1.1.sta02528:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:35 INFO adding -:sel_port-222: 1.1.sta02529:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:35 INFO adding -:sel_port-223: 1.1.sta02530:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:35 INFO adding -:sel_port-224: 1.1.sta02531:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:35 INFO adding -:sel_port-225: 1.1.sta02532:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:35 INFO adding -:sel_port-226: 1.1.sta02533:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:36 INFO adding -:sel_port-227: 1.1.sta02534:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:36 INFO adding -:sel_port-228: 1.1.sta02535:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:36 INFO adding -:sel_port-229: 1.1.sta02536:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:36 INFO adding -:sel_port-230: 1.1.sta02537:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:36 INFO adding -:sel_port-231: 1.1.sta02538:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:37 INFO adding -:sel_port-232: 1.1.sta02539:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:37 INFO adding -:sel_port-233: 1.1.sta02540:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:37 INFO adding -:sel_port-234: 1.1.sta02541:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:37 INFO adding -:sel_port-235: 1.1.sta02542:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:37 INFO adding -:sel_port-236: 1.1.sta02543:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:38 INFO adding -:sel_port-237: 1.1.sta02544:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:38 INFO adding -:sel_port-238: 1.1.sta02545:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:38 INFO adding -:sel_port-239: 1.1.sta02546:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:38 INFO adding -:sel_port-240: 1.1.sta02547:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:39 INFO adding -:sel_port-241: 1.1.sta02548:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:39 INFO adding -:sel_port-242: 1.1.sta02549:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:39 INFO adding -:sel_port-243: 1.1.sta02550:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:39 INFO adding -:sel_port-244: 1.1.sta02551:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:39 INFO adding -:sel_port-245: 1.1.sta02552:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:40 INFO adding -:sel_port-246: 1.1.sta02553:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:40 INFO adding -:sel_port-247: 1.1.sta02554:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:40 INFO adding -:sel_port-248: 1.1.sta02555:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:40 INFO adding -:sel_port-249: 1.1.sta02556:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:40 INFO adding -:sel_port-250: 1.1.sta02557:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:41 INFO adding -:sel_port-251: 1.1.sta02558:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:41 INFO adding -:sel_port-252: 1.1.sta02559:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:41 INFO adding -:sel_port-253: 1.1.sta02560:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:41 INFO adding -:sel_port-254: 1.1.sta02561:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:41 INFO adding -:sel_port-255: 1.1.sta02562:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:42 INFO adding -:sel_port-256: 1.1.sta02563:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:42 INFO adding -:batch_size: 1,5,10,20,40,64,128,256:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:42 INFO adding -:loop_iter: 1:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:42 INFO adding -:protocol: TCP-IPv4:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:42 INFO adding -:duration: 60000:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:43 INFO adding -:ul_rate: 0Gbps:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:43 INFO adding -:dl_rate: 1Gbps:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:43 INFO adding -:save_csv: 1:- to test config: wifi_config  blob-name: Wifi-Capacity-
+2023-06-02 15:32:49 INFO Running CV set command:cv set 'TJZDNORENET5' 'DUT_NAME' '{'model': 'cig_wf188n', 'supported_bands': ['2G', '5G'], 'supported_modes': ['BRIDGE', 'NAT', 'VLAN'], 'wan_port': '1.1.eth2', 'lan_port': None, 'ssid': {}, 'mode': 'wifi6', 'identifier': '0000c1018812', 'method': 'serial', 'host_ip': '10.28.3.103', 'host_username': 'lanforge', 'host_password': 'pumpkin77', 'host_ssh_port': 22, 'serial_tty': '/dev/ttyAP1', 'firmware_version': 'next-latest'}'
+2023-06-02 15:32:49 INFO Running CV set command:cv click 'TJZDNORENET5' 'Interleave Sort'
+2023-06-02 15:44:11 INFO "Report Location:::/home/lanforge/html-reports/wifi-capacity-2023-06-02-08-44-07"
+2023-06-02 15:44:11 INFO None
+2023-06-02 15:44:11 INFO /home/lanforge/html-reports/wifi-capacity-2023-06-02-08-44-07
+2023-06-02 15:44:11 INFO Pulling report to directory: ../reports/ from lanforge@10.28.3.28//home/lanforge/html-reports/wifi-capacity-2023-06-02-08-44-07
+2023-06-02 15:44:11 INFO Connected (version 2.0, client OpenSSH_8.0)
+2023-06-02 15:44:12 INFO Authentication (password) successful!
+2023-06-02 15:47:39 INFO is-built: True 
+2023-06-02 15:47:50 INFO report_name: wifi-capacity-2023-06-02-08-44-07/
+2023-06-02 15:47:50 INFO Entries['chart-19-print.png', 'chart-csv-16.csv', 'custom.css', 'chart-11.png', 'chart-18.png', 'chart-13-print.png', 'chart-csv-2.csv', 'chart-8-print.png', 'chart-csv-11.csv', 'csv-data', 'chart-11-print.png', 'chart-5.png', 'chart-19.png', 'chart-9.png', 'chart-csv-7.csv', 'chart-22.png', 'report_banner-1000x205.jpg', 'chart-6-print.png', 'chart-7-print.png', 'chart-6.png', 'index-print.html', 'kpi.csv', 'chart-15.png', 'chart-3.png', 'logo.png', 'chart-21-print.png', 'chart-csv-15.csv', 'chart-9-print.png', 'chart-5-print.png', 'chart-7.png', 'chart-2-print.png', 'CandelaLogo2-90dpi-200x90-trans.png', 'chart-csv-18.csv', 'kpi-chart-1-print.png', 'chart-13.png', 'chart-21.png', 'kpi-chart-1.png', 'chart-17.png', 'chart-10-print.png', 'index.html', 'chart-csv-5.csv', 'chart-20-print.png', 'chart-csv-0.csv', 'chart-14.png', 'CenturyGothic.woff', 'wifi-cap-csv-data', 'chart-16.png', 'chart-12.png', 'chart-csv-4.csv', 'chart-0-print.png', 'chart-0.png', 'chart-csv-9.csv', 'chart-2.png', 'chart-17-print.png', 'chart-14-print.png', 'chart-23.png', 'chart-8.png', 'chart-3-print.png', 'chart-csv-3.csv', 'chart-csv-6.csv', 'canvil.ico', 'wifi-capacity-report-2023-06-02-08-32-50.pdf', 'chart-18-print.png', 'chart-23-print.png', 'report.css', 'chart-csv-13.csv', 'chart-csv-17.csv', 'chart-22-print.png', 'chart-4-print.png', 'chart-csv-8.csv', 'chart-4.png', 'candela_swirl_small-72h.png', 'chart-csv-10.csv', 'chart-20.png', 'chart-csv-12.csv', 'chart-16-print.png', 'chart-12-print.png', 'chart-csv-19.csv', 'chart-15-print.png', 'chart-10.png', 'chart-csv-14.csv', 'chart-csv-1.csv']
+2023-06-02 15:47:50 INFO Numeric-score: [[246.526155], [0.0], [246.526155], [644.070771], [0.0], [644.070771], [744.708277], [0.0], [744.708277], [746.192204], [0.0], [746.192204], [741.291595], [0.0], [741.291595], [734.238165], [0.0], [734.238165], [661.225581], [0.0], [661.225581], [476.142354], [0.0], [476.142354], [256.0], [256.0], [0.0], [0.0]]
+2023-06-02 15:47:50 INFO Connected (version 2.0, client OpenSSH_8.0)
+2023-06-02 15:47:50 INFO Authentication (password) successful!
+2023-06-02 15:47:51 INFO Connected (version 2.0, client OpenSSH_8.0)
+2023-06-02 15:47:52 INFO Authentication (password) successful!
+2023-06-02 15:47:53 INFO Executing Command on AP: logger stop testcase: MSTHMQ866
+2023-06-02 15:47:53 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:47:53 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:47:53 INFO Authentication (password) successful!
+2023-06-02 15:47:54 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:47:54 INFO Authentication (password) successful!
+2023-06-02 15:47:54 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger stop testcase: MSTHMQ866" 
+2023-06-02 15:47:55 INFO cd ~/cicd-git/ && ./openwrt_ctl.py --prompt root@0000c1018812 -s serial --log stdout --user root --passwd openwifi -t /dev/ttyAP1 --action cmd --value "logger stop testcase: MSTHMQ866" 
+2023-06-02 15:47:55 INFO Output for command: logger stop testcase: MSTHMQ866
+
+2023-06-02 15:47:55 INFO Executing Command on AP: logread
+2023-06-02 15:47:55 INFO Trying SSH Connection to: 10.28.3.103 on port: 22 with username: lanforge and password: pumpkin77
+2023-06-02 15:47:55 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:47:55 INFO Authentication (password) successful!
+2023-06-02 15:47:56 INFO Connected (version 2.0, client OpenSSH_8.3)
+2023-06-02 15:47:56 INFO Authentication (password) successful!

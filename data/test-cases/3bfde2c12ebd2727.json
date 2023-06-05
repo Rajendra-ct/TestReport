@@ -1,0 +1,1039 @@
+{
+  "uid" : "3bfde2c12ebd2727",
+  "name" : "Test for TCP Upload 2.4 GHz and 5 GHz",
+  "fullName" : "e2e.basic.performance_tests.client_scale_test.wpa2_personal.test_bridge_mode#test_client_wpa2_bridge_tcp_ul",
+  "historyId" : "69ca38171bcaa63881a81617db0f88ff",
+  "time" : {
+    "start" : 1685724163170,
+    "stop" : 1685725234842,
+    "duration" : 1071672
+  },
+  "description" : " Client Scale Test BRIDGE mode\n            pytest -m \"client_scale_tests and bridge and wpa2_personal and dual_band and tcp_upload\"\n        ",
+  "descriptionHtml" : "<p>Client Scale Test BRIDGE mode\npytest -m &quot;client_scale_tests and bridge and wpa2_personal and dual_band and tcp_upload&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_target_object",
+    "time" : {
+      "start" : 1685719644811,
+      "stop" : 1685719647011,
+      "duration" : 2200
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "428a99ab79206dd7",
+      "name" : "Sending Command:",
+      "source" : "428a99ab79206dd7.attach",
+      "type" : "text/plain",
+      "size" : 331
+    }, {
+      "uid" : "f7f7c7da0b4df49c",
+      "name" : "Command Response: ",
+      "source" : "f7f7c7da0b4df49c.attach",
+      "type" : "text/plain",
+      "size" : 675
+    }, {
+      "uid" : "a2de5b0707c56a2d",
+      "name" : "Sending Command:",
+      "source" : "a2de5b0707c56a2d.attach",
+      "type" : "text/plain",
+      "size" : 339
+    }, {
+      "uid" : "811b3e2813106e60",
+      "name" : "Command Response: ",
+      "source" : "811b3e2813106e60.attach",
+      "type" : "text/plain",
+      "size" : 1410
+    }, {
+      "uid" : "a1e9aef5d33548dd",
+      "name" : "Sending Command:",
+      "source" : "a1e9aef5d33548dd.attach",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "8621bf407826fd4f",
+      "name" : "Command Response: ",
+      "source" : "8621bf407826fd4f.attach",
+      "type" : "text/plain",
+      "size" : 679
+    }, {
+      "uid" : "da0dfb719235ea29",
+      "name" : "Sending Command:",
+      "source" : "da0dfb719235ea29.attach",
+      "type" : "text/plain",
+      "size" : 342
+    }, {
+      "uid" : "c7a3dec4a50efc2",
+      "name" : "Command Response: ",
+      "source" : "c7a3dec4a50efc2.attach",
+      "type" : "text/plain",
+      "size" : 797
+    }, {
+      "uid" : "35c6c7dba1f41bac",
+      "name" : "Sending Command:",
+      "source" : "35c6c7dba1f41bac.attach",
+      "type" : "text/plain",
+      "size" : 343
+    }, {
+      "uid" : "9dc31e16a0622036",
+      "name" : "Command Response: ",
+      "source" : "9dc31e16a0622036.attach",
+      "type" : "text/plain",
+      "size" : 679
+    }, {
+      "uid" : "f49c5b19afcb6d6d",
+      "name" : "Sending Command:",
+      "source" : "f49c5b19afcb6d6d.attach",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "1d7b98cd55d6c7b7",
+      "name" : "Command Response: ",
+      "source" : "1d7b98cd55d6c7b7.attach",
+      "type" : "text/plain",
+      "size" : 681
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "get_device_configuration",
+    "time" : {
+      "start" : 1685719577932,
+      "stop" : 1685719577932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "selected_testbed",
+    "time" : {
+      "start" : 1685719577930,
+      "stop" : 1685719577931,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "is_test_library_perfecto_android",
+    "time" : {
+      "start" : 1685719577931,
+      "stop" : 1685719577932,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_lf",
+    "time" : {
+      "start" : 1685719577932,
+      "stop" : 1685719577932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "add_allure_environment_property",
+    "time" : {
+      "start" : 1685719577930,
+      "stop" : 1685719577930,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "device",
+    "time" : {
+      "start" : 1685719577932,
+      "stop" : 1685719577932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_dut_logs_per_test_case",
+    "time" : {
+      "start" : 1685724161160,
+      "stop" : 1685724163167,
+      "duration" : 2007
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "skip_lf",
+    "time" : {
+      "start" : 1685719650828,
+      "stop" : 1685719650828,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_security_flags",
+    "time" : {
+      "start" : 1685719650825,
+      "stop" : 1685719650825,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_test_device_logs",
+    "time" : {
+      "start" : 1685724163168,
+      "stop" : 1685724163168,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "is_test_library_perfecto_ios",
+    "time" : {
+      "start" : 1685719577932,
+      "stop" : 1685719577932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_markers",
+    "time" : {
+      "start" : 1685719650826,
+      "stop" : 1685719650826,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_test_library",
+    "time" : {
+      "start" : 1685719577933,
+      "stop" : 1685719644810,
+      "duration" : 66877
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "num_stations",
+    "time" : {
+      "start" : 1685719644811,
+      "stop" : 1685719644811,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_configuration",
+    "time" : {
+      "start" : 1685719650830,
+      "stop" : 1685719832964,
+      "duration" : 182134
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b503d0ee4cee1ab8",
+      "name" : "ubus call ucentral status",
+      "source" : "b503d0ee4cee1ab8.json",
+      "type" : "application/json",
+      "size" : 107
+    }, {
+      "uid" : "a09ba27cc7fabd17",
+      "name" : "wifi_status_before_apply: ",
+      "source" : "a09ba27cc7fabd17.attach",
+      "type" : "text/plain",
+      "size" : 2303
+    }, {
+      "uid" : "f9f46f2fa94367c5",
+      "name" : "AP Log Before config push: ",
+      "source" : "f9f46f2fa94367c5.attach",
+      "type" : "text/plain",
+      "size" : 69316
+    }, {
+      "uid" : "5d99253b45bf2407",
+      "name" : "Sending Command:",
+      "source" : "5d99253b45bf2407.attach",
+      "type" : "text/plain",
+      "size" : 1787
+    }, {
+      "uid" : "f745bbcd8ba0a45c",
+      "name" : "Command Response: ",
+      "source" : "f745bbcd8ba0a45c.attach",
+      "type" : "text/plain",
+      "size" : 2580
+    }, {
+      "uid" : "76d19debe9efb265",
+      "name" : "ubus call ucentral status",
+      "source" : "76d19debe9efb265.json",
+      "type" : "application/json",
+      "size" : 107
+    }, {
+      "uid" : "f155317494cc6ec1",
+      "name" : "cat /etc/ucentral/ucentral.cfg.1685719682",
+      "source" : "f155317494cc6ec1.json",
+      "type" : "application/json",
+      "size" : 2345
+    }, {
+      "uid" : "a53fdd5d525cbd99",
+      "name" : "ubus call ucentral status",
+      "source" : "a53fdd5d525cbd99.json",
+      "type" : "application/json",
+      "size" : 107
+    }, {
+      "uid" : "d6d9e8801ba8333c",
+      "name" : "cat /etc/ucentral/ucentral.cfg.1685719682",
+      "source" : "d6d9e8801ba8333c.json",
+      "type" : "application/json",
+      "size" : 2345
+    }, {
+      "uid" : "ab18fe322dee5e39",
+      "name" : "ubus call ucentral status",
+      "source" : "ab18fe322dee5e39.json",
+      "type" : "application/json",
+      "size" : 107
+    }, {
+      "uid" : "b37024550d14d506",
+      "name" : "/etc/init.d/maverick status",
+      "source" : "b37024550d14d506.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "174103ca3cff89bf",
+      "name" : "ifconfig up0v0",
+      "source" : "174103ca3cff89bf.txt",
+      "type" : "text/plain",
+      "size" : 535
+    }, {
+      "uid" : "58d59e5c2f0ac083",
+      "name" : "ip neigh show dev up0v0 REACHABLE",
+      "source" : "58d59e5c2f0ac083.txt",
+      "type" : "text/plain",
+      "size" : 113
+    }, {
+      "uid" : "55a83f5a5c0e41f3",
+      "name" : "wifi_status_after_apply: ",
+      "source" : "55a83f5a5c0e41f3.attach",
+      "type" : "text/plain",
+      "size" : 3300
+    }, {
+      "uid" : "752330aaca81bfa1",
+      "name" : "Logs - 0000c1018812",
+      "source" : "752330aaca81bfa1.attach",
+      "type" : "text/plain",
+      "size" : 30906
+    }, {
+      "uid" : "5e5eb9d45ef8b008",
+      "name" : "iwinfo",
+      "source" : "5e5eb9d45ef8b008.txt",
+      "type" : "text/plain",
+      "size" : 1132
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "max_stations",
+    "time" : {
+      "start" : 1685719647012,
+      "stop" : 1685719650825,
+      "duration" : 3813
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_testbed_details",
+    "time" : {
+      "start" : 1685719577931,
+      "stop" : 1685719577931,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fd2fc433be8e13a0",
+      "name" : "Testbed Details",
+      "source" : "fd2fc433be8e13a0.json",
+      "type" : "application/json",
+      "size" : 1595
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : " Client Scale Test BRIDGE mode\n            pytest -m \"client_scale_tests and bridge and wpa2_personal and dual_band and tcp_upload\"\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9270c655974ef0c5",
+      "name" : "WIFI Capacity Test PDF Report",
+      "source" : "9270c655974ef0c5.attach",
+      "type" : "application/pdf",
+      "size" : 5090059
+    }, {
+      "uid" : "dfc3f99da683877c",
+      "name" : "chart-0.png",
+      "source" : "dfc3f99da683877c.attach",
+      "type" : "image/png",
+      "size" : 46837
+    }, {
+      "uid" : "4759fe5db201cc0",
+      "name" : "chart-10.png",
+      "source" : "4759fe5db201cc0.attach",
+      "type" : "image/png",
+      "size" : 16802
+    }, {
+      "uid" : "3122b9855dbf4f18",
+      "name" : "chart-11.png",
+      "source" : "3122b9855dbf4f18.attach",
+      "type" : "image/png",
+      "size" : 19264
+    }, {
+      "uid" : "3c8cd1910dd8b84a",
+      "name" : "chart-12.png",
+      "source" : "3c8cd1910dd8b84a.attach",
+      "type" : "image/png",
+      "size" : 19191
+    }, {
+      "uid" : "5c235e36eac695a6",
+      "name" : "chart-13.png",
+      "source" : "5c235e36eac695a6.attach",
+      "type" : "image/png",
+      "size" : 22311
+    }, {
+      "uid" : "eb7e999d48591918",
+      "name" : "chart-14.png",
+      "source" : "eb7e999d48591918.attach",
+      "type" : "image/png",
+      "size" : 20494
+    }, {
+      "uid" : "2476f76a98ae098e",
+      "name" : "chart-15.png",
+      "source" : "2476f76a98ae098e.attach",
+      "type" : "image/png",
+      "size" : 19333
+    }, {
+      "uid" : "99b910665481e08f",
+      "name" : "chart-16.png",
+      "source" : "99b910665481e08f.attach",
+      "type" : "image/png",
+      "size" : 22500
+    }, {
+      "uid" : "47da7296f85d2267",
+      "name" : "chart-17.png",
+      "source" : "47da7296f85d2267.attach",
+      "type" : "image/png",
+      "size" : 22922
+    }, {
+      "uid" : "4b14bb9fd56c93fe",
+      "name" : "chart-18.png",
+      "source" : "4b14bb9fd56c93fe.attach",
+      "type" : "image/png",
+      "size" : 25142
+    }, {
+      "uid" : "32885a7715b6d1d3",
+      "name" : "chart-19.png",
+      "source" : "32885a7715b6d1d3.attach",
+      "type" : "image/png",
+      "size" : 27317
+    }, {
+      "uid" : "4a2b255913715574",
+      "name" : "chart-2.png",
+      "source" : "4a2b255913715574.attach",
+      "type" : "image/png",
+      "size" : 42978
+    }, {
+      "uid" : "d2ce7b4436e882ad",
+      "name" : "chart-20.png",
+      "source" : "d2ce7b4436e882ad.attach",
+      "type" : "image/png",
+      "size" : 27486
+    }, {
+      "uid" : "7f22c3904392e7d8",
+      "name" : "chart-21.png",
+      "source" : "7f22c3904392e7d8.attach",
+      "type" : "image/png",
+      "size" : 13883
+    }, {
+      "uid" : "8c389ecb76a231ab",
+      "name" : "chart-22.png",
+      "source" : "8c389ecb76a231ab.attach",
+      "type" : "image/png",
+      "size" : 22034
+    }, {
+      "uid" : "6cc0501089a804c7",
+      "name" : "chart-23.png",
+      "source" : "6cc0501089a804c7.attach",
+      "type" : "image/png",
+      "size" : 24963
+    }, {
+      "uid" : "e07f7a8d7f4d8bf6",
+      "name" : "chart-3.png",
+      "source" : "e07f7a8d7f4d8bf6.attach",
+      "type" : "image/png",
+      "size" : 13159
+    }, {
+      "uid" : "9777630e5a065239",
+      "name" : "chart-4.png",
+      "source" : "9777630e5a065239.attach",
+      "type" : "image/png",
+      "size" : 15089
+    }, {
+      "uid" : "5c96c4470d47db39",
+      "name" : "chart-5.png",
+      "source" : "5c96c4470d47db39.attach",
+      "type" : "image/png",
+      "size" : 17237
+    }, {
+      "uid" : "ae46f6abfa6875b3",
+      "name" : "chart-6.png",
+      "source" : "ae46f6abfa6875b3.attach",
+      "type" : "image/png",
+      "size" : 16771
+    }, {
+      "uid" : "f64897b6042f965f",
+      "name" : "chart-7.png",
+      "source" : "f64897b6042f965f.attach",
+      "type" : "image/png",
+      "size" : 15437
+    }, {
+      "uid" : "e81f5c94d261744",
+      "name" : "chart-8.png",
+      "source" : "e81f5c94d261744.attach",
+      "type" : "image/png",
+      "size" : 15716
+    }, {
+      "uid" : "c31ef1ccbc487e01",
+      "name" : "chart-9.png",
+      "source" : "c31ef1ccbc487e01.attach",
+      "type" : "image/png",
+      "size" : 17521
+    }, {
+      "uid" : "f81feb6ea98edee3",
+      "name" : "kpi-chart-1.png",
+      "source" : "f81feb6ea98edee3.attach",
+      "type" : "image/png",
+      "size" : 37002
+    }, {
+      "uid" : "7acaf8a3e9e0d8b7",
+      "name" : "kpi_file",
+      "source" : "7acaf8a3e9e0d8b7.attach",
+      "type" : "CSV",
+      "size" : 4847
+    }, {
+      "uid" : "51f62cd4b3a8d14a",
+      "name" : "log",
+      "source" : "51f62cd4b3a8d14a.txt",
+      "type" : "text/plain",
+      "size" : 44886
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_target_object::1",
+    "time" : {
+      "start" : 1685734165234,
+      "stop" : 1685734165234,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_target_object::teardown_target",
+    "time" : {
+      "start" : 1685734165234,
+      "stop" : 1685734165301,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2780ead6247fd8f2",
+      "name" : "Sending Command:",
+      "source" : "2780ead6247fd8f2.attach",
+      "type" : "text/plain",
+      "size" : 395
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "get_device_configuration::0",
+    "time" : {
+      "start" : 1685734165306,
+      "stop" : 1685734165306,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "selected_testbed::0",
+    "time" : {
+      "start" : 1685734165321,
+      "stop" : 1685734165321,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "is_test_library_perfecto_android::0",
+    "time" : {
+      "start" : 1685734165310,
+      "stop" : 1685734165310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_lf::0",
+    "time" : {
+      "start" : 1685734165305,
+      "stop" : 1685734165305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "add_allure_environment_property::0",
+    "time" : {
+      "start" : 1685734165322,
+      "stop" : 1685734165322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "device::0",
+    "time" : {
+      "start" : 1685734165308,
+      "stop" : 1685734165308,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_dut_logs_per_test_case::collect_logs",
+    "time" : {
+      "start" : 1685725238297,
+      "stop" : 1685725248699,
+      "duration" : 10402
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "788b13f5edb65eef",
+      "name" : "Logs - 0000c1018812",
+      "source" : "788b13f5edb65eef.attach",
+      "type" : "application/octet-stream",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "skip_lf::0",
+    "time" : {
+      "start" : 1685734165229,
+      "stop" : 1685734165229,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_security_flags::0",
+    "time" : {
+      "start" : 1685734165231,
+      "stop" : 1685734165231,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_test_device_logs::collect_logs_tg",
+    "time" : {
+      "start" : 1685725234843,
+      "stop" : 1685725238296,
+      "duration" : 3453
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5d05790b1e0336a4",
+      "name" : "lanforge_log_0",
+      "source" : "5d05790b1e0336a4.attach",
+      "type" : "text/plain",
+      "size" : 2345669
+    }, {
+      "uid" : "7a6a3aa826a36e23",
+      "name" : "lanforge_log_1",
+      "source" : "7a6a3aa826a36e23.attach",
+      "type" : "text/plain",
+      "size" : 94136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "is_test_library_perfecto_ios::0",
+    "time" : {
+      "start" : 1685734165309,
+      "stop" : 1685734165309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_markers::0",
+    "time" : {
+      "start" : 1685734165230,
+      "stop" : 1685734165230,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_test_library::1",
+    "time" : {
+      "start" : 1685734165302,
+      "stop" : 1685734165302,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_test_library::teardown_test",
+    "time" : {
+      "start" : 1685734165302,
+      "stop" : 1685734165303,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "num_stations::0",
+    "time" : {
+      "start" : 1685734165302,
+      "stop" : 1685734165302,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_configuration::0",
+    "time" : {
+      "start" : 1685726350823,
+      "stop" : 1685726350823,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "max_stations::0",
+    "time" : {
+      "start" : 1685734165232,
+      "stop" : 1685734165232,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_testbed_details::0",
+    "time" : {
+      "start" : 1685734165319,
+      "stop" : 1685734165319,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "WPA2 Personal Security"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Client Scale Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Client Scale Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "BRIDGE Mode"
+  }, {
+    "name" : "tag",
+    "value" : "wpa2_personal"
+  }, {
+    "name" : "tag",
+    "value" : "bridge"
+  }, {
+    "name" : "tag",
+    "value" : "fiveg"
+  }, {
+    "name" : "tag",
+    "value" : "client_scale_tests"
+  }, {
+    "name" : "tag",
+    "value" : "twog"
+  }, {
+    "name" : "tag",
+    "value" : "performance"
+  }, {
+    "name" : "tag",
+    "value" : "twog_band"
+  }, {
+    "name" : "tag",
+    "value" : "dual_band"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup_configuration')"
+  }, {
+    "name" : "tag",
+    "value" : "tcp_upload"
+  }, {
+    "name" : "host",
+    "value" : "testing-kr8gx"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "e2e.basic.performance_tests.client_scale_test.wpa2_personal.test_bridge_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "setup_configuration",
+    "value" : "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}"
+  } ],
+  "links" : [ {
+    "name" : "WIFI-7127",
+    "url" : "https://telecominfraproject.atlassian.net/browse/WIFI-7127",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup_configuration')", "performance", "twog_band", "wpa2_personal", "tcp_upload", "bridge", "fiveg", "client_scale_tests", "twog", "dual_band" ]
+  },
+  "source" : "3bfde2c12ebd2727.json",
+  "parameterValues" : [ "{'mode': 'BRIDGE', 'ssid_modes': {'wpa2_personal': [{'ssid_name': 'ssid_wpa2_dual_band', 'appliedRadios': ['2G', '5G'], 'security_key': 'something', 'security': 'psk2'}]}, 'rf': {}, 'radius': False}" ]
+}

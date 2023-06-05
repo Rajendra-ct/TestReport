@@ -1,0 +1,11 @@
+:~# ifconfig up0v0
+up0v0     Link encap:Ethernet  HWaddr 00:00:C1:01:88:12  
+          inet addr:172.16.222.41  Bcast:172.16.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::200:c1ff:fe01:8812/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12472585 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:320211 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:18649449428 (17.3 GiB)  TX bytes:479244446 (457.0 MiB)
+
+

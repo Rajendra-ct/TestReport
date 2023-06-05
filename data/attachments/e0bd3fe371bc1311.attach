@@ -1,0 +1,210 @@
+4FALSE owner cx: 0x3718c40
+1685731020949:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01553-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020949:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01553-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11454  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3718c40
+1685731020949:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01553-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020949:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020949:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02553-A Shelf: 1 Card: 1  Port: 258  Endpoint: 11457  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3725960
+1685731020949:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02553-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020949:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02553-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11456  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3725960
+1685731020949:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02553-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020949:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020949:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01054-A Shelf: 1 Card: 1  Port: 66  Endpoint: 11459  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3732680
+1685731020949:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01054-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020949:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01054-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11458  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3732680
+1685731020949:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01054-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020949:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02054-A Shelf: 1 Card: 1  Port: 195  Endpoint: 11461  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x373f3a0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02054-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02054-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11460  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x373f3a0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02054-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01554-A Shelf: 1 Card: 1  Port: 130  Endpoint: 11463  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x374c0c0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01554-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01554-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11462  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x374c0c0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01554-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02554-A Shelf: 1 Card: 1  Port: 259  Endpoint: 11465  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3758de0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02554-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02554-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11464  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3758de0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02554-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01055-A Shelf: 1 Card: 1  Port: 67  Endpoint: 11467  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3765b00
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01055-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01055-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11466  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3765b00
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01055-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02055-A Shelf: 1 Card: 1  Port: 196  Endpoint: 11469  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3772820
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02055-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02055-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11468  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3772820
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02055-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01555-A Shelf: 1 Card: 1  Port: 131  Endpoint: 11471  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x377f540
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01555-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01555-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11470  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x377f540
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01555-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02555-A Shelf: 1 Card: 1  Port: 260  Endpoint: 11473  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x378c260
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02555-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02555-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11472  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x378c260
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02555-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01056-A Shelf: 1 Card: 1  Port: 68  Endpoint: 11475  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39ad050
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01056-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01056-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11474  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39ad050
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01056-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02056-A Shelf: 1 Card: 1  Port: 197  Endpoint: 11477  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39b9ae0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02056-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02056-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11476  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39b9ae0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02056-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01556-A Shelf: 1 Card: 1  Port: 132  Endpoint: 11479  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39c6800
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01556-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01556-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11478  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39c6800
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01556-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02556-A Shelf: 1 Card: 1  Port: 261  Endpoint: 11481  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39d3520
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02556-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02556-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11480  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39d3520
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02556-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01057-A Shelf: 1 Card: 1  Port: 69  Endpoint: 11483  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39e0240
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01057-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01057-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11482  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39e0240
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01057-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02057-A Shelf: 1 Card: 1  Port: 198  Endpoint: 11485  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39ecf60
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02057-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02057-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11484  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39ecf60
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02057-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01557-A Shelf: 1 Card: 1  Port: 133  Endpoint: 11487  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39f9c80
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01557-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01557-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11486  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x39f9c80
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01557-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02557-A Shelf: 1 Card: 1  Port: 262  Endpoint: 11489  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a069a0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02557-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020950:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02557-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11488  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a069a0
+1685731020950:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02557-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01058-A Shelf: 1 Card: 1  Port: 70  Endpoint: 11491  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a136c0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01058-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01058-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11490  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a136c0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01058-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02058-A Shelf: 1 Card: 1  Port: 199  Endpoint: 11493  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a203e0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02058-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02058-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11492  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a203e0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02058-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01558-A Shelf: 1 Card: 1  Port: 134  Endpoint: 11495  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a2d100
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01558-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01558-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11494  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a2d100
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01558-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02558-A Shelf: 1 Card: 1  Port: 263  Endpoint: 11497  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a39e20
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02558-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02558-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11496  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a39e20
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02558-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01059-A Shelf: 1 Card: 1  Port: 71  Endpoint: 11499  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a46b40
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01059-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01059-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11498  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a46b40
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01059-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02059-A Shelf: 1 Card: 1  Port: 200  Endpoint: 11501  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a53860
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02059-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02059-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11500  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a53860
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02059-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01559-A Shelf: 1 Card: 1  Port: 135  Endpoint: 11503  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a60580
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01559-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01559-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11502  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a60580
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01559-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02559-A Shelf: 1 Card: 1  Port: 264  Endpoint: 11505  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a6d5a0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02559-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02559-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11504  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a6d5a0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02559-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01060-A Shelf: 1 Card: 1  Port: 72  Endpoint: 11507  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a79ff0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01060-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01060-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11506  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a79ff0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01060-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02060-A Shelf: 1 Card: 1  Port: 201  Endpoint: 11509  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a86ce0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02060-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02060-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11508  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a86ce0
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02060-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01560-A Shelf: 1 Card: 1  Port: 136  Endpoint: 11511  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a93a00
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01560-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01560-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11510  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3a93a00
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01560-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02560-A Shelf: 1 Card: 1  Port: 265  Endpoint: 11513  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aa0720
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02560-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02560-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11512  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aa0720
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02560-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01061-A Shelf: 1 Card: 1  Port: 73  Endpoint: 11515  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aad440
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01061-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01061-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11514  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aad440
+1685731020951:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01061-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020951:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020951:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02061-A Shelf: 1 Card: 1  Port: 202  Endpoint: 11517  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aba160
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02061-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02061-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11516  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aba160
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02061-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01561-A Shelf: 1 Card: 1  Port: 137  Endpoint: 11519  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3ac6e80
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01561-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01561-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11518  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3ac6e80
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01561-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02561-A Shelf: 1 Card: 1  Port: 266  Endpoint: 11521  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3ad3ba0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02561-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02561-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11520  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3ad3ba0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02561-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01062-A Shelf: 1 Card: 1  Port: 74  Endpoint: 11523  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3ae08c0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01062-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01062-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11522  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3ae08c0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01062-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02062-A Shelf: 1 Card: 1  Port: 203  Endpoint: 11525  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aed5e0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02062-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02062-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11524  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3aed5e0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02062-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01562-A Shelf: 1 Card: 1  Port: 138  Endpoint: 11527  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3afa300
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01562-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01562-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11526  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3afa300
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01562-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02562-A Shelf: 1 Card: 1  Port: 267  Endpoint: 11529  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b07020
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02562-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02562-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11528  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b07020
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02562-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01063-A Shelf: 1 Card: 1  Port: 75  Endpoint: 11531  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b13d40
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01063-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01063-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11530  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b13d40
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01063-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02063-A Shelf: 1 Card: 1  Port: 204  Endpoint: 11533  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b289b0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02063-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02063-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11532  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b289b0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02063-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01563-A Shelf: 1 Card: 1  Port: 139  Endpoint: 11535  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b246b0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01563-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta01563-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11534  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b246b0
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta01563-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02563-A Shelf: 1 Card: 1  Port: 268  Endpoint: 11537  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b3a500
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02563-A: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  BaseEndpoint.cc 1256: BaseEndpoint::stopTest, endp: tcp--1.eth2-01.sta02563-B Shelf: 1 Card: 1  Port: 2  Endpoint: 11536  Type: LANFORGE_TCP reason: tm::setCxState was_running: FALSE user_req: TRUE restart-when-non-phantom: FALSE buffer_to_write: FALSE owner cx: 0x3b3a500
+1685731020952:  BaseConnectedEndpoint.cc 1062: tcp--1.eth2-01.sta02563-B: onSocketFailure, real_err: FALSE msg: tm::setCxState
+1685731020952:  client.cc 5167: setCxState rv: 0 err_msg: 
